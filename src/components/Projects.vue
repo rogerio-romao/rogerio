@@ -4,13 +4,13 @@
           <i class="fas fa-arrow-up " @click="getNextImage"></i>
         </div>
         <div class="flex justify-center items-center">
-           <i class="fas fa-arrow-left "></i>
+           <i class="fas fa-arrow-left " @click="getPreviousImage"></i>
         </div>
         <div class="p-4 main">
           <img class="main-image" :src="imagesFiltered" alt />
         </div>
         <div class="flex justify-center items-center">
-          <i class="fas fa-arrow-right "></i>
+          <i class="fas fa-arrow-right " @click="getNextImage"></i>
         </div>
         <div class="col-span-3 text-center">
           <i class="fas fa-arrow-down " @click="getPreviousImage"></i>
@@ -44,6 +44,34 @@ export default {
                 {
                     id: 5,
                     url: 'yelpcamp.png'
+                },
+                {
+                    id: 6,
+                    url: 'rock-smacker.png'
+                },
+                {
+                    id: 7,
+                    url: 'color-switch.png'
+                },
+                {
+                    id: 8,
+                    url: 'rock-paper-scissors.png'
+                },
+                {
+                    id: 9,
+                    url: 'nuxt.png'
+                },
+                {
+                    id: 10,
+                    url: 'pomodoro.png'
+                },
+                {
+                    id: 11,
+                    url: 'guess-number.png'
+                },
+                {
+                    id: 12,
+                    url: 'jane-dev.png'
                 }
             ],
             currentImage: 0

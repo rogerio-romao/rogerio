@@ -30,7 +30,9 @@
         <p class="mt-2">{{ projects[currentProject].longDesc }}</p>
       </div>
     </div>
-
+    <div class="w-full text-center">
+      
+    </div>
     <footer>
       <small>Coded by Rogerio Romao 2020 </small>
     </footer>
@@ -102,6 +104,114 @@ export default {
             "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!",
             source: "#",
             live: "https://dry-escarpment-99868.herokuapp.com/"
+        },
+        {
+          id: 6,
+          name: "Rock Smacker",
+          type: "Game",
+          shortDesc: "A retro-style fun little arcade/puzzle game",
+          technologies: [
+            "Contruct3",
+            "Netlify",
+            "Deployment",
+          ],
+          longDesc:
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!",
+            source: "#",
+            live: "https://gifted-lovelace-6d4cdb.netlify.com/"
+        },
+        {
+          id: 7,
+          name: "Color Switch",
+          type: "Game",
+          shortDesc: "A retro-style arcade space shooting game",
+          technologies: [
+            "Contruct3",
+            "Netlify",
+            "Deployment",
+          ],
+          longDesc:
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!",
+            source: "#",
+            live: "https://jovial-roentgen-b310d8.netlify.com/"
+        },
+        {
+          id: 8,
+          name: "Rock Paper Scissors",
+          type: "Front-End",
+          shortDesc: "A play on the classic game",
+          technologies: [
+            "Javascript",
+            "CSS3",
+            "HTML5",
+          ],
+          longDesc:
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!",
+            source: "https://codepen.io/rogerio-romao/pen/jObOzRN",
+            live: "https://codepen.io/rogerio-romao/pen/jObOzRN"
+        },
+        {
+          id: 9,
+          name: "Nuxt mini-website",
+          type: "Full-Stack",
+          shortDesc: "Example Nuxt/Vue mini application",
+          technologies: [
+            "Javascript",
+            "CSS3",
+            "HTML5",
+            "Vue",
+            "Nuxt",
+            "Deployment"
+          ],
+          longDesc:
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!",
+            source: "https://github.com/rogerio-romao/nuxt1",
+            live: "https://nuxt-fundamentals-project.herokuapp.com"
+        },
+        {
+          id: 10,
+          name: "Pomodoro Clock",
+          type: "Front-End",
+          shortDesc: "Pomodoro Session Clock",
+          technologies: [
+            "Javascript",
+            "CSS3",
+            "HTML5"
+          ],
+          longDesc:
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!",
+            source: "https://codepen.io/rogerio-romao/pen/rNVPBJv",
+            live: "https://codepen.io/rogerio-romao/pen/rNVPBJv"
+        },
+        {
+          id: 11,
+          name: "Guess the Number game",
+          type: "Front-End",
+          shortDesc: "Guess the number game",
+          technologies: [
+            "Javascript",
+            "CSS3",
+            "HTML5"
+          ],
+          longDesc:
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!",
+            source: "https://codepen.io/rogerio-romao/pen/XWbQbbN",
+            live: "https://codepen.io/rogerio-romao/pen/XWbQbbN"
+        },
+        {
+          id: 12,
+          name: "Jane Dev",
+          type: "Front-End",
+          shortDesc: "Responsive Website mockup",
+          technologies: [
+            "Javascript",
+            "CSS3",
+            "HTML5"
+          ],
+          longDesc:
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!",
+            source: "",
+            live: "https://sleepy-ptolemy-a4b71e.netlify.app/"
         }
       ],
       currentProject: 0
