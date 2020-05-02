@@ -1,46 +1,47 @@
 <template>
-  <div class="p-6 mx-auto">
-    <h1 class="text-xl text-center">Rogerio's Portfolio</h1>
-    <div class="border w-full h-full p-4 flex-col mx-auto">
-      <div class="w-full flex items-center mx-auto">
-        <h3 class="text-lg font-medium">Project Type:</h3>
+  <div class="p-6 mx-auto bg-orange-200">
+    <h1 class="text-4xl font-extrabold text-right text-gray-700 mb-3 underline">
+      Rogerio's Portfolio
+    </h1>
+    <div
+      class="border border-orange-400 bg-orange-100 w-full h-full p-4 flex-col mx-auto"
+    >
+      <div class="w-full flex items-center mx-auto border-b pb-2">
+        <h3 class="text-md font-semibold uppercase">Project Type:</h3>
         <span class="ml-3 align-text-bottom">{{
           projects[currentProject].type
         }}</span>
       </div>
-      <div class="w-full flex mt-3 items-center">
-        <h3 class="text-lg font-medium">Technologies used:</h3>
+      <div class="w-full flex mt-3 items-center border-b pb-2 flex-wrap">
+        <h3 class="text-md font-semibold uppercase">Technologies used:</h3>
         <span
-          class="ml-3 bg-blue-500 hover:bg-blue-700 text-white px-2 rounded-full"
+          class="ml-3 bg-green-500 hover:bg-blue-600 text-white px-2 rounded-full"
           v-for="technology in projects[currentProject].technologies"
           :key="technology.name"
           >{{ technology }}</span
         >
       </div>
-      <div class="w-full flex mt-3 items-center">
-        <h3 class="text-lg font-medium">Project name:</h3>
-        <span class="text-xl font-extrabold tracking-wide ml-3">{{
-          projects[currentProject].name
-        }}</span>
+      <div class="w-full flex mt-3 items-center border-b pb-2 flex-wrap">
+        <h3 class="text-md font-semibold uppercase">Project name:</h3>
+        <span
+          class="text-2xl text-blue-500 border p-2 rounded-lg shadow-sm align-middle font-extrabold tracking-wide ml-3"
+          >{{ projects[currentProject].name }}</span
+        >
         <span class="ml-3"> {{ projects[currentProject].shortDesc }}</span>
       </div>
       <Projects @projectChange="changeProject($event)" />
-      <div class="buttons text-center">
-        <a :href="projects[currentProject].live" target="_blank">View Live</a>
-        <a class="ml-3" :href="projects[currentProject].source" target="_blank"
-          >Source Code</a
-        >
-      </div>
       <div class="description mt-5">
-        <h3>Project Description</h3>
+        <h3 class="text-md font-semibold uppercase">Project Description</h3>
         <p class="mt-2">{{ projects[currentProject].longDesc }}</p>
       </div>
     </div>
-    <div class="w-1/2 text-center border rounded-md p-4 mx-auto my-4">
+    <div
+      class="w-1/2 text-center border-orange-300 border rounded-md p-4 mx-auto my-4"
+    >
       <a
         href="https://github.com/rogerio-romao"
         target="_blank"
-        class="text-xl p-3 m-3"
+        class="text-xl p-3 m-3 hover:text-orange-500"
       >
         GitHub
         <FontAwesomeIcon :icon="['fab', 'github-square']" />
@@ -48,7 +49,7 @@
       <a
         href="https://codepen.io/rogerio-romao"
         target="_blank"
-        class="text-xl p-3 m-3"
+        class="text-xl p-3 m-3 hover:text-orange-500"
       >
         CodePen
         <FontAwesomeIcon :icon="['fab', 'codepen']" />
@@ -82,9 +83,7 @@ export default {
           shortDesc: "A responsive units conversion app ",
           technologies: ["Javascript", "JQuery", "CSS3", "HTML5"],
           longDesc:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!",
-          source: "https://codepen.io/rogerio-romao/pen/RwPaaRR",
-          live: "https://codepen.io/rogerio-romao/pen/RwPaaRR"
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!"
         },
         {
           id: 2,
@@ -93,9 +92,7 @@ export default {
           shortDesc: "A todo list App made with JQuery",
           technologies: ["Javascript", "JQuery", "CSS3", "HTML5"],
           longDesc:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!",
-          source: "https://codepen.io/rogerio-romao/pen/KKpzXeG",
-          live: "https://codepen.io/rogerio-romao/pen/KKpzXeG"
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!"
         },
         {
           id: 3,
@@ -104,9 +101,7 @@ export default {
           shortDesc: "A complete vanilla Javascript calculator",
           technologies: ["Javascript", "CSS3", "HTML5"],
           longDesc:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!",
-          source: "https://codepen.io/rogerio-romao/pen/mdJWEMJ",
-          live: "https://codepen.io/rogerio-romao/pen/mdJWEMJ"
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!"
         },
         {
           id: 4,
@@ -116,9 +111,7 @@ export default {
             "An app where you can write Markdown language and see the rendered result",
           technologies: ["Javascript", "CSS3", "HTML5"],
           longDesc:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!",
-          source: "https://codepen.io/rogerio-romao/pen/dyoXWNb",
-          live: "https://codepen.io/rogerio-romao/pen/dyoXWNb"
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!"
         },
         {
           id: 5,
@@ -134,9 +127,7 @@ export default {
             "HTML5"
           ],
           longDesc:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!",
-          source: "#",
-          live: "https://dry-escarpment-99868.herokuapp.com/"
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!"
         },
         {
           id: 6,
@@ -145,9 +136,7 @@ export default {
           shortDesc: "A retro-style fun little arcade/puzzle game",
           technologies: ["Contruct3", "Netlify", "Deployment"],
           longDesc:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!",
-          source: "#",
-          live: "https://gifted-lovelace-6d4cdb.netlify.com/"
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!"
         },
         {
           id: 7,
@@ -156,9 +145,7 @@ export default {
           shortDesc: "A retro-style arcade space shooting game",
           technologies: ["Contruct3", "Netlify", "Deployment"],
           longDesc:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!",
-          source: "#",
-          live: "https://jovial-roentgen-b310d8.netlify.com/"
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!"
         },
         {
           id: 8,
@@ -167,9 +154,7 @@ export default {
           shortDesc: "A play on the classic game",
           technologies: ["Javascript", "CSS3", "HTML5"],
           longDesc:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!",
-          source: "https://codepen.io/rogerio-romao/pen/jObOzRN",
-          live: "https://codepen.io/rogerio-romao/pen/jObOzRN"
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!"
         },
         {
           id: 9,
@@ -185,9 +170,7 @@ export default {
             "Deployment"
           ],
           longDesc:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!",
-          source: "https://github.com/rogerio-romao/nuxt1",
-          live: "https://nuxt-fundamentals-project.herokuapp.com"
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!"
         },
         {
           id: 10,
@@ -196,9 +179,7 @@ export default {
           shortDesc: "Pomodoro Session Clock",
           technologies: ["Javascript", "CSS3", "HTML5"],
           longDesc:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!",
-          source: "https://codepen.io/rogerio-romao/pen/rNVPBJv",
-          live: "https://codepen.io/rogerio-romao/pen/rNVPBJv"
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!"
         },
         {
           id: 11,
@@ -207,9 +188,7 @@ export default {
           shortDesc: "Guess the number game",
           technologies: ["Javascript", "CSS3", "HTML5"],
           longDesc:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!",
-          source: "https://codepen.io/rogerio-romao/pen/XWbQbbN",
-          live: "https://codepen.io/rogerio-romao/pen/XWbQbbN"
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!"
         },
         {
           id: 12,
@@ -218,9 +197,7 @@ export default {
           shortDesc: "Responsive Website mockup",
           technologies: ["Javascript", "CSS3", "HTML5"],
           longDesc:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!",
-          source: "",
-          live: "https://sleepy-ptolemy-a4b71e.netlify.app/"
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!"
         },
         {
           id: 13,
@@ -229,9 +206,7 @@ export default {
           shortDesc: "An exploration of Canvas and Animation",
           technologies: ["Javascript", "CSS3", "HTML5", "Animation"],
           longDesc:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!",
-          source: "https://codepen.io/rogerio-romao/details/vYNOdEv",
-          live: "https://codepen.io/rogerio-romao/full/vYNOdEv"
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!"
         },
         {
           id: 14,
@@ -248,9 +223,34 @@ export default {
             "HTML5"
           ],
           longDesc:
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!",
-          source: "https://github.com/rogerio-romao/react-graphql",
-          live: "https://wonderful-noether-0d72c3.netlify.app/"
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!"
+        },
+        {
+          id: 15,
+          name: "The Collatz Sequence",
+          type: "Front-End",
+          shortDesc: "A visualizer tool for the famous math sequence",
+          technologies: ["Canvas", "Animation", "Javascript", "CSS3", "HTML5"],
+          longDesc:
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!"
+        },
+        {
+          id: 16,
+          name: "Avatars",
+          type: "Front-End",
+          shortDesc: "A profile image / avatar custom display study",
+          technologies: ["Javascript", "CSS3"],
+          longDesc:
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!"
+        },
+        {
+          id: 16,
+          name: "Tic-Tac-Toe",
+          type: "Full-Stack",
+          shortDesc: "Game of Tic-Tac-Toe in React with time-travel feature",
+          technologies: ["React", "Deployment", "Javascript", "CSS3"],
+          longDesc:
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!"
         }
       ],
       currentProject: 0
