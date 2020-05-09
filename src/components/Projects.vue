@@ -19,7 +19,14 @@
           <a class="ml-3" :href="codeSource" target="_blank">Source Code</a>
         </div>
       </transition>
-      <img class="main-image" :src="imagesFiltered" alt />
+      <transition mode="out-in">
+        <img
+          class="main-image"
+          :key="this.currentImage"
+          :src="imagesFiltered"
+          alt
+        />
+      </transition>
     </div>
     <div
       class="flex justify-center items-center text-blue-800 hover:text-green-600"
@@ -38,110 +45,6 @@ export default {
   data() {
     return {
       isHidden: false,
-      images: [
-        {
-          id: 1,
-          url: "converse.png",
-          source: "https://codepen.io/rogerio-romao/pen/RwPaaRR",
-          live: "https://codepen.io/rogerio-romao/pen/RwPaaRR"
-        },
-        {
-          id: 2,
-          url: "todov3.png",
-          source: "https://codepen.io/rogerio-romao/pen/KKpzXeG",
-          live: "https://codepen.io/rogerio-romao/pen/KKpzXeG"
-        },
-        {
-          id: 3,
-          url: "javascript-calc.png",
-          source: "https://codepen.io/rogerio-romao/pen/mdJWEMJ",
-          live: "https://codepen.io/rogerio-romao/pen/mdJWEMJ"
-        },
-        {
-          id: 4,
-          url: "markdown-preview.png",
-          source: "https://codepen.io/rogerio-romao/pen/dyoXWNb",
-          live: "https://codepen.io/rogerio-romao/pen/dyoXWNb"
-        },
-        {
-          id: 5,
-          url: "yelpcamp.png",
-          source: "#",
-          live: "https://dry-escarpment-99868.herokuapp.com/"
-        },
-        {
-          id: 6,
-          url: "rock-smacker.png",
-          source: "#",
-          live: "https://gifted-lovelace-6d4cdb.netlify.com/"
-        },
-        {
-          id: 7,
-          url: "color-switch.png",
-          source: "#",
-          live: "https://jovial-roentgen-b310d8.netlify.com/"
-        },
-        {
-          id: 8,
-          url: "rock-paper-scissors.png",
-          source: "https://codepen.io/rogerio-romao/pen/jObOzRN",
-          live: "https://codepen.io/rogerio-romao/pen/jObOzRN"
-        },
-        {
-          id: 9,
-          url: "nuxt.png",
-          source: "https://github.com/rogerio-romao/nuxt1",
-          live: "https://nuxt-fundamentals-project.herokuapp.com"
-        },
-        {
-          id: 10,
-          url: "pomodoro.png",
-          source: "https://codepen.io/rogerio-romao/pen/rNVPBJv",
-          live: "https://codepen.io/rogerio-romao/pen/rNVPBJv"
-        },
-        {
-          id: 11,
-          url: "guess-number.png",
-          source: "https://codepen.io/rogerio-romao/pen/XWbQbbN",
-          live: "https://codepen.io/rogerio-romao/pen/XWbQbbN"
-        },
-        {
-          id: 12,
-          url: "jane-dev.png",
-          source: "#",
-          live: "https://sleepy-ptolemy-a4b71e.netlify.app/"
-        },
-        {
-          id: 13,
-          url: "zigzag.png",
-          source: "https://codepen.io/rogerio-romao/details/vYNOdEv",
-          live: "https://codepen.io/rogerio-romao/full/vYNOdEv"
-        },
-        {
-          id: 14,
-          url: "pokemon.png",
-          source: "https://github.com/rogerio-romao/react-graphql",
-          live: "https://wonderful-noether-0d72c3.netlify.app/"
-        },
-        {
-          id: 15,
-          url: "collatz.png",
-          source: "https://codepen.io/rogerio-romao/pen/WNQxaWq",
-          live: "https://codepen.io/rogerio-romao/full/WNQxaWq"
-        },
-        {
-          id: 16,
-          url: "avatars.png",
-          source: "https://codepen.io/rogerio-romao/pen/zYvzmRp",
-          live: "https://codepen.io/rogerio-romao/full/zYvzmRp"
-        },
-        {
-          id: 17,
-          url: "tic-tac.png",
-          source: "https://github.com/rogerio-romao/tic-tac-toe",
-          live: "https://objective-einstein-8e8c00.netlify.app/"
-        }
-      ],
       currentImage: 0
     };
   },
@@ -152,13 +55,14 @@ export default {
   },
   methods: {
     getNextImage() {
-      this.currentImage = (this.currentImage + 1) % this.images.length;
+      this.currentImage =
+        (this.currentImage + 1) % this.$store.state.images.length;
       return this.currentImage;
     },
     getPreviousImage() {
       this.currentImage =
         this.currentImage - 1 < 0
-          ? this.images.length - 1
+          ? this.$store.state.images.length - 1
           : this.currentImage - 1;
       return this.currentImage;
     }
@@ -166,17 +70,17 @@ export default {
   computed: {
     imagesFiltered() {
       let index = this.currentImage;
-      let pic = this.images[index].url;
+      let pic = this.$store.state.images[index].url;
       return require("../assets/" + pic);
     },
     codeSource() {
       let index = this.currentImage;
-      let source = this.images[index].source;
+      let source = this.$store.state.images[index].source;
       return source;
     },
     codeLive() {
       let index = this.currentImage;
-      let live = this.images[index].live;
+      let live = this.$store.state.images[index].live;
       return live;
     }
   }
@@ -188,13 +92,9 @@ export default {
   background: rgba(241, 230, 198, 0.7);
   padding: 3px 8px;
   border-radius: 8px;
+  transition: all 0.1s;
 }
-.v-enter-active,
-.v-leave-active {
-  transition: opacity 0.6s;
-}
-.v-enter,
-.v-leave-to {
-  opacity: 0;
+.buttons a:hover {
+  background: rgba(241, 230, 198, 1);
 }
 </style>
