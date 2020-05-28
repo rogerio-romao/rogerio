@@ -10,7 +10,7 @@ export default new Vuex.Store({
         id: 1,
         name: "Converse",
         type: "Front-End",
-        shortDesc: "A responsive units conversion app ",
+        shortDesc: "A responsive units conversion app.",
         technologies: ["Javascript", "JQuery", "CSS3", "HTML5"],
         longDesc:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!"
@@ -19,7 +19,7 @@ export default new Vuex.Store({
         id: 2,
         name: "Todo-List",
         type: "Front-End",
-        shortDesc: "A todo list App made with JQuery",
+        shortDesc: "A todo list App made with JQuery.",
         technologies: ["Javascript", "JQuery", "CSS3", "HTML5"],
         longDesc:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!"
@@ -28,7 +28,7 @@ export default new Vuex.Store({
         id: 3,
         name: "Javascript Calculator",
         type: "Front-End",
-        shortDesc: "A complete vanilla Javascript calculator",
+        shortDesc: "A complete vanilla Javascript calculator.",
         technologies: ["Javascript", "CSS3", "HTML5"],
         longDesc:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!"
@@ -47,7 +47,7 @@ export default new Vuex.Store({
         id: 5,
         name: "Yelp Camp",
         type: "Full-Stack",
-        shortDesc: "A Yelp like website from camping grounds",
+        shortDesc: "A Yelp like website from camping grounds.",
         technologies: ["NodeJS", "Express", "MongoDb", "EJS", "CSS3", "HTML5"],
         longDesc:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!"
@@ -56,7 +56,7 @@ export default new Vuex.Store({
         id: 6,
         name: "Rock Smacker",
         type: "Game",
-        shortDesc: "A retro-style fun little arcade/puzzle game",
+        shortDesc: "A retro-style fun little arcade/puzzle game.",
         technologies: ["Contruct3", "Netlify", "Deployment"],
         longDesc:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!"
@@ -108,7 +108,7 @@ export default new Vuex.Store({
         id: 11,
         name: "Guess the Number game",
         type: "Front-End",
-        shortDesc: "Guess the number game",
+        shortDesc: "Guess the number game.",
         technologies: ["Javascript", "CSS3", "HTML5"],
         longDesc:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!"
@@ -152,7 +152,7 @@ export default new Vuex.Store({
         id: 15,
         name: "The Collatz Sequence",
         type: "Front-End",
-        shortDesc: "A visualizer tool for the famous math sequence",
+        shortDesc: "A visualizer tool for the famous math sequence.",
         technologies: ["Canvas", "Animation", "Javascript", "CSS3", "HTML5"],
         longDesc:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!"
@@ -161,7 +161,7 @@ export default new Vuex.Store({
         id: 16,
         name: "Avatars",
         type: "Front-End",
-        shortDesc: "A profile image / avatar custom display study",
+        shortDesc: "A profile image / avatar custom display study.",
         technologies: ["Javascript", "CSS3"],
         longDesc:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!"
@@ -179,7 +179,7 @@ export default new Vuex.Store({
         id: 18,
         name: "The Spiral",
         type: "Front-End",
-        shortDesc: "A Python turtle inspired JS visualiser",
+        shortDesc: "A JS music player / visualiser / generative art",
         technologies: ["Canvas", "Animation", "Javascript", "CSS3", "HTML5"],
         longDesc:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!"
@@ -192,6 +192,32 @@ export default new Vuex.Store({
         technologies: ["Canvas", "Animation", "Javascript", "CSS3", "HTML5"],
         longDesc:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!"
+      },
+      {
+        id: 20,
+        name: "The Randomizer",
+        type: "Full-Stack",
+        shortDesc:
+          "An app that gives you a random value on different categories.",
+        technologies: [
+          "Vue",
+          "Vuetify",
+          "API's",
+          "Javascript",
+          "CSS3",
+          "HTML5"
+        ],
+        longDesc:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!"
+      },
+      {
+        id: 21,
+        name: "Music Player",
+        type: "Front-End",
+        shortDesc: "A javascript music player. Simple but beautiful and solid.",
+        technologies: ["Javascript", "CSS3", "HTML5"],
+        longDesc:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!"
       }
     ],
     images: [
@@ -199,25 +225,25 @@ export default new Vuex.Store({
         id: 1,
         url: "converse.png",
         source: "https://codepen.io/rogerio-romao/pen/RwPaaRR",
-        live: "https://codepen.io/rogerio-romao/pen/RwPaaRR"
+        live: "https://codepen.io/rogerio-romao/full/RwPaaRR"
       },
       {
         id: 2,
         url: "todov3.png",
         source: "https://codepen.io/rogerio-romao/pen/KKpzXeG",
-        live: "https://codepen.io/rogerio-romao/pen/KKpzXeG"
+        live: "https://codepen.io/rogerio-romao/full/KKpzXeG"
       },
       {
         id: 3,
         url: "javascript-calc.png",
         source: "https://codepen.io/rogerio-romao/pen/mdJWEMJ",
-        live: "https://codepen.io/rogerio-romao/pen/mdJWEMJ"
+        live: "https://codepen.io/rogerio-romao/full/mdJWEMJ"
       },
       {
         id: 4,
         url: "markdown-preview.png",
         source: "https://codepen.io/rogerio-romao/pen/dyoXWNb",
-        live: "https://codepen.io/rogerio-romao/pen/dyoXWNb"
+        live: "https://codepen.io/rogerio-romao/full/dyoXWNb"
       },
       {
         id: 5,
@@ -300,14 +326,139 @@ export default new Vuex.Store({
       {
         id: 18,
         url: "spiral.png",
-        source: "https://codepen.io/rogerio-romao/pen/QWjOwXZ",
-        live: "https://codepen.io/rogerio-romao/full/QWjOwXZ"
+        source: "https://codepen.io/rogerio-romao/pen/mdevOwm",
+        live: "https://codepen.io/rogerio-romao/full/mdevOwm"
       },
       {
         id: 19,
         url: "gol.png",
         source: "https://codepen.io/rogerio-romao/pen/VwvbdZE",
         live: "https://codepen.io/rogerio-romao/full/VwvbdZE"
+      },
+      {
+        id: 20,
+        url: "randomizer.png",
+        source: "https://codepen.io/rogerio-romao/pen/Baoqvmm",
+        live: "https://codepen.io/rogerio-romao/full/Baoqvmm"
+      },
+      {
+        id: 21,
+        url: "music-player.png",
+        source: "https://codepen.io/rogerio-romao/pen/vYNvBzd",
+        live: "https://codepen.io/rogerio-romao/full/vYNvBzd"
+      }
+    ],
+    featured: [
+      {
+        id: 1,
+        name: "The Spiral",
+        image: require("../assets/spiral.png"),
+        shortDesc: "A JS music player / visualiser / generative art.",
+        longDesc:
+          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam praesentium tempora placeat quibusdam quia maiores id, est molestiae optio, nesciunt qui. ",
+        source: "https://codepen.io/rogerio-romao/pen/mdevOwm",
+        live: "https://codepen.io/rogerio-romao/full/mdevOwm"
+      },
+      {
+        id: 2,
+        name: "Music Player",
+        image: require("../assets/music-player.png"),
+        shortDesc: "A javascript music player. Simple but beautiful and solid.",
+        longDesc:
+          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam praesentium tempora placeat quibusdam quia maiores id, est molestiae optio, nesciunt qui. ",
+        source: "https://codepen.io/rogerio-romao/pen/vYNvBzd",
+        live: "https://codepen.io/rogerio-romao/full/vYNvBzd"
+      },
+      {
+        id: 3,
+        name: "The Randomizer",
+        image: require("../assets/randomizer.png"),
+        shortDesc:
+          "An app that gives you a random value on different categories.",
+        longDesc:
+          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam praesentium tempora placeat quibusdam quia maiores id, est molestiae optio, nesciunt qui. ",
+        source: "https://codepen.io/rogerio-romao/pen/Baoqvmm",
+        live: "https://codepen.io/rogerio-romao/full/Baoqvmm"
+      },
+      {
+        id: 4,
+        name: "Converse",
+        image: require("../assets/converse.png"),
+        shortDesc: "A responsive units conversion app.",
+        longDesc:
+          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam praesentium tempora placeat quibusdam quia maiores id, est molestiae optio, nesciunt qui. ",
+        source: "https://codepen.io/rogerio-romao/pen/RwPaaRR",
+        live: "https://codepen.io/rogerio-romao/full/RwPaaRR"
+      },
+      {
+        id: 5,
+        name: "Guess The Number",
+        image: require("../assets/guess-number.png"),
+        shortDesc: "Guess the number game.",
+        longDesc:
+          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam praesentium tempora placeat quibusdam quia maiores id, est molestiae optio, nesciunt qui. ",
+        source: "https://codepen.io/rogerio-romao/pen/XWbQbbN",
+        live: "https://codepen.io/rogerio-romao/full/XWbQbbN"
+      },
+      {
+        id: 6,
+        name: "YelpCamp",
+        image: require("../assets/yelpcamp.png"),
+        shortDesc: "A Yelp like website from camping grounds.",
+        longDesc:
+          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam praesentium tempora placeat quibusdam quia maiores id, est molestiae optio, nesciunt qui. ",
+        source: "",
+        live: "https://dry-escarpment-99868.herokuapp.com/"
+      },
+      {
+        id: 7,
+        name: "The Collatz Sequence",
+        image: require("../assets/collatz.png"),
+        shortDesc: "A visualizer tool for the famous math sequence.",
+        longDesc:
+          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam praesentium tempora placeat quibusdam quia maiores id, est molestiae optio, nesciunt qui. ",
+        source: "https://codepen.io/rogerio-romao/pen/WNQxaWq",
+        live: "https://codepen.io/rogerio-romao/full/WNQxaWq"
+      },
+      {
+        id: 8,
+        name: "Avatars",
+        image: require("../assets/avatars.png"),
+        shortDesc: "A profile image / avatar custom display study.",
+        longDesc:
+          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam praesentium tempora placeat quibusdam quia maiores id, est molestiae optio, nesciunt qui. ",
+        source: "https://codepen.io/rogerio-romao/pen/zYvzmRp",
+        live: "https://codepen.io/rogerio-romao/full/zYvzmRp"
+      },
+      {
+        id: 9,
+        name: "Game of Life",
+        image: require("../assets/gol.png"),
+        shortDesc: "My version of the classic Conway's Game of Life.",
+        longDesc:
+          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam praesentium tempora placeat quibusdam quia maiores id, est molestiae optio, nesciunt qui. ",
+        source: "https://codepen.io/rogerio-romao/pen/VwvbdZE",
+        live: "https://codepen.io/rogerio-romao/full/VwvbdZE"
+      },
+      {
+        id: 10,
+        name: "Todo List",
+        image: require("../assets/todov3.png"),
+        shortDesc: "A todo list App made with JQuery.",
+        longDesc:
+          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam praesentium tempora placeat quibusdam quia maiores id, est molestiae optio, nesciunt qui. ",
+        source: "https://codepen.io/rogerio-romao/pen/KKpzXeG",
+        live: "https://codepen.io/rogerio-romao/full/KKpzXeG"
+      },
+      {
+        id: 11,
+        name: "JavaScript Calculator",
+        image: require("../assets/javascript-calc.png"),
+        shortDesc: "A complete vanilla Javascript calculator.",
+        longDesc:
+          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam praesentium tempora placeat quibusdam quia maiores id, est molestiae optio, nesciunt qui. ",
+        source: "https://codepen.io/rogerio-romao/pen/mdJWEMJ",
+        live: "https://codepen.io/rogerio-romao/full/mdJWEMJ"
       }
     ]
   },

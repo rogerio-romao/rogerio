@@ -1,21 +1,8 @@
 <template>
-  <div class="p-6 mx-auto bg-orange-200">
-    <h1 class="text-4xl font-extrabold text-right text-gray-700 mb-3 underline">
-      Rogerio's Portfolio
-    </h1>
-    <div class="mb-2 text-indigo-700 font-semibold">
-      <a class="hover:text-indigo-500 mr-4 nav-links pt-1" href="/"
-        >Kitchen Sink</a
-      >
-      <a class="hover:text-indigo-500 mr-4 nav-links pt-1" href="/featured"
-        >Featured Projects</a
-      >
-      <a class="hover:text-indigo-500 mr-4 nav-links pt-1" href="/about"
-        >About Me</a
-      >
-    </div>
+  <div class="p-6 mx-auto">
+    <TopNav />
     <div
-      class="border border-orange-400 bg-orange-100 w-full h-full p-4 flex-col mx-auto"
+      class="border border-orange-400 bg-gray-100 w-full h-full p-4 flex-col mx-auto"
     >
       <div class="w-full flex items-center mx-auto border-b pb-2">
         <h3 class="text-md font-semibold uppercase">Project Type:</h3>
@@ -37,7 +24,7 @@
         <transition mode="out-in">
           <span
             :key="this.currentProject"
-            class="text-2xl text-blue-500 bg-green-100 border p-2 rounded-lg shadow-sm align-middle font-extrabold tracking-wide ml-3"
+            class="text-xl text-blue-500 border-r p-2 rounded-lg shadow-sm align-middle font-bold tracking-wide ml-3"
             >{{ projName }}</span
           >
         </transition>
@@ -53,43 +40,15 @@
         </p>
       </div>
     </div>
-    <div
-      class="w-1/2 text-center border-orange-300 border rounded-md p-4 mx-auto my-4"
-    >
-      <a
-        href="https://github.com/rogerio-romao"
-        target="_blank"
-        class="text-xl p-3 m-3 hover:text-orange-500"
-      >
-        GitHub
-        <FontAwesomeIcon :icon="['fab', 'github-square']" />
-      </a>
-      <a
-        href="https://codepen.io/rogerio-romao"
-        target="_blank"
-        class="text-xl p-3 m-3 hover:text-orange-500"
-      >
-        CodePen
-        <FontAwesomeIcon :icon="['fab', 'codepen']" />
-      </a>
-    </div>
-    <footer>
-      <small>Coded by Rogerio Romao 2020 </small>
-    </footer>
+    <Footer />
   </div>
 </template>
 
 <script>
-import Vue from "vue";
-import { library } from "@fortawesome/fontawesome-svg-core";
-import { faGithubSquare, faCodepen } from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
-
-library.add(faGithubSquare, faCodepen);
-
-Vue.component("font-awesome-icon", FontAwesomeIcon);
-
+import TopNav from "./TopNav";
 import Projects from "@/components/Projects.vue";
+import Footer from "./Footer.vue";
+
 export default {
   methods: {
     changeProject(value) {
@@ -99,7 +58,8 @@ export default {
   },
   components: {
     Projects,
-    FontAwesomeIcon
+    TopNav,
+    Footer
   },
   data: function() {
     return {
@@ -123,8 +83,4 @@ export default {
 };
 </script>
 
-<style>
-.nav-links:hover {
-  border-top: 1px solid limegreen;
-}
-</style>
+<style></style>

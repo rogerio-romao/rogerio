@@ -9,7 +9,7 @@
 import Portfolio from "@/components/Portfolio.vue";
 
 export default {
-  name: "Home",
+  name: "AllProjects",
   components: {
     Portfolio
   }

@@ -89,12 +89,12 @@ export default {
 
 <style>
 .buttons a {
-  background: rgba(241, 230, 198, 0.7);
+  background: rgba(77, 186, 122, 0.5);
   padding: 3px 8px;
   border-radius: 8px;
   transition: all 0.1s;
 }
 .buttons a:hover {
-  background: rgba(241, 230, 198, 1);
+  background: rgba(77, 186, 122, 1);
 }
 </style>
