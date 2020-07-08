@@ -2,7 +2,7 @@
   <div class="p-6 mx-auto">
     <TopNav />
     <div
-      class="border border-orange-400 bg-gray-100 w-full h-full p-4 flex-col mx-auto"
+      class="border border-orange-400 bg-gray-200 w-full h-full p-4 flex-col mx-auto"
     >
       <div class="w-full flex items-center mx-auto border-b pb-2">
         <h3 class="text-md font-semibold uppercase">Project Type:</h3>
@@ -12,7 +12,7 @@
       <div class="w-full flex mt-3 items-center border-b pb-2 flex-wrap">
         <h3 class="text-md font-semibold uppercase">Technologies used:</h3>
         <span
-          class="ml-3 bg-green-500 hover:bg-blue-600 text-white px-2 rounded-full"
+          class="ml-3 bg-orange-500 no-select hover:bg-blue-600 text-white px-2 rounded-full"
           v-for="technology in this.$store.state.projects[this.currentProject]
             .technologies"
           :key="technology.name"
@@ -83,4 +83,8 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+.no-select {
+  user-select: none;
+}
+</style>

@@ -1,22 +1,27 @@
 <template>
   <div>
-    <h1 class="text-3xl text-center text-gray-700 mb-2">
+    <h1 class="text-4xl text-right text-gray-700 mb-2">
       Rogerio's Portfolio
-      <FontAwesomeIcon :icon="['fa', 'folder-open']" />
     </h1>
     <div class="mb-2 text-blue-700 font-semibold">
       <router-link to="/">
-        <a class="mr-4 nav-links pt-1 hover:text-gray-800" href="/featured"
+        <a
+          class="mr-4 nav-links pt-1  text-lg hover:text-gray-800"
+          href="/featured"
           >Featured Projects</a
         >
       </router-link>
       <router-link to="/projects">
-        <a class="mr-4 nav-links pt-1 hover:text-gray-800" href="/"
+        <a
+          class="mr-4 nav-links pt-1 text-orange-500 text-lg  hover:text-gray-800"
+          href="/"
           >Portfolio</a
         >
       </router-link>
       <router-link to="/about">
-        <a class="mr-4 nav-links pt-1 hover:text-gray-800" href="/about"
+        <a
+          class="mr-4 nav-links pt-1 text-green-500  text-lg hover:text-gray-800"
+          href="/about"
           >About Me</a
         >
       </router-link>
@@ -37,15 +42,16 @@ export default {
 </script>
 
 <style scoped>
-@import url("https://fonts.googleapis.com/css2?family=Francois+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
 h1 {
-  font-family: "Francois One", sans-serif;
+  font-family: "Oswald", sans-serif !important;
   letter-spacing: 1px;
+  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
 }
 .nav-links {
   transition: all ease-in-out 0.15s;
 }
 .nav-links:hover {
-  border-top: 1px solid#2f6eae;
+  border-top: 1px solid#4a5568;
 }
 </style>

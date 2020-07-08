@@ -1,11 +1,11 @@
 <template>
   <div class="cards flex flex-wrap justify-center">
     <div
-      class="card border rounded-lg shadow-md hover:shadow-xl bg-white m-3 overflow-hidden relative"
+      class="card border rounded-lg shadow-md hover:shadow-xl bg-gray-200 hover:bg-white m-3 overflow-hidden relative"
       v-for="feature in features"
       :key="feature.id"
     >
-      <div>
+      <div class="overflow-hidden">
         <img :src="feature.image" alt="" />
       </div>
       <div class="text-center text-xl font-bold text-indigo-800 mt-1">
@@ -21,10 +21,10 @@
         </p>
       </div>
       <div
-        class="flex justify-around absolute w-full bottom-0 pb-1 border-t border-indigo-400 bg-indigo-200"
+        class="flex justify-around absolute w-full bottom-0 pb-1 border-t border-indigo-400 bg-indigo-300"
       >
         <button
-          class="text-indigo-700 text-sm py-1 hover:text-gray-800 hover:bg-orange-400 w-full"
+          class="text-indigo-700 text-sm py-1 hover:text-gray-800 hover:bg-green-400 w-full"
         >
           <a :href="feature.source" target="_blank">Source</a>
         </button>
@@ -50,10 +50,16 @@ export default {
 
 <style>
 .card {
-  transition: transform 0.2s ease-in-out;
+  transition: all 0.25s ease-in-out;
+}
+.card img {
+  transition: transform 0.8s ease-in-out;
 }
 .card:hover {
   transform: scale(1.05);
+}
+.card:hover img {
+  transform: scale(1.5);
 }
 button {
   transition: all 0.2s ease-in-out;

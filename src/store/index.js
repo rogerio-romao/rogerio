@@ -111,7 +111,7 @@ export default new Vuex.Store({
         shortDesc: "Guess the number game.",
         technologies: ["Javascript", "CSS3", "HTML5"],
         longDesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!"
+          "My take on the common programming challenge of Guess the Number game. I tried to push this simple problem into as much of a polished app as possible with attention to all details, a nice visualizer pattern for the guesses, automatic adjustment of the maximum guesses determined by the max number chosen by the user and a nice clean interface."
       },
       {
         id: 12,
@@ -182,7 +182,7 @@ export default new Vuex.Store({
         shortDesc: "A JS music player / visualiser / generative art",
         technologies: ["Canvas", "Animation", "Javascript", "CSS3", "HTML5"],
         longDesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!"
+          "Very proud of this one, programmed from scratch, pushing the envelope with animation and canvas, custom functions including a stagger using requestanimationframe, and a custom music player."
       },
       {
         id: 19,
@@ -355,7 +355,7 @@ export default new Vuex.Store({
         image: require("../assets/spiral.png"),
         shortDesc: "A JS music player / visualiser / generative art.",
         longDesc:
-          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam praesentium tempora placeat quibusdam quia maiores id, est molestiae optio, nesciunt qui. ",
+          "Very proud of this one, programmed from scratch, pushing the envelope with animation and canvas, custom functions including a stagger using requestanimationframe, and a custom music player.",
         source: "https://codepen.io/rogerio-romao/pen/mdevOwm",
         live: "https://codepen.io/rogerio-romao/full/mdevOwm"
       },
@@ -396,7 +396,7 @@ export default new Vuex.Store({
         image: require("../assets/guess-number.png"),
         shortDesc: "Guess the number game.",
         longDesc:
-          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam praesentium tempora placeat quibusdam quia maiores id, est molestiae optio, nesciunt qui. ",
+          "My take on the common programming challenge of Guess the Number game. I tried to push this simple problem into as much of a polished app as possible with attention to all details, a nice visualizer pattern for the guesses, automatic adjustment of the maximum guesses determined by the max number chosen by the user and a nice clean interface. ",
         source: "https://codepen.io/rogerio-romao/pen/XWbQbbN",
         live: "https://codepen.io/rogerio-romao/full/XWbQbbN"
       },

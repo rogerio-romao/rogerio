@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      class="w-1/2 text-center bg-gray-100 border-orange-300 border rounded-md p-4 mx-auto my-4"
+      class="w-1/2 text-center bg-gray-100 border-blue-300 border rounded-md p-4 mx-auto my-4"
     >
       <a
         href="https://github.com/rogerio-romao"

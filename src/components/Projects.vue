@@ -15,8 +15,12 @@
     >
       <transition>
         <div class="buttons text-center absolute px-8 py-2" v-show="isHidden">
-          <a :href="codeLive" target="_blank">View Live</a>
-          <a class="ml-3" :href="codeSource" target="_blank">Source Code</a>
+          <a class="hover:bg-orange-300" :href="codeLive" target="_blank"
+            >View Live</a
+          >
+          <a class="ml-3 hover:bg-orange-300" :href="codeSource" target="_blank"
+            >Source Code</a
+          >
         </div>
       </transition>
       <transition mode="out-in">
@@ -89,12 +93,9 @@ export default {
 
 <style>
 .buttons a {
-  background: rgba(77, 186, 122, 0.5);
   padding: 3px 8px;
   border-radius: 8px;
+  background-color: rgba(255, 255, 255, 0.35);
   transition: all 0.1s;
-}
-.buttons a:hover {
-  background: rgba(77, 186, 122, 1);
 }
 </style>
