@@ -11,7 +11,7 @@
       <div class="text-center text-xl font-bold text-indigo-800 mt-1">
         <h3>{{ feature.name }}</h3>
       </div>
-      <div class="p-1 text-sm text-center">
+      <div class="p-1 text-sm font-semibold text-center">
         <p>{{ feature.shortDesc }}</p>
       </div>
       <hr class="mx-4" />

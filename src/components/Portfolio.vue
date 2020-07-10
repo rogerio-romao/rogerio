@@ -34,7 +34,9 @@
       </div>
       <Projects @projectChange="changeProject($event)" />
       <div class="description mt-5">
-        <h3 class="text-md font-semibold uppercase">Project Description</h3>
+        <h3 class="text-md font-semibold uppercase text-center">
+          Project Description
+        </h3>
         <p class="mt-2">
           {{ projLongDesc }}
         </p>

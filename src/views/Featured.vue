@@ -30,8 +30,9 @@ export default {
   padding: 1.5em;
 }
 .card {
+  margin: 1em;
   display: inline-block;
-  width: 250px;
-  height: 350px;
+  width: 280px;
+  height: 410px;
 }
 </style>

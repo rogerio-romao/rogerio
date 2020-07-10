@@ -13,7 +13,7 @@ export default new Vuex.Store({
         shortDesc: "A responsive units conversion app.",
         technologies: ["Javascript", "JQuery", "CSS3", "HTML5"],
         longDesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!"
+          "Unit Conversion Program, does distances, weights and temperatures. Sleek flat style design and attention to user experience were my focus, as well as functional and well structured and documented code. Built using JQuery."
       },
       {
         id: 2,
@@ -155,7 +155,7 @@ export default new Vuex.Store({
         shortDesc: "A visualizer tool for the famous math sequence.",
         technologies: ["Canvas", "Animation", "Javascript", "CSS3", "HTML5"],
         longDesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!"
+          "This was mainly about trying to develop working with canvas, animation and requestanimationframe. I used a math sequence as the base to program a graph engine on canvas that adjusts to the kind of data it is receiving. Fully commented out code as to how it works."
       },
       {
         id: 16,
@@ -208,7 +208,7 @@ export default new Vuex.Store({
           "HTML5"
         ],
         longDesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!"
+          "This is an app that has several categories like countries, colors, number, music keys etc, and the app will get a random value from them. App built in VueJS with Vuetify for the interface, and using a couple of API's for some of the categories."
       },
       {
         id: 21,
@@ -217,7 +217,7 @@ export default new Vuex.Store({
         shortDesc: "A javascript music player. Simple but beautiful and solid.",
         technologies: ["Javascript", "CSS3", "HTML5"],
         longDesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!"
+          "I wanted to program something similar to Winamp in Javascript and learn how to handle audio on the web. I am very pleased with the look and functionality i managed to include, and have some ideas to expand it in the future."
       }
     ],
     images: [
@@ -365,7 +365,7 @@ export default new Vuex.Store({
         image: require("../assets/music-player.png"),
         shortDesc: "A javascript music player. Simple but beautiful and solid.",
         longDesc:
-          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam praesentium tempora placeat quibusdam quia maiores id, est molestiae optio, nesciunt qui. ",
+          "I wanted to program something similar to Winamp in Javascript and learn how to handle audio on the web. I am very pleased with the look and functionality i managed to include, and have some ideas to expand it in the future.",
         source: "https://codepen.io/rogerio-romao/pen/vYNvBzd",
         live: "https://codepen.io/rogerio-romao/full/vYNvBzd"
       },
@@ -376,7 +376,7 @@ export default new Vuex.Store({
         shortDesc:
           "An app that gives you a random value on different categories.",
         longDesc:
-          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam praesentium tempora placeat quibusdam quia maiores id, est molestiae optio, nesciunt qui. ",
+          "This is an app that has several categories like countries, colors, number, music keys etc, and the app will get a random value from them. App built in VueJS with Vuetify for the interface, and using a couple of API's for some of the categories.",
         source: "https://codepen.io/rogerio-romao/pen/Baoqvmm",
         live: "https://codepen.io/rogerio-romao/full/Baoqvmm"
       },
@@ -386,7 +386,7 @@ export default new Vuex.Store({
         image: require("../assets/converse.png"),
         shortDesc: "A responsive units conversion app.",
         longDesc:
-          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam praesentium tempora placeat quibusdam quia maiores id, est molestiae optio, nesciunt qui. ",
+          "Unit Conversion Program, does distances, weights and temperatures. Sleek flat style design and attention to user experience were my focus, as well as functional and well structured and documented code. Built using JQuery.",
         source: "https://codepen.io/rogerio-romao/pen/RwPaaRR",
         live: "https://codepen.io/rogerio-romao/full/RwPaaRR"
       },
@@ -416,7 +416,7 @@ export default new Vuex.Store({
         image: require("../assets/collatz.png"),
         shortDesc: "A visualizer tool for the famous math sequence.",
         longDesc:
-          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam praesentium tempora placeat quibusdam quia maiores id, est molestiae optio, nesciunt qui. ",
+          "This was mainly about trying to develop working with canvas, animation and requestanimationframe. I used a math sequence as the base to program a graph engine on canvas that adjusts to the kind of data it is receiving. Fully commented out code as to how it works.",
         source: "https://codepen.io/rogerio-romao/pen/WNQxaWq",
         live: "https://codepen.io/rogerio-romao/full/WNQxaWq"
       },
