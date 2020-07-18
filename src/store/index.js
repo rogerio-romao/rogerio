@@ -22,7 +22,7 @@ export default new Vuex.Store({
         shortDesc: "A todo list App made with JQuery.",
         technologies: ["Javascript", "JQuery", "CSS3", "HTML5"],
         longDesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!"
+          "This project uses Sass for the presentation side of things, which i worked a lot on and am pretty happy with. I use variables to make it easier, and implemented a theming functionality. Learnt how to include a drag and drop functionality to the interface as well, after researching settle on JQuery for that. App is responsive using media queries."
       },
       {
         id: 3,
@@ -31,7 +31,7 @@ export default new Vuex.Store({
         shortDesc: "A complete vanilla Javascript calculator.",
         technologies: ["Javascript", "CSS3", "HTML5"],
         longDesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!"
+          "Javascript calculator coded from scratch using functional programming processes. It is working but i'm still trying to improve a couple aspects with the order of operations and dealing with max input size and decimal points."
       },
       {
         id: 4,
@@ -50,7 +50,7 @@ export default new Vuex.Store({
         shortDesc: "A Yelp like website from camping grounds.",
         technologies: ["NodeJS", "Express", "MongoDb", "EJS", "CSS3", "HTML5"],
         longDesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!"
+          "This is a full fledged full-stack project that as the assignment from Colt Steele's WebDev Bootcamp. It's got API's, geocoding, restful routes, mvc architecture, templating, the works."
       },
       {
         id: 6,
@@ -164,7 +164,7 @@ export default new Vuex.Store({
         shortDesc: "A profile image / avatar custom display study.",
         technologies: ["Javascript", "CSS3"],
         longDesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!"
+          "Codepen has these weekly themed challenges. This was my entry for a challenge on how to create a user profile 'avatar' component that would work with different sizes and types of images and i like the result very much."
       },
       {
         id: 17,
@@ -182,7 +182,7 @@ export default new Vuex.Store({
         shortDesc: "A JS music player / visualiser / generative art",
         technologies: ["Canvas", "Animation", "Javascript", "CSS3", "HTML5"],
         longDesc:
-          "Very proud of this one, programmed from scratch, pushing the envelope with animation and canvas, custom functions including a stagger using requestanimationframe, and a custom music player."
+          "Very proud of this one, programmed from scratch, pushing the envelope with animation and canvas, custom functions including a stagger using requestanimationframe, and a custom music player. Winner of a Codepen Pick!"
       },
       {
         id: 19,
@@ -191,7 +191,7 @@ export default new Vuex.Store({
         shortDesc: "My version of the classic Conway's Game of Life",
         technologies: ["Canvas", "Animation", "Javascript", "CSS3", "HTML5"],
         longDesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!"
+          "This was an entry for a Game of Life challenge in Codepen. Programmed a version of the classic game of life, with a feature to draw your own patterns, and learned a lot while doing so!"
       },
       {
         id: 20,
@@ -355,7 +355,7 @@ export default new Vuex.Store({
         image: require("../assets/spiral.png"),
         shortDesc: "A JS music player / visualiser / generative art.",
         longDesc:
-          "Very proud of this one, programmed from scratch, pushing the envelope with animation and canvas, custom functions including a stagger using requestanimationframe, and a custom music player.",
+          "Very proud of this one, programmed from scratch, pushing the envelope with animation and canvas, custom functions including a stagger using requestanimationframe, and a custom music player. Won a Codepen Pick!",
         source: "https://codepen.io/rogerio-romao/pen/mdevOwm",
         live: "https://codepen.io/rogerio-romao/full/mdevOwm"
       },
@@ -406,7 +406,7 @@ export default new Vuex.Store({
         image: require("../assets/yelpcamp.png"),
         shortDesc: "A Yelp like website from camping grounds.",
         longDesc:
-          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam praesentium tempora placeat quibusdam quia maiores id, est molestiae optio, nesciunt qui. ",
+          "This is a full fledged full-stack project that as the assignment from Colt Steele's WebDev Bootcamp. It's got API's, geocoding, restful routes, mvc architecture, templating, the works.",
         source: "",
         live: "https://dry-escarpment-99868.herokuapp.com/"
       },
@@ -426,7 +426,7 @@ export default new Vuex.Store({
         image: require("../assets/avatars.png"),
         shortDesc: "A profile image / avatar custom display study.",
         longDesc:
-          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam praesentium tempora placeat quibusdam quia maiores id, est molestiae optio, nesciunt qui. ",
+          "Codepen has these weekly themed challenges. This was my entry for a challenge on how to create a user profile 'avatar' component that would work with different sizes and types of images and i like the result very much.",
         source: "https://codepen.io/rogerio-romao/pen/zYvzmRp",
         live: "https://codepen.io/rogerio-romao/full/zYvzmRp"
       },
@@ -436,7 +436,7 @@ export default new Vuex.Store({
         image: require("../assets/gol.png"),
         shortDesc: "My version of the classic Conway's Game of Life.",
         longDesc:
-          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam praesentium tempora placeat quibusdam quia maiores id, est molestiae optio, nesciunt qui. ",
+          "This was an entry for a Game of Life challenge in Codepen. Programmed a version of the classic game of life, with a feature to draw your own patterns, and learned a lot while doing so!",
         source: "https://codepen.io/rogerio-romao/pen/VwvbdZE",
         live: "https://codepen.io/rogerio-romao/full/VwvbdZE"
       },
@@ -446,7 +446,7 @@ export default new Vuex.Store({
         image: require("../assets/todov3.png"),
         shortDesc: "A todo list App made with JQuery.",
         longDesc:
-          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam praesentium tempora placeat quibusdam quia maiores id, est molestiae optio, nesciunt qui. ",
+          "This project uses Sass for the presentation side of things, which i worked a lot on and am pretty happy with. I use variables to make it easier, and implemented a theming functionality. Learnt how to include a drag and drop functionality to the interface as well, after researching settle on JQuery for that. App is responsive using media queries.",
         source: "https://codepen.io/rogerio-romao/pen/KKpzXeG",
         live: "https://codepen.io/rogerio-romao/full/KKpzXeG"
       },
@@ -456,7 +456,7 @@ export default new Vuex.Store({
         image: require("../assets/javascript-calc.png"),
         shortDesc: "A complete vanilla Javascript calculator.",
         longDesc:
-          "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsam praesentium tempora placeat quibusdam quia maiores id, est molestiae optio, nesciunt qui. ",
+          "Javascript calculator coded from scratch using functional programming processes. It is working but i'm still trying to improve a couple aspects with the order of operations and dealing with max input size and decimal points.",
         source: "https://codepen.io/rogerio-romao/pen/mdJWEMJ",
         live: "https://codepen.io/rogerio-romao/full/mdJWEMJ"
       }

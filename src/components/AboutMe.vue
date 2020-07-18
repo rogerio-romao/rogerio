@@ -41,6 +41,28 @@
         is the goal.
       </p>
     </div>
+    <div class="where mt-4">
+      <h2 class="text-xl text-green-500 font-semibold">Courses</h2>
+      <div>
+        <ul>
+          <li>
+            <strong>StackSkills</strong>
+            <ul>
+              <li>
+                <a href="https://stackskills.com/courses/394191">
+                  Python Fundamentals by Sanjin Dedic
+                </a>
+              </li>
+              <li>
+                <a href="https://stackskills.com/courses/657303">
+                  The Web Developer Bootcamp by Colt Steele
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    </div>
   </div>
 </template>
 

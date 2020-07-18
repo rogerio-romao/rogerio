@@ -1,7 +1,7 @@
 <template>
   <div class="featured bg-gray-100">
     <TopNav />
-    <div class="cards border border-blue-500 bg-gray-700 p-4">
+    <div class="cards border border-blue-500 bg-gray-600 p-4">
       <FeaturedCard />
     </div>
     <Footer />
