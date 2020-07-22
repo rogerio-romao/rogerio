@@ -7,6 +7,12 @@
     >
       <div class="overflow-hidden">
         <img :src="feature.image" alt="" />
+        <img
+          class="award"
+          v-if="feature.id === 1"
+          src="../assets/codepen-pick.png"
+          alt=""
+        />
       </div>
       <div class="text-center text-xl font-bold text-indigo-800 mt-1">
         <h3>{{ feature.name }}</h3>
@@ -63,5 +69,13 @@ export default {
 }
 button {
   transition: all 0.2s ease-in-out;
+}
+.award {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 40px;
+  height: 40px;
+  opacity: 0.7;
 }
 </style>
