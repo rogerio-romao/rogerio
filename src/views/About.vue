@@ -1,7 +1,7 @@
 <template>
-  <div class="about bg-gray-300">
+  <div class="about bg-gray-900">
     <TopNav />
-    <div class="border border-green-400 bg-gray-100 p-4">
+    <div class="border border-red-600 bg-black p-4">
       <AboutMe />
     </div>
     <Footer />

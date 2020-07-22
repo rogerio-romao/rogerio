@@ -1,12 +1,12 @@
 <template>
   <div>
     <div
-      class="w-1/2 text-center bg-gray-100 border-blue-300 border rounded-md p-4 mx-auto my-4"
+      class="w-1/2 text-center bg-gray-200 border-blue-300 border rounded-md p-4 mx-auto my-4"
     >
       <a
         href="https://github.com/rogerio-romao"
         target="_blank"
-        class="text-xl p-3 m-3 hover:text-orange-500"
+        class="text-xl p-3 m-3 hover:text-blue-500"
       >
         GitHub
         <FontAwesomeIcon :icon="['fab', 'github-square']" />
@@ -14,7 +14,7 @@
       <a
         href="https://codepen.io/rogerio-romao"
         target="_blank"
-        class="text-xl p-3 m-3 hover:text-orange-500"
+        class="text-xl p-3 m-3 hover:text-blue-500"
       >
         CodePen
         <FontAwesomeIcon :icon="['fab', 'codepen']" />

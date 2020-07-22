@@ -17,11 +17,11 @@
       <div class="text-center text-xl font-bold text-indigo-800 mt-1">
         <h3>{{ feature.name }}</h3>
       </div>
-      <div class="p-1 text-sm font-semibold text-center">
+      <div class="p-1 text font-semibold text-center">
         <p>{{ feature.shortDesc }}</p>
       </div>
       <hr class="mx-4" />
-      <div class="text-xs p-2">
+      <div class="text-s p-2">
         <p>
           {{ feature.longDesc }}
         </p>
@@ -56,16 +56,22 @@ export default {
 
 <style>
 .card {
-  transition: all 0.25s ease-in-out;
+  font-family: "Hind", sans-serif;
+  transition: all 0.35s ease-in-out;
 }
 .card img {
-  transition: transform 0.8s ease-in-out;
+  transition: transform 0.3s ease-in-out;
+}
+.card div:nth-of-type(3) {
+  font-size: 1.15em;
 }
 .card:hover {
-  transform: scale(1.05);
+  transform: scale(1.25);
+  z-index: 20;
+  border: 1px solid black;
 }
 .card:hover img {
-  transform: scale(1.5);
+  transform: scale(1.05);
 }
 button {
   transition: all 0.2s ease-in-out;

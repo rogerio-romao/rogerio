@@ -1,26 +1,26 @@
 <template>
   <div>
-    <h1 class="text-4xl text-right text-gray-700 mb-2">
+    <h1 class="text-4xl text-right text-gray-300 mb-2">
       Rogerio's Portfolio
     </h1>
-    <div class="mb-2 text-blue-700 font-semibold">
+    <div class="mb-2 text-gray-300 font-semibold">
       <router-link to="/">
         <a
-          class="mr-4 nav-links pt-1  text-lg hover:text-gray-800"
+          class="mr-4 nav-links pt-2 text-lg hover:text-red-800"
           href="/featured"
           >Featured Projects</a
         >
       </router-link>
       <router-link to="/projects">
         <a
-          class="mr-4 nav-links pt-1 text-orange-500 text-lg  hover:text-gray-800"
+          class="mr-4 nav-links pt-2 text-gray-300 text-lg  hover:text-red-800"
           href="/"
           >Portfolio</a
         >
       </router-link>
       <router-link to="/about">
         <a
-          class="mr-4 nav-links pt-1 text-green-500  text-lg hover:text-gray-800"
+          class="mr-4 nav-links pt-2 text-gray-300  text-lg hover:text-red-800"
           href="/about"
           >About Me</a
         >
@@ -52,6 +52,6 @@ h1 {
   transition: all ease-in-out 0.15s;
 }
 .nav-links:hover {
-  border-top: 1px solid#4a5568;
+  border-top: 1px solid#3067c5;
 }
 </style>

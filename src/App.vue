@@ -7,6 +7,11 @@
 </template>
 
 <style>
+body {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 100;
+  font-size: 1em;
+}
 .v-enter-active,
 .v-leave-active {
   transition: all 0.25s ease-in-out;

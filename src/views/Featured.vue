@@ -1,7 +1,7 @@
 <template>
-  <div class="featured bg-gray-100">
+  <div class="featured bg-gray-900">
     <TopNav />
-    <div class="cards border border-blue-500 bg-gray-600 p-4">
+    <div class="cards border border-red-600 bg-black p-4">
       <FeaturedCard />
     </div>
     <Footer />
@@ -32,7 +32,7 @@ export default {
 .card {
   margin: 1em;
   display: inline-block;
-  width: 280px;
-  height: 410px;
+  width: 330px;
+  height: 490px;
 }
 </style>

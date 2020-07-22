@@ -9,7 +9,7 @@
       <i class="fas fa-arrow-left " @click="getPreviousImage"></i>
     </div>
     <div
-      class="p-2 mx-auto main justify-center items-center border-blue-200 border-8 relative"
+      class="p-2 mx-auto main justify-center items-center border-gray-500 border-4 relative"
       @mouseover="isHidden = true"
       @mouseleave="isHidden = false"
     >
