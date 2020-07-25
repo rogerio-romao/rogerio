@@ -41,6 +41,13 @@
         is the goal.
       </p>
     </div>
+    <div class="where mt-4 text-gray-200 p-8 leading-8">
+      <h2 class="text-xl text-blue-500 font-semibold">Technologies</h2>
+      <p>
+        HTML, CSS, Javascript, Vue, React, Git, Bootstrap, Tailwind, Canvas
+        Animations, Express, MongoDB, jQuery, NodeJS...
+      </p>
+    </div>
     <div class="where mt-4 text-gray-200 p-8">
       <h2 class="text-xl text-blue-500 font-semibold">Courses</h2>
       <div>
@@ -50,40 +57,45 @@
             <ul>
               <li>
                 <a
-                  class="text-gray-500 text-small"
+                  class="text-gray-500 text-small hover:text-blue-800"
                   href="https://stackskills.com/courses/394191"
+                  target="_blank"
                 >
                   Python Fundamentals by Sanjin Dedic
                 </a>
               </li>
               <li>
                 <a
-                  class="text-gray-500 text-small"
+                  class="text-gray-500 text-small hover:text-blue-800"
                   href="https://stackskills.com/courses/657303"
+                  target="_blank"
                 >
                   The Web Developer Bootcamp by Colt Steele
                 </a>
               </li>
               <li>
                 <a
-                  class="text-gray-500 text-small"
+                  class="text-gray-500 text-small hover:text-blue-800"
                   href="https://stackskills.com/courses/80405"
+                  target="_blank"
                 >
                   Angular 2 Crash Course by Stone River eLearning
                 </a>
               </li>
               <li>
                 <a
-                  class="text-gray-500 text-small"
+                  class="text-gray-500 text-small hover:text-blue-800"
                   href="https://stackskills.com/courses/462105"
+                  target="_blank"
                 >
                   Javascript Bible by Bogdan Stashchuk
                 </a>
               </li>
               <li>
                 <a
-                  class="text-gray-500 text-small"
+                  class="text-gray-500 text-small hover:text-blue-800"
                   href="https://stackskills.com/courses/102831"
+                  target="_blank"
                 >
                   The Complete Python Course: Beginner to Advanced! by Joseph
                   Delgadillo
@@ -98,34 +110,45 @@
             <ul>
               <li>
                 <a
-                  class="text-gray-500 text-small"
+                  class="text-gray-500 text-small hover:text-blue-800"
                   href="https://javascript30.com/"
+                  target="_blank"
                 >
                   Javascript 30 days Coding Challenge by Wes Bos
                 </a>
               </li>
               <li>
-                <a class="text-gray-500 text-small" href="https://cssgrid.io/">
+                <a
+                  class="text-gray-500 text-small hover:text-blue-800"
+                  href="https://cssgrid.io/"
+                  target="_blank"
+                >
                   CSS Grid by Wes Bos
                 </a>
               </li>
               <li>
-                <a class="text-gray-500 text-small" href="https://flexbox.io/">
+                <a
+                  class="text-gray-500 text-small hover:text-blue-800"
+                  href="https://flexbox.io/"
+                  target="_blank"
+                >
                   What the Flexbox?! by Wes Bos
                 </a>
               </li>
               <li>
                 <a
-                  class="text-gray-500 text-small"
+                  class="text-gray-500 text-small hover:text-blue-800"
                   href="https://commandlinepoweruser.com/"
+                  target="_blank"
                 >
                   Command Line Power User by Wes Bos
                 </a>
               </li>
               <li>
                 <a
-                  class="text-gray-500 text-small"
+                  class="text-gray-500 text-small hover:text-blue-800"
                   href="https://learnredux.com/"
+                  target="_blank"
                 >
                   Learn Redux by Wes Bos
                 </a>
@@ -139,40 +162,176 @@
             <ul>
               <li>
                 <a
-                  class="text-gray-500 text-small"
+                  class="text-gray-500 text-small hover:text-blue-800"
                   href="https://app.pluralsight.com/library/courses/vuejs-big-picture/table-of-contents"
+                  target="_blank"
                 >
                   Vue.js: Big Picture by Daniel Stern
                 </a>
               </li>
               <li>
                 <a
-                  class="text-gray-500 text-small"
+                  class="text-gray-500 text-small hover:text-blue-800"
                   href="https://app.pluralsight.com/library/courses/vuejs-playbook"
+                  target="_blank"
                 >
                   Vue.js Playbook by Chad Campbell
                 </a>
               </li>
               <li>
                 <a
-                  class="text-gray-500 text-small"
+                  class="text-gray-500 text-small hover:text-blue-800"
                   href="https://app.pluralsight.com/library/courses/vuejs-fundamentals/table-of-contents"
+                  target="_blank"
                 >
                   Vue.js Fundamentals by Jim Cooper
                 </a>
               </li>
               <li>
                 <a
-                  class="text-gray-500 text-small"
+                  class="text-gray-500 text-small hover:text-blue-800"
                   href="https://app.pluralsight.com/library/courses/react-js-getting-started/table-of-contents"
+                  target="_blank"
                 >
                   React Getting Started by Samer Buna
+                </a>
+              </li>
+              <li>
+                <a
+                  class="text-gray-500 text-small hover:text-blue-800"
+                  href="https://app.pluralsight.com/library/courses/adding-graphics-web-pages-using-canvas-svg/table-of-contents"
+                  target="_blank"
+                >
+                  Adding Graphics to Web Pages Using Canvas and SVG by Michael
+                  Van Sickle
+                </a>
+              </li>
+              <li>
+                <a
+                  class="text-gray-500 text-small hover:text-blue-800"
+                  href="https://app.pluralsight.com/library/courses/codemash-session-52/table-of-contents"
+                  target="_blank"
+                >
+                  Vue 3.0 Better, Faster, and Stronger by CodeMash
+                </a>
+              </li>
+              <li>
+                <a
+                  class="text-gray-500 text-small hover:text-blue-800"
+                  href="https://app.pluralsight.com/library/courses/javascript-generators-iterators/table-of-contents"
+                  target="_blank"
+                >
+                  Javascript Generators and Iterators by Marques Woodson
+                </a>
+              </li>
+              <li>
+                <a
+                  class="text-gray-500 text-small hover:text-blue-800"
+                  href="https://app.pluralsight.com/library/courses/vue-getting-started/table-of-contents"
+                  target="_blank"
+                >
+                  Vue: Getting Started by John Papa
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <strong>Scrimba</strong>
+            <ul>
+              <li>
+                <a
+                  class="text-gray-500 text-small hover:text-blue-800"
+                  href="https://scrimba.com/course/glearnreact/"
+                  target="_blank"
+                >
+                  Learn React by Bob Ziroll
+                </a>
+              </li>
+              <li>
+                <a
+                  class="text-gray-500 text-small hover:text-blue-800"
+                  href="https://scrimba.com/course/gvuex/"
+                  target="_blank"
+                >
+                  Learn Vuex by Connor Lindsey
+                </a>
+              </li>
+              <li>
+                <a
+                  class="text-gray-500 text-small hover:text-blue-800"
+                  href="https://scrimba.com/course/greacthooks/"
+                  target="_blank"
+                >
+                  Learn React Hooks by Christian Jensen
+                </a>
+              </li>
+              <li>
+                <a
+                  class="text-gray-500 text-small hover:text-blue-800"
+                  href="https://scrimba.com/course/gdesign/"
+                  target="_blank"
+                >
+                  Learn UI Design Fundamentals by Gary Simon
+                </a>
+              </li>
+              <li>
+                <a
+                  class="text-gray-500 text-small hover:text-blue-800"
+                  href="https://scrimba.com/course/glearnsvelte/"
+                  target="_blank"
+                >
+                  Learn Svelte by Noah Kaufman
+                </a>
+              </li>
+              <li>
+                <a
+                  class="text-gray-500 text-small hover:text-blue-800"
+                  href="https://scrimba.com/course/galpinejs/"
+                  target="_blank"
+                >
+                  Learn Alpine JS by Andre Madarang
+                </a>
+              </li>
+              <li>
+                <a
+                  class="text-gray-500 text-small hover:text-blue-800"
+                  href="https://scrimba.com/course/gbootcampprimer/"
+                  target="_blank"
+                >
+                  The Coding Bootcamp Primer by V School
+                </a>
+              </li>
+              <li>
+                <a
+                  class="text-gray-500 text-small hover:text-blue-800"
+                  href="https://scrimba.com/course/greactgame/"
+                  target="_blank"
+                >
+                  Build Tic Tac Toe with React Hooks by Thomas Weibenfalk
+                </a>
+              </li>
+              <li>
+                <a
+                  class="text-gray-500 text-small hover:text-blue-800"
+                  href="https://scrimba.com/course/gtailwind/"
+                  target="_blank"
+                >
+                  Learn Tailwind CSS by Victor Gonzalez
                 </a>
               </li>
             </ul>
           </li>
         </ul>
       </div>
+    </div>
+    <div class="where mt-4 text-gray-200 p-8 leading-8">
+      <h2 class="text-xl text-blue-500 font-semibold">Contact Me</h2>
+      <p>
+        You can reach out to me through the email djgroovy@gmail.com or my
+        mobile +44 0742 702 4976. Looking forward to hearing from you!
+      </p>
     </div>
   </div>
 </template>

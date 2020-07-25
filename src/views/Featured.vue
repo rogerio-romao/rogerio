@@ -1,6 +1,6 @@
 <template>
   <div class="featured bg-gray-900">
-    <TopNav />
+    <TopNav featured="true" />
     <div class="cards border border-red-600 bg-black p-4">
       <FeaturedCard />
     </div>
@@ -32,7 +32,7 @@ export default {
 .card {
   margin: 1em;
   display: inline-block;
-  width: 330px;
-  height: 490px;
+  width: 320px;
+  height: 480px;
 }
 </style>

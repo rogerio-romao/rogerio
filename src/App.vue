@@ -1,6 +1,6 @@
 <template>
   <div id="app">
-    <transition mode="out-in">
+    <transition mode="out-in" name="fade">
       <router-view />
     </transition>
   </div>
@@ -11,14 +11,18 @@ body {
   font-family: "Open Sans Condensed", sans-serif;
   font-weight: 100;
   font-size: 1em;
+  background-color: #000;
+  box-sizing: border-box;
 }
-.v-enter-active,
-.v-leave-active {
-  transition: all 0.25s ease-in-out;
+.fade-enter-active,
+.fade-leave-active {
+  transition-duration: 0.3s;
+  transition-property: opacity;
+  transition-timing-function: ease;
 }
-.v-enter,
-.v-leave-to {
+
+.fade-enter,
+.fade-leave-active {
   opacity: 0;
-  transform: scale(0.98);
 }
 </style>

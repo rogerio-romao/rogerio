@@ -14,16 +14,22 @@
       @mouseleave="isHidden = false"
     >
       <transition>
-        <div class="buttons text-center absolute px-8 py-2" v-show="isHidden">
-          <a class="hover:bg-orange-300" :href="codeLive" target="_blank"
+        <div
+          class="buttons text-gray-900 text-center absolute px-8 py-2"
+          v-show="isHidden"
+        >
+          <a class="hover:bg-white shadow" :href="codeLive" target="_blank"
             >View Live</a
           >
-          <a class="ml-3 hover:bg-orange-300" :href="codeSource" target="_blank"
+          <a
+            class="ml-3 hover:bg-white shadow"
+            :href="codeSource"
+            target="_blank"
             >Source Code</a
           >
         </div>
       </transition>
-      <transition mode="out-in">
+      <transition mode="out-in" name="fade">
         <img
           class="main-image"
           :key="this.currentImage"
@@ -95,7 +101,10 @@ export default {
 .buttons a {
   padding: 3px 8px;
   border-radius: 8px;
-  background-color: rgba(255, 255, 255, 0.35);
-  transition: all 0.1s;
+  background-color: rgba(255, 255, 255, 0.5);
+  transition: all 0.15s;
+}
+.buttons a:hover {
+  border: 1px solid #111;
 }
 </style>

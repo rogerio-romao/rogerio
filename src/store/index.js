@@ -41,7 +41,7 @@ export default new Vuex.Store({
           "An app where you can write Markdown language and see the rendered result",
         technologies: ["Javascript", "CSS3", "HTML5"],
         longDesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!"
+          "A Markdown language editor / previewer app coded from scratch using a couple npm packages."
       },
       {
         id: 5,
@@ -59,7 +59,7 @@ export default new Vuex.Store({
         shortDesc: "A retro-style fun little arcade/puzzle game.",
         technologies: ["Contruct3", "Netlify", "Deployment"],
         longDesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!"
+          "Using the Construct3 game engine, it's a fun little puzzle game with a few kinks i still need to iron out."
       },
       {
         id: 7,
@@ -67,8 +67,7 @@ export default new Vuex.Store({
         type: "Game",
         shortDesc: "A retro-style arcade space shooting game",
         technologies: ["Contruct3", "Netlify", "Deployment"],
-        longDesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!"
+        longDesc: "Game made using the Construct 3 game engine."
       },
       {
         id: 8,
@@ -77,7 +76,7 @@ export default new Vuex.Store({
         shortDesc: "A play on the classic game",
         technologies: ["Javascript", "CSS3", "HTML5"],
         longDesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!"
+          "I set out to program my version of this popular game, making it look as good as possible."
       },
       {
         id: 9,
@@ -93,7 +92,7 @@ export default new Vuex.Store({
           "Deployment"
         ],
         longDesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!"
+          "A simple nuxt / vue website as a proof of concept course project. Uses the auto-routing features of nuxt, components, computed properties and methods from Vue."
       },
       {
         id: 10,
@@ -102,7 +101,7 @@ export default new Vuex.Store({
         shortDesc: "Pomodoro Session Clock",
         technologies: ["Javascript", "CSS3", "HTML5"],
         longDesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!"
+          "A timer app with session and break intervals, dealing with the complexities of time and interval management in coding."
       },
       {
         id: 11,
@@ -120,7 +119,7 @@ export default new Vuex.Store({
         shortDesc: "Responsive Website mockup",
         technologies: ["Javascript", "CSS3", "HTML5"],
         longDesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!"
+          "A full fledged out website / portfolio mockup with responsive design in mind dealing mostly with the CSS side of things."
       },
       {
         id: 13,
@@ -129,7 +128,7 @@ export default new Vuex.Store({
         shortDesc: "An exploration of Canvas and Animation",
         technologies: ["Javascript", "CSS3", "HTML5", "Animation"],
         longDesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!"
+          "An exploration of the canvas element and animation with interactive controls."
       },
       {
         id: 14,

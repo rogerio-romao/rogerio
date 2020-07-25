@@ -1,6 +1,6 @@
 <template>
   <div class="about bg-gray-900">
-    <TopNav />
+    <TopNav about="true" />
     <div class="border border-red-600 bg-black p-4">
       <AboutMe />
     </div>

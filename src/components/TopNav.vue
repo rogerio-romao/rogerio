@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="text-4xl text-right text-gray-300 mb-2">
+    <h1 class="text-4xl text-right text-gray-200 mb-2">
       Rogerio's Portfolio
     </h1>
     <div class="mb-2 text-gray-300 font-semibold">
@@ -8,6 +8,7 @@
         <a
           class="mr-4 nav-links pt-2 text-lg hover:text-red-800"
           href="/featured"
+          :class="{ active: featured }"
           >Featured Projects</a
         >
       </router-link>
@@ -15,6 +16,7 @@
         <a
           class="mr-4 nav-links pt-2 text-gray-300 text-lg  hover:text-red-800"
           href="/"
+          :class="{ active: portfolio }"
           >Portfolio</a
         >
       </router-link>
@@ -22,6 +24,7 @@
         <a
           class="mr-4 nav-links pt-2 text-gray-300  text-lg hover:text-red-800"
           href="/about"
+          :class="{ active: about }"
           >About Me</a
         >
       </router-link>
@@ -37,21 +40,39 @@ import { FontAwesomeIcon } from "@fortawesome/vue-fontawesome";
 library.add(faFolderOpen);
 Vue.component("font-awesome-icon", FontAwesomeIcon);
 export default {
-  name: "TopNav"
+  name: "TopNav",
+  props: {
+    featured: {
+      type: Boolean,
+      default: false
+    },
+    portfolio: {
+      type: Boolean,
+      default: false
+    },
+    about: {
+      type: Boolean,
+      default: false
+    }
+  }
 };
 </script>
 
 <style scoped>
-@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@700&display=swap");
 h1 {
   font-family: "Oswald", sans-serif !important;
   letter-spacing: 1px;
-  text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.25);
+  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.65),
+    -2px -2px 1px rgba(0, 0, 0, 0.65);
 }
 .nav-links {
   transition: all ease-in-out 0.15s;
 }
 .nav-links:hover {
+  border-top: 1px solid#3067c5;
+}
+.active {
   border-top: 1px solid#3067c5;
 }
 </style>

@@ -14,14 +14,14 @@
           alt=""
         />
       </div>
-      <div class="text-center text-xl font-bold text-indigo-800 mt-1">
+      <div class="text-center text-2xl font-bold text-indigo-800 mt-1">
         <h3>{{ feature.name }}</h3>
       </div>
-      <div class="p-1 text font-semibold text-center">
+      <div class="p-1 text-lg font-semibold text-center">
         <p>{{ feature.shortDesc }}</p>
       </div>
       <hr class="mx-4" />
-      <div class="text-s p-2">
+      <div class="text-xs p-2 small">
         <p>
           {{ feature.longDesc }}
         </p>
@@ -30,12 +30,12 @@
         class="flex justify-around absolute w-full bottom-0 pb-1 border-t border-indigo-400 bg-indigo-300"
       >
         <button
-          class="text-indigo-700 text-sm py-1 hover:text-gray-800 hover:bg-green-400 w-full"
+          class="text-indigo-800 text-sm py-1 hover:text-gray-800 hover:bg-green-400 w-full"
         >
           <a :href="feature.source" target="_blank">Source</a>
         </button>
         <button
-          class="text-indigo-700 text-sm py-1 hover:text-gray-800 hover:bg-green-400 w-full"
+          class="text-indigo-800 text-sm py-1 hover:text-gray-800 hover:bg-green-400 w-full"
         >
           <a :href="feature.live" target="_blank">Live</a>
         </button>
@@ -57,7 +57,7 @@ export default {
 <style>
 .card {
   font-family: "Hind", sans-serif;
-  transition: all 0.35s ease-in-out;
+  transition: all 0.25s cubic-bezier(0.55, 0.085, 0.68, 0.53);
 }
 .card img {
   transition: transform 0.3s ease-in-out;
@@ -66,9 +66,9 @@ export default {
   font-size: 1.15em;
 }
 .card:hover {
-  transform: scale(1.25);
+  transform: scale(1.2);
   z-index: 20;
-  border: 1px solid black;
+  border: 8px solid black;
 }
 .card:hover img {
   transform: scale(1.05);
@@ -83,5 +83,8 @@ button {
   width: 40px;
   height: 40px;
   opacity: 0.7;
+}
+.small {
+  font-size: 0.9em;
 }
 </style>

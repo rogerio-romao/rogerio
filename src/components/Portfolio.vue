@@ -1,6 +1,6 @@
 <template>
   <div class="p-6 mx-auto bg-gray-900">
-    <TopNav />
+    <TopNav portfolio="true" />
     <div
       class="border border-red-600 bg-black text-gray-200 w-full h-full p-4 flex-col mx-auto"
     >
@@ -16,14 +16,15 @@
           v-for="technology in this.$store.state.projects[this.currentProject]
             .technologies"
           :key="technology.name"
-          >{{ technology }}</span
         >
+          {{ technology }}
+        </span>
       </div>
       <div
         class="w-full flex mt-3 text-gray-200 items-center border-b pb-2 flex-wrap"
       >
         <h3 class="text-md font-semibold uppercase">Project name:</h3>
-        <transition mode="out-in">
+        <transition mode="out-in" name="fade">
           <span
             :key="this.currentProject"
             class="text-xl text-blue-500 border-r border-l p-2 rounded-lg shadow-sm align-middle font-bold tracking-wide ml-3"
@@ -87,7 +88,7 @@ export default {
 };
 </script>
 
-<style>
+<style scoped>
 .no-select {
   user-select: none;
 }

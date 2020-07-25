@@ -1,7 +1,7 @@
 <template>
   <div>
     <div
-      class="w-1/2 text-center bg-gray-200 border-blue-300 border rounded-md p-4 mx-auto my-4"
+      class="w-1/2 text-center bg-gray-400 border-blue-300 border rounded-md p-4 mx-auto my-4"
     >
       <a
         href="https://github.com/rogerio-romao"
@@ -21,7 +21,7 @@
       </a>
     </div>
     <footer>
-      <small>Coded by Rogerio Romao 2020 </small>
+      <small class="text-red-800">Coded by Rogerio Romao 2020 </small>
     </footer>
   </div>
 </template>
