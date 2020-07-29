@@ -395,7 +395,7 @@ export default new Vuex.Store({
         image: require("../assets/guess-number.png"),
         shortDesc: "Guess the number game.",
         longDesc:
-          "My take on the common programming challenge of Guess the Number game. I tried to push this simple problem into as much of a polished app as possible with attention to all details, a nice visualizer pattern for the guesses, automatic adjustment of the maximum guesses determined by the max number chosen by the user and a nice clean interface. ",
+          "My take on the common programming challenge of Guess the Number game. I tried to make it into as polished an app as possible - attention to details, a nice visualizer pattern for the guesses, automatic adjustment of the maximum guesses determined by the max number chosen by the user and a nice interface.",
         source: "https://codepen.io/rogerio-romao/pen/XWbQbbN",
         live: "https://codepen.io/rogerio-romao/full/XWbQbbN"
       },

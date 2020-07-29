@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="text-4xl text-right text-gray-200 mb-2">
+    <h1 class="text-4xl text-right text-gray-300 mb-2">
       Rogerio's Portfolio
     </h1>
     <div class="mb-2 text-gray-300 font-semibold">
@@ -63,8 +63,8 @@ export default {
 h1 {
   font-family: "Oswald", sans-serif !important;
   letter-spacing: 1px;
-  text-shadow: 2px 2px 1px rgba(0, 0, 0, 0.65),
-    -2px -2px 1px rgba(0, 0, 0, 0.65);
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.65),
+    -3px -3px 3px rgba(0, 0, 0, 0.65);
 }
 .nav-links {
   transition: all ease-in-out 0.15s;

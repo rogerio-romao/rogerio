@@ -9,7 +9,7 @@
       <i class="fas fa-arrow-left " @click="getPreviousImage"></i>
     </div>
     <div
-      class="p-2 mx-auto main justify-center items-center border-gray-500 border-4 relative"
+      class="p-2 mx-auto main justify-center items-center border-gray-500 border-4 relative main-image"
       @mouseover="isHidden = true"
       @mouseleave="isHidden = false"
     >
@@ -30,12 +30,7 @@
         </div>
       </transition>
       <transition mode="out-in" name="fade">
-        <img
-          class="main-image"
-          :key="this.currentImage"
-          :src="imagesFiltered"
-          alt
-        />
+        <img :key="this.currentImage" :src="imagesFiltered" alt />
       </transition>
     </div>
     <div
@@ -106,5 +101,8 @@ export default {
 }
 .buttons a:hover {
   border: 1px solid #111;
+}
+.main-image {
+  width: 90%;
 }
 </style>

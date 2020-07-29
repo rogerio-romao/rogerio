@@ -321,6 +321,114 @@
                   Learn Tailwind CSS by Victor Gonzalez
                 </a>
               </li>
+              <li>
+                <a
+                  class="text-gray-500 text-small hover:text-blue-800"
+                  href="https://scrimba.com/course/gportfolio/"
+                  target="_blank"
+                >
+                  Build and deploy a portfolio by Kevin Powell
+                </a>
+              </li>
+              <li>
+                <a
+                  class="text-gray-500 text-small hover:text-blue-800"
+                  href="https://scrimba.com/course/galgorithmsguide/"
+                  target="_blank"
+                >
+                  The Working Developer's Guide To Algorithms by Jonathan Lee
+                  Martin
+                </a>
+              </li>
+              <li>
+                <a
+                  class="text-gray-500 text-small hover:text-blue-800"
+                  href="https://scrimba.com/course/gcssanimations/"
+                  target="_blank"
+                >
+                  Learn CSS Animations by Jad Khalili
+                </a>
+              </li>
+              <li>
+                <a
+                  class="text-gray-500 text-small hover:text-blue-800"
+                  href="https://scrimba.com/course/greactgraphql/"
+                  target="_blank"
+                >
+                  Build an app with React and GraphQL by Karl Hadwen
+                </a>
+              </li>
+              <li>
+                <a
+                  class="text-gray-500 text-small hover:text-blue-800"
+                  href="https://scrimba.com/course/gvuetify/"
+                  target="_blank"
+                >
+                  Learn Vuetify by Gwen Faraday
+                </a>
+              </li>
+              <li>
+                <a
+                  class="text-gray-500 text-small hover:text-blue-800"
+                  href="https://scrimba.com/course/greactmovie/"
+                  target="_blank"
+                >
+                  Build a movie search app in React by James Q Quick
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <ul>
+          <li>
+            <strong>Skillshare</strong>
+            <ul>
+              <li>
+                <a
+                  class="text-gray-500 text-small hover:text-blue-800"
+                  href="https://www.skillshare.com/classes/The-JavaScript-Toolkit-Write-Cleaner-Faster-Better-Code/"
+                  target="_blank"
+                >
+                  The JavaScript Toolkit: Write Cleaner, Faster & Better Code by
+                  Christian Heilmann
+                </a>
+              </li>
+              <li>
+                <a
+                  class="text-gray-500 text-small hover:text-blue-800"
+                  href="https://www.skillshare.com/classes/Full-Stack-Web-Developer-in-2020/"
+                  target="_blank"
+                >
+                  Full Stack Web Developer in 2020 by Andrei Neagoie
+                </a>
+              </li>
+              <li>
+                <a
+                  class="text-gray-500 text-small hover:text-blue-800"
+                  href="https://www.skillshare.com/classes/ReactJS-and-Redux-Build-4-Web-Apps-14/"
+                  target="_blank"
+                >
+                  ReactJS and Redux - Build 4 Web Apps by David Katz
+                </a>
+              </li>
+              <li>
+                <a
+                  class="text-gray-500 text-small hover:text-blue-800"
+                  href="https://www.skillshare.com/classes/Vue-js-2-Academy-Learn-Vue-Step-by-Step/"
+                  target="_blank"
+                >
+                  Vue.js 2 Academy: Learn Vue Step by Step by Chris Dixon
+                </a>
+              </li>
+              <li>
+                <a
+                  class="text-gray-500 text-small hover:text-blue-800"
+                  href="https://www.skillshare.com/classes/The-Vue-JS-Crash-Course/"
+                  target="_blank"
+                >
+                  The Vue JS Crash Course by Stephen Sparling
+                </a>
+              </li>
             </ul>
           </li>
         </ul>

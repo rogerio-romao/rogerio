@@ -33,6 +33,6 @@ export default {
   margin: 1em;
   display: inline-block;
   width: 320px;
-  height: 480px;
+  height: 500px;
 }
 </style>

@@ -14,11 +14,13 @@
           alt=""
         />
       </div>
-      <div class="text-center text-2xl font-bold text-indigo-800 mt-1">
-        <h3>{{ feature.name }}</h3>
-      </div>
-      <div class="p-1 text-lg font-semibold text-center">
-        <p>{{ feature.shortDesc }}</p>
+      <div class="bg-gray-100 titles">
+        <div class="text-center text-2xl font-black text-indigo-800 mt-1">
+          <h3>{{ feature.name }}</h3>
+        </div>
+        <div class="p-1 font-semibold text-center">
+          <p>{{ feature.shortDesc }}</p>
+        </div>
       </div>
       <hr class="mx-4" />
       <div class="text-xs p-2 small">
@@ -57,34 +59,31 @@ export default {
 <style>
 .card {
   font-family: "Hind", sans-serif;
-  transition: all 0.25s cubic-bezier(0.55, 0.085, 0.68, 0.53);
-}
-.card img {
-  transition: transform 0.3s ease-in-out;
-}
-.card div:nth-of-type(3) {
-  font-size: 1.15em;
+  transition: all 0.25s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
 .card:hover {
-  transform: scale(1.2);
+  transform: scale(1.175);
   z-index: 20;
-  border: 8px solid black;
+  border: 4px solid white;
 }
-.card:hover img {
-  transform: scale(1.05);
+.card:hover .award {
+  opacity: 1;
+}
+.card:hover .titles {
+  background-color: #fff;
 }
 button {
   transition: all 0.2s ease-in-out;
 }
 .award {
   position: absolute;
-  top: 10px;
-  right: 10px;
-  width: 40px;
-  height: 40px;
+  top: 5px;
+  right: 5px;
+  width: 60px;
+  height: 60px;
   opacity: 0.7;
 }
 .small {
-  font-size: 0.9em;
+  font-size: 0.925em;
 }
 </style>
