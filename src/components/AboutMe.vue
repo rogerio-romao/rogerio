@@ -53,111 +53,6 @@
       <div>
         <ul>
           <li>
-            <strong>StackSkills</strong>
-            <ul>
-              <li>
-                <a
-                  class="text-gray-500 text-small hover:text-blue-800"
-                  href="https://stackskills.com/courses/394191"
-                  target="_blank"
-                >
-                  Python Fundamentals by Sanjin Dedic
-                </a>
-              </li>
-              <li>
-                <a
-                  class="text-gray-500 text-small hover:text-blue-800"
-                  href="https://stackskills.com/courses/657303"
-                  target="_blank"
-                >
-                  The Web Developer Bootcamp by Colt Steele
-                </a>
-              </li>
-              <li>
-                <a
-                  class="text-gray-500 text-small hover:text-blue-800"
-                  href="https://stackskills.com/courses/80405"
-                  target="_blank"
-                >
-                  Angular 2 Crash Course by Stone River eLearning
-                </a>
-              </li>
-              <li>
-                <a
-                  class="text-gray-500 text-small hover:text-blue-800"
-                  href="https://stackskills.com/courses/462105"
-                  target="_blank"
-                >
-                  Javascript Bible by Bogdan Stashchuk
-                </a>
-              </li>
-              <li>
-                <a
-                  class="text-gray-500 text-small hover:text-blue-800"
-                  href="https://stackskills.com/courses/102831"
-                  target="_blank"
-                >
-                  The Complete Python Course: Beginner to Advanced! by Joseph
-                  Delgadillo
-                </a>
-              </li>
-            </ul>
-          </li>
-        </ul>
-        <ul>
-          <li>
-            <strong>Wes Bos</strong>
-            <ul>
-              <li>
-                <a
-                  class="text-gray-500 text-small hover:text-blue-800"
-                  href="https://javascript30.com/"
-                  target="_blank"
-                >
-                  Javascript 30 days Coding Challenge by Wes Bos
-                </a>
-              </li>
-              <li>
-                <a
-                  class="text-gray-500 text-small hover:text-blue-800"
-                  href="https://cssgrid.io/"
-                  target="_blank"
-                >
-                  CSS Grid by Wes Bos
-                </a>
-              </li>
-              <li>
-                <a
-                  class="text-gray-500 text-small hover:text-blue-800"
-                  href="https://flexbox.io/"
-                  target="_blank"
-                >
-                  What the Flexbox?! by Wes Bos
-                </a>
-              </li>
-              <li>
-                <a
-                  class="text-gray-500 text-small hover:text-blue-800"
-                  href="https://commandlinepoweruser.com/"
-                  target="_blank"
-                >
-                  Command Line Power User by Wes Bos
-                </a>
-              </li>
-              <li>
-                <a
-                  class="text-gray-500 text-small hover:text-blue-800"
-                  href="https://learnredux.com/"
-                  target="_blank"
-                >
-                  Learn Redux by Wes Bos
-                </a>
-              </li>
-            </ul>
-          </li>
-        </ul>
-        <ul>
-          <li>
             <strong>Pluralsight</strong>
             <ul>
               <li>
@@ -429,9 +324,35 @@
                   The Vue JS Crash Course by Stephen Sparling
                 </a>
               </li>
+              <li>
+                <a
+                  class="text-gray-500 text-small hover:text-blue-800"
+                  href="https://www.skillshare.com/classes/CSS-Masterclass-the-only-CSS-course-youll-ever-need-to-take/1912713660/"
+                  target="_blank"
+                >
+                  CSS Masterclass by Kalob Taulien
+                </a>
+              </li>
             </ul>
           </li>
         </ul>
+        <ul>
+          <li>
+            <strong>Vue Mastery</strong>
+            <ul>
+              <li>
+                <a
+                  class="text-gray-500 text-small hover:text-blue-800"
+                  href="https://www.vuemastery.com/courses/unit-testing/what-to-test"
+                  target="_blank"
+                >
+                  Unit Testing by Vue Mastery
+                </a>
+              </li>
+            </ul>
+          </li>
+        </ul>
+        <Courses />
       </div>
     </div>
     <div class="where mt-4 text-gray-200 p-8 leading-8">
@@ -445,7 +366,12 @@
 </template>
 
 <script>
-export default {};
+import Courses from "./Courses";
+export default {
+  components: {
+    Courses
+  }
+};
 </script>
 
 <style scoped>

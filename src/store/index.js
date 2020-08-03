@@ -3,6 +3,8 @@ import Vuex from "vuex";
 
 Vue.use(Vuex);
 
+import courses from "./courses";
+
 export default new Vuex.Store({
   state: {
     projects: [
@@ -463,5 +465,5 @@ export default new Vuex.Store({
   },
   mutations: {},
   actions: {},
-  modules: {}
+  modules: { courses }
 });
