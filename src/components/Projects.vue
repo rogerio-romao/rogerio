@@ -61,13 +61,13 @@ export default {
   methods: {
     getNextImage() {
       this.currentImage =
-        (this.currentImage + 1) % this.$store.state.images.length;
+        (this.currentImage + 1) % this.$store.state.images.images.length;
       return this.currentImage;
     },
     getPreviousImage() {
       this.currentImage =
         this.currentImage - 1 < 0
-          ? this.$store.state.images.length - 1
+          ? this.$store.state.images.images.length - 1
           : this.currentImage - 1;
       return this.currentImage;
     }
@@ -75,17 +75,17 @@ export default {
   computed: {
     imagesFiltered() {
       let index = this.currentImage;
-      let pic = this.$store.state.images[index].url;
+      let pic = this.$store.state.images.images[index].url;
       return require("../assets/" + pic);
     },
     codeSource() {
       let index = this.currentImage;
-      let source = this.$store.state.images[index].source;
+      let source = this.$store.state.images.images[index].source;
       return source;
     },
     codeLive() {
       let index = this.currentImage;
-      let live = this.$store.state.images[index].live;
+      let live = this.$store.state.images.images[index].live;
       return live;
     }
   }

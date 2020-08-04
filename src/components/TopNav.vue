@@ -1,7 +1,7 @@
 <template>
   <div>
     <h1 class="text-4xl text-right text-gray-300 mb-2">
-      Rogerio's Portfolio
+      &lt; Rogerio's Portfolio / CV &gt;
     </h1>
     <div class="mb-2 text-gray-300 font-semibold">
       <router-link to="/">
@@ -71,6 +71,7 @@ h1 {
 }
 .nav-links:hover {
   border-top: 1px solid#3067c5;
+  text-decoration: none;
 }
 .active {
   border-top: 1px solid#3067c5;
