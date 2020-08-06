@@ -220,6 +220,15 @@ export default new Vuex.Store({
         technologies: ["Javascript", "CSS3", "HTML5"],
         longDesc:
           "I wanted to program something similar to Winamp in Javascript and learn how to handle audio on the web. I am very pleased with the look and functionality i managed to include, and have some ideas to expand it in the future."
+      },
+      {
+        id: 22,
+        name: "Password Generator",
+        type: "Front-End",
+        shortDesc: "An app to create random secure pesswords.",
+        technologies: ["Vue", "Vuetify", "Javascript", "CSS3", "HTML5"],
+        longDesc:
+          "Constructed using Vue and Vuetify. Select the length of the password you want to generate and if you want numbers and/or special characters included. You also get a handy button to copy the password to clipboard."
       }
     ],
     featured: [
@@ -276,6 +285,16 @@ export default new Vuex.Store({
       },
       {
         id: 6,
+        name: "Password Generator",
+        image: require("../assets/password-gen.png"),
+        shortDesc: "Create random secure pesswords.",
+        longDesc:
+          "Constructed using Vue and Vuetify. Select the length of the password you want to generate and if you want numbers and/or special characters included. You also get a handy button to copy the password to clipboard.",
+        source: "https://codepen.io/rogerio-romao/pen/poyoWKw",
+        live: "https://codepen.io/rogerio-romao/full/poyoWKw"
+      },
+      {
+        id: 7,
         name: "YelpCamp",
         image: require("../assets/yelpcamp.png"),
         shortDesc: "A Yelp like website from camping grounds.",
@@ -285,7 +304,7 @@ export default new Vuex.Store({
         live: "https://dry-escarpment-99868.herokuapp.com/"
       },
       {
-        id: 7,
+        id: 8,
         name: "The Collatz Sequence",
         image: require("../assets/collatz.png"),
         shortDesc: "A visualizer tool for the famous math sequence.",
@@ -295,7 +314,7 @@ export default new Vuex.Store({
         live: "https://codepen.io/rogerio-romao/full/WNQxaWq"
       },
       {
-        id: 8,
+        id: 9,
         name: "Avatars",
         image: require("../assets/avatars.png"),
         shortDesc: "A profile image / avatar custom display study.",
@@ -305,7 +324,7 @@ export default new Vuex.Store({
         live: "https://codepen.io/rogerio-romao/full/zYvzmRp"
       },
       {
-        id: 9,
+        id: 10,
         name: "Game of Life",
         image: require("../assets/gol.png"),
         shortDesc: "My version of the classic Conway's Game of Life.",
@@ -315,7 +334,7 @@ export default new Vuex.Store({
         live: "https://codepen.io/rogerio-romao/full/VwvbdZE"
       },
       {
-        id: 10,
+        id: 11,
         name: "Todo List",
         image: require("../assets/todov3.png"),
         shortDesc: "A todo list App made with JQuery.",
@@ -325,7 +344,7 @@ export default new Vuex.Store({
         live: "https://codepen.io/rogerio-romao/full/KKpzXeG"
       },
       {
-        id: 11,
+        id: 12,
         name: "JavaScript Calculator",
         image: require("../assets/javascript-calc.png"),
         shortDesc: "A complete vanilla Javascript calculator.",

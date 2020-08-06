@@ -126,6 +126,12 @@ const images = {
         url: "music-player.png",
         source: "https://codepen.io/rogerio-romao/pen/vYNvBzd",
         live: "https://codepen.io/rogerio-romao/full/vYNvBzd"
+      },
+      {
+        id: 22,
+        url: "password-gen.png",
+        source: "https://codepen.io/rogerio-romao/pen/poyoWKw",
+        live: "https://codepen.io/rogerio-romao/full/poyoWKw"
       }
     ]
   })

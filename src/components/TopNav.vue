@@ -76,4 +76,7 @@ h1 {
 .active {
   border-top: 1px solid#3067c5;
 }
+a:hover {
+  text-decoration: none;
+}
 </style>

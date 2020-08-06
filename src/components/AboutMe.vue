@@ -1,7 +1,7 @@
 <template>
   <div class="about-me bg-black">
     <img
-      class="float-right h-64 border border-black shadow-xl m-4"
+      class="float-right h-64 border border-gray-300 shadow-xl m-6"
       src="../assets/rogerio.jpg"
       alt="rogerio"
     />
@@ -44,8 +44,8 @@
     <div class="where mt-4 text-gray-200 p-8 leading-8">
       <h2 class="text-xl text-blue-500 font-semibold">Technologies</h2>
       <p>
-        HTML, CSS, Javascript, Vue, React, Git, Bootstrap, Tailwind, Canvas
-        Animations, Express, MongoDB, jQuery, NodeJS...
+        HTML, CSS, Javascript, Vue, React, Vuex, Nuxt, Git, Bootstrap, Vuetify,
+        Tailwind, Canvas Animations, Express, MongoDB, jQuery, NodeJS...
       </p>
     </div>
     <div class="where mt-4 text-gray-200 p-8">

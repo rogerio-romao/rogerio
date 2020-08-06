@@ -216,6 +216,48 @@ const courses = {
         ]
       },
       {
+        title: "Vue School",
+        courses: [
+          {
+            title: "Vuex for Everyone",
+            link: "https://vueschool.io/courses/vuex-for-everyone",
+            author: "Vue School"
+          },
+          {
+            title: "Internationalization with vue-i18n",
+            link:
+              "https://vueschool.io/courses/internationalization-with-vue-i18n",
+            author: "Vue School"
+          },
+          {
+            title: "Vue Router for Everyone",
+            link: "https://vueschool.io/courses/vue-router-for-everyone",
+            author: "Vue School"
+          },
+          {
+            title: "Vue.js Components Fundamentals",
+            link: "https://vueschool.io/courses/vuejs-components-fundamentals",
+            author: "Vue School"
+          },
+          {
+            title: "Nuxt.js Fundamentals",
+            link: "https://vueschool.io/courses/nuxtjs-fundamentals",
+            author: "Vue School"
+          },
+          {
+            title: "JavaScript Testing Fundamentals",
+            link:
+              "https://vueschool.io/courses/javascript-testing-fundamentals",
+            author: "Vue School"
+          },
+          {
+            title: "Vue.js Fundamentals",
+            link: "https://vueschool.io/courses/vuejs-fundamentals",
+            author: "Vue School"
+          }
+        ]
+      },
+      {
         title: "Wes Bos",
         courses: [
           {

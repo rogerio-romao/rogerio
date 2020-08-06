@@ -62,9 +62,9 @@ export default {
   transition: all 0.25s cubic-bezier(0.785, 0.135, 0.15, 0.86);
 }
 .card:hover {
-  transform: scale(1.175);
+  transform: scale(1.1);
   z-index: 20;
-  border: 4px solid white;
+  border: 2px solid white;
 }
 .card:hover .award {
   opacity: 1;
