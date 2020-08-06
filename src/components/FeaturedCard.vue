@@ -50,7 +50,7 @@
 export default {
   data() {
     return {
-      features: this.$store.state.featured
+      features: this.$store.state.featured.featured
     };
   }
 };
