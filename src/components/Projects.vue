@@ -9,28 +9,27 @@
       <i class="fas fa-arrow-left " @click="getPreviousImage"></i>
     </div>
     <div
-      class="p-2 mx-auto main justify-center items-center border-gray-500 border-4 relative main-image"
+      class="p-2 mx-auto main justify-center items-center border-gray-500 border-4 relative main-image overflow-hidden"
       @mouseover="isHidden = true"
       @mouseleave="isHidden = false"
     >
-      <transition>
-        <div
-          class="buttons text-gray-900 text-center absolute px-8 py-2"
-          v-show="isHidden"
+      <div
+        class="buttons text-gray-900 text-center absolute px-8 py-2"
+        v-show="isHidden"
+      >
+        <a class="hover:bg-white shadow" :href="codeLive" target="_blank"
+          >View Live</a
         >
-          <a class="hover:bg-white shadow" :href="codeLive" target="_blank"
-            >View Live</a
-          >
-          <a
-            class="ml-3 hover:bg-white shadow"
-            :href="codeSource"
-            target="_blank"
-            >Source Code</a
-          >
-        </div>
-      </transition>
-      <transition mode="out-in" name="fade">
-        <img :key="this.currentImage" :src="imagesFiltered" alt />
+        <a class="ml-3 hover:bg-white shadow" :href="codeSource" target="_blank"
+          >Source Code</a
+        >
+      </div>
+      <transition name="fade">
+        <img
+          :key="imagesFiltered"
+          :src="imagesFiltered"
+          alt="screenshot of the project"
+        />
       </transition>
     </div>
     <div
@@ -103,6 +102,7 @@ export default {
   border: 1px solid #111;
 }
 .main-image {
-  width: 90%;
+  width: 800px;
+  height: 500px;
 }
 </style>

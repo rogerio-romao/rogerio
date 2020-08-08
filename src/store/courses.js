@@ -209,8 +209,12 @@ const courses = {
         courses: [
           {
             title: "Unit Testing",
-            link:
-              "https://www.vuemastery.com/courses/unit-testing/what-to-test",
+            link: "https://www.vuemastery.com/courses/unit-testing/",
+            author: "Vue Mastery"
+          },
+          {
+            title: "Intro to Vue 3",
+            link: "https://www.vuemastery.com/courses/intro-to-vue-3/",
             author: "Vue Mastery"
           }
         ]
