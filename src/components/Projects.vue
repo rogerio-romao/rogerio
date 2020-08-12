@@ -102,7 +102,7 @@ export default {
   border: 1px solid #111;
 }
 .main-image {
-  width: 800px;
-  height: 500px;
+  max-width: 800px;
+  max-height: 500px;
 }
 </style>

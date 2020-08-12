@@ -216,6 +216,16 @@ const courses = {
             title: "Intro to Vue 3",
             link: "https://www.vuemastery.com/courses/intro-to-vue-3/",
             author: "Vue Mastery"
+          },
+          {
+            title: "Animating Vue",
+            link: "https://www.vuemastery.com/courses/animating-vue/",
+            author: "Vue Mastery"
+          },
+          {
+            title: "Intro to Vue.js",
+            link: "https://www.vuemastery.com/courses/intro-to-vue-js/",
+            author: "Vue Mastery"
           }
         ]
       },

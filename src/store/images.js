@@ -132,6 +132,12 @@ const images = {
         url: "password-gen.png",
         source: "https://codepen.io/rogerio-romao/pen/poyoWKw",
         live: "https://codepen.io/rogerio-romao/full/poyoWKw"
+      },
+      {
+        id: 23,
+        url: "portfolio.png",
+        source: "https://github.com/rogerio-romao/rogerio",
+        live: "#"
       }
     ]
   })

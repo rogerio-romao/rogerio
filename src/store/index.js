@@ -185,7 +185,7 @@ export default new Vuex.Store({
         shortDesc: "A JS music player / visualiser / generative art",
         technologies: ["Canvas", "Animation", "Javascript", "CSS3", "HTML5"],
         longDesc:
-          "Very proud of this one, programmed from scratch, pushing the envelope with animation and canvas, custom functions including a stagger using requestanimationframe, and a custom music player. Winner of a Codepen Pick!"
+          "Very proud of this one, programmed from scratch, pushing the envelope with animation and canvas, custom functions including a stagger using requestanimationframe, and a custom music player. Winner of a Codepen Pick! Also works as a standalone desktop app, planning to have this for sale in App Store."
       },
       {
         id: 19,
@@ -230,6 +230,25 @@ export default new Vuex.Store({
         technologies: ["Vue", "Vuetify", "Javascript", "CSS3", "HTML5"],
         longDesc:
           "Constructed using Vue and Vuetify. Select the length of the password you want to generate and if you want numbers and/or special characters included. You also get a handy button to copy the password to clipboard."
+      },
+      {
+        id: 23,
+        name: "Online Portfolio/CV",
+        type: "Full-Stack",
+        shortDesc: "My online portfolio / CV website",
+        technologies: [
+          "Vue",
+          "Vuex",
+          "Tailwind",
+          "FontAwesome",
+          "Git",
+          "Netlify",
+          "Javascript",
+          "CSS3",
+          "HTML5"
+        ],
+        longDesc:
+          "This website uses Vue as the framework with heavy use of Vuex for the state (separate modules for each component), with bespoke components for every section of the app and clear separation of concerns between data and presentation, where Tailwind is used for most CSS. Deployed on Netlify via Github integration."
       }
     ]
   },
