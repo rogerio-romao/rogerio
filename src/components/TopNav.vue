@@ -76,11 +76,10 @@ export default {
     changeTheme() {
       if (this.theme === "dark") {
         this.theme = "light";
-        document.documentElement.style.setProperty("--main-bg", "#bbb");
+        document.documentElement.style.setProperty("--main-bg", "#ccc");
         document.documentElement.style.setProperty("--secondary-bg", "#fff");
-        document.documentElement.style.setProperty("--text-shadow", "none");
         document.documentElement.style.setProperty("--font-color", "#aaa");
-        document.documentElement.style.setProperty("--main-text", "#fff");
+        document.documentElement.style.setProperty("--main-text", "#444");
         document.documentElement.style.setProperty("--links-hover", "#3182ce");
         document.documentElement.style.setProperty("--links", "#2c5282");
         document.documentElement.style.setProperty("--font-title", "#9b2c2c");
@@ -88,10 +87,6 @@ export default {
         this.theme = "dark";
         document.documentElement.style.setProperty("--main-bg", "#1a202c");
         document.documentElement.style.setProperty("--secondary-bg", "#000000");
-        document.documentElement.style.setProperty(
-          "--text-shadow",
-          "3px 3px 3px rgba(0, 0, 0, 0.65), -3px -3px 3px rgba(0, 0, 0, 0.65)"
-        );
         document.documentElement.style.setProperty("--font-color", "#e2e8f0");
         document.documentElement.style.setProperty("--main-text", "#edf2f7");
         document.documentElement.style.setProperty("--links-hover", "#2c5282");
@@ -108,7 +103,6 @@ export default {
 h1 {
   font-family: "Oswald", sans-serif !important;
   letter-spacing: 1px;
-  text-shadow: var(--text-shadow);
   color: var(--font-title);
 }
 .nav {

@@ -29,8 +29,6 @@ export default {
   --main-text: #edf2f7;
   --links: #a0aec0;
   --links-hover: #2c5282;
-  --text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.65),
-    -3px -3px 3px rgba(0, 0, 0, 0.65);
 }
 
 body {

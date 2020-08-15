@@ -1,7 +1,7 @@
 <template>
   <div class="px-6 mx-auto folio">
     <div
-      class="border border-red-600 theme-bg text-gray-200 w-full h-full p-4 flex-col mx-auto"
+      class="border border-red-600 theme-bg w-full h-full p-4 flex-col mx-auto"
     >
       <div class="w-full flex items-center mx-auto border-b pb-2">
         <h3 class="text-md font-semibold uppercase">Project Type:</h3>
@@ -19,9 +19,7 @@
           {{ technology }}
         </span>
       </div>
-      <div
-        class="w-full flex mt-3 text-gray-200 items-center border-b pb-2 flex-wrap"
-      >
+      <div class="w-full flex mt-3 items-center border-b pb-2 flex-wrap">
         <h3 class="text-md font-semibold uppercase">Project name:</h3>
         <transition mode="out-in" name="fade">
           <span
@@ -35,7 +33,7 @@
         </span>
       </div>
       <Projects @projectChange="changeProject($event)" />
-      <div class="description mt-5 text-gray-200">
+      <div class="description mt-5">
         <h3 class="text-md font-semibold uppercase text-center">
           Project Description
         </h3>
