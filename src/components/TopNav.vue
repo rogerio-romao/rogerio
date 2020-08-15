@@ -82,7 +82,7 @@ export default {
         document.documentElement.style.setProperty("--main-text", "#444");
         document.documentElement.style.setProperty("--links-hover", "#3182ce");
         document.documentElement.style.setProperty("--links", "#2c5282");
-        document.documentElement.style.setProperty("--font-title", "#9b2c2c");
+        document.documentElement.style.setProperty("--font-title", "#63b3e3");
       } else {
         this.theme = "dark";
         document.documentElement.style.setProperty("--main-bg", "#1a202c");

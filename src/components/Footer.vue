@@ -21,7 +21,7 @@
       </a>
     </div>
     <footer>
-      <small class="text-red-800 ml-4 mb-4">Coded by Rogerio Romao 2020 </small>
+      <small class="text-red-800 ml-6 mb-4">Coded by Rogerio Romao 2020 </small>
     </footer>
   </div>
 </template>
