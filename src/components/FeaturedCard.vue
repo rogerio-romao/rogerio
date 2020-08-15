@@ -29,17 +29,21 @@
         </p>
       </div>
       <div
-        class="flex justify-around absolute w-full bottom-0 pb-1 border-t border-indigo-400 bg-indigo-300"
+        class="flex justify-around absolute w-full bottom-0 pb-1 border-t border-indigo-400 bg-gray-500"
       >
         <button
           class="text-indigo-800 text-sm py-1 hover:text-gray-800 hover:bg-green-400 w-full"
         >
-          <a :href="feature.source" target="_blank">Source</a>
+          <a class="text-indigo-800" :href="feature.source" target="_blank"
+            >Source</a
+          >
         </button>
         <button
           class="text-indigo-800 text-sm py-1 hover:text-gray-800 hover:bg-green-400 w-full"
         >
-          <a :href="feature.live" target="_blank">Live</a>
+          <a class="text-indigo-800" :href="feature.live" target="_blank"
+            >Live</a
+          >
         </button>
       </div>
     </div>

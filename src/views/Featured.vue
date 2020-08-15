@@ -8,7 +8,7 @@
         A selection of some of my best projects. See the portfolio page for a
         bigger collection of works.
       </p>
-      <hr />
+      <hr class="separator" />
       <FeaturedCard />
     </div>
   </div>
@@ -32,7 +32,7 @@ export default {
   padding: 0 1.5em;
   background-color: var(--secondary-bg);
 }
-hr {
+.separator {
   margin: 20px 50px;
 }
 .card {
