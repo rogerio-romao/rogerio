@@ -1,31 +1,25 @@
 <template>
   <div class="about">
-    <TopNav about="true" />
-    <div class="border border-red-600 theme-bg p-4">
+    <div class="border border-red-600 theme-bg px-4">
       <AboutMe />
     </div>
-    <Footer />
   </div>
 </template>
 
 <script>
-import TopNav from "@/components/TopNav.vue";
-import Footer from "@/components/Footer.vue";
 import AboutMe from "@/components/AboutMe.vue";
 export default {
   name: "About",
   components: {
-    TopNav,
-    AboutMe,
-    Footer
+    AboutMe
   }
 };
 </script>
 
 <style>
 .about {
-  margin: 0;
-  padding: 1.5em;
+  margin: 0 1em;
+  padding: 0 0.5em;
   background-color: var(--secondary-bg);
 }
 

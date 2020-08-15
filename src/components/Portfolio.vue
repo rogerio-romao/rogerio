@@ -1,6 +1,5 @@
 <template>
-  <div class="p-6 mx-auto folio">
-    <TopNav portfolio="true" />
+  <div class="px-6 mx-auto folio">
     <div
       class="border border-red-600 theme-bg text-gray-200 w-full h-full p-4 flex-col mx-auto"
     >
@@ -45,14 +44,11 @@
         </p>
       </div>
     </div>
-    <Footer />
   </div>
 </template>
 
 <script>
-import TopNav from "./TopNav";
 import Projects from "@/components/Projects.vue";
-import Footer from "./Footer.vue";
 
 export default {
   methods: {
@@ -62,9 +58,7 @@ export default {
     }
   },
   components: {
-    Projects,
-    TopNav,
-    Footer
+    Projects
   },
   data: function() {
     return {

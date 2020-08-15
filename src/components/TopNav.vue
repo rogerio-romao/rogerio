@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="nav px-4">
     <div>
       <img
         v-if="theme === 'dark'"
@@ -28,25 +28,28 @@
     <div class="mb-2 font-semibold">
       <router-link to="/">
         <a
+          @click="page = 'featured'"
           class="mr-4 nav-links pt-2 text-lg"
           href="/featured"
-          :class="{ active: featured }"
+          :class="{ active: page === 'featured' }"
           >Featured Projects</a
         >
       </router-link>
       <router-link to="/projects">
         <a
+          @click="page = 'portfolio'"
           class="mr-4 nav-links pt-2 text-lg"
           href="/"
-          :class="{ active: portfolio }"
+          :class="{ active: page === 'portfolio' }"
           >Portfolio</a
         >
       </router-link>
       <router-link to="/about">
         <a
+          @click="page = 'about'"
           class="mr-4 nav-links bg-b pt-2 text-lg"
           href="/about"
-          :class="{ active: about }"
+          :class="{ active: page === 'about' }"
           >About Me</a
         >
       </router-link>
@@ -63,22 +66,9 @@ library.add(faFolderOpen);
 Vue.component("font-awesome-icon", FontAwesomeIcon);
 export default {
   name: "TopNav",
-  props: {
-    featured: {
-      type: Boolean,
-      default: false
-    },
-    portfolio: {
-      type: Boolean,
-      default: false
-    },
-    about: {
-      type: Boolean,
-      default: false
-    }
-  },
   data() {
     return {
+      page: "featured",
       theme: "dark"
     };
   },
@@ -120,6 +110,9 @@ h1 {
   letter-spacing: 1px;
   text-shadow: var(--text-shadow);
   color: var(--font-title);
+}
+.nav {
+  margin: 0.5em 0.5em 0 0.5em;
 }
 .nav-links {
   transition: all ease-in-out 0.15s;
