@@ -1,10 +1,6 @@
 <template>
   <li>
-    <a
-      class="text-gray-500 text-small hover:text-blue-800"
-      :href="url"
-      target="_blank"
-    >
+    <a class="text-small" :href="url" target="_blank">
       {{ course }} by {{ teacher }}
     </a>
   </li>
@@ -36,4 +32,11 @@ export default {
 };
 </script>
 
-<style></style>
+<style>
+a {
+  color: var(--links);
+}
+a:hover {
+  color: var(--links-hover);
+}
+</style>

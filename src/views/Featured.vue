@@ -1,7 +1,7 @@
 <template>
-  <div class="featured bg-gray-900">
+  <div class="featured">
     <TopNav featured="true" />
-    <div class="cards border border-red-600 bg-black p-4">
+    <div class="cards border border-red-600 theme-bg p-4">
       <FeaturedCard />
     </div>
     <Footer />
@@ -28,7 +28,9 @@ export default {
 .featured {
   margin: 0;
   padding: 1.5em;
+  background-color: var(--secondary-bg);
 }
+
 .card {
   margin: 1em;
   display: inline-block;

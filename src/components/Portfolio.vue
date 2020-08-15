@@ -1,8 +1,8 @@
 <template>
-  <div class="p-6 mx-auto bg-gray-900">
+  <div class="p-6 mx-auto folio">
     <TopNav portfolio="true" />
     <div
-      class="border border-red-600 bg-black text-gray-200 w-full h-full p-4 flex-col mx-auto"
+      class="border border-red-600 theme-bg text-gray-200 w-full h-full p-4 flex-col mx-auto"
     >
       <div class="w-full flex items-center mx-auto border-b pb-2">
         <h3 class="text-md font-semibold uppercase">Project Type:</h3>
@@ -89,6 +89,13 @@ export default {
 </script>
 
 <style scoped>
+.folio {
+  background-color: var(--secondary-bg);
+  color: var(--main-text);
+}
+.theme-bg {
+  background-color: var(--main-bg);
+}
 .no-select {
   user-select: none;
 }

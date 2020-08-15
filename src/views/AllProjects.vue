@@ -15,3 +15,9 @@ export default {
   }
 };
 </script>
+
+<style>
+.home {
+  background-color: var(--main-bg);
+}
+</style>

@@ -1,11 +1,11 @@
 <template>
-  <div class="about-me bg-black">
+  <div class="about-me">
     <img
       class="float-right h-64 border border-gray-300 shadow-xl m-6"
       src="../assets/rogerio.jpg"
       alt="rogerio"
     />
-    <div class="who text-gray-200 p-8 leading-8">
+    <div class="who p-8 leading-8">
       <h2 class="text-xl font-semibold text-blue-500">Who am I</h2>
       <p>
         Hi, I'm Rogerio! I have a nice easy-going personality, and am very easy
@@ -20,7 +20,7 @@
         technologies involved.
       </p>
     </div>
-    <div class="why mt-4 text-gray-200 p-8 leading-8">
+    <div class="why mt-4 p-8 leading-8">
       <h2 class="text-xl font-semibold text-blue-500">Why I code</h2>
       <p>
         Having decided that my previous line of work was not fulfilling me, had
@@ -34,7 +34,7 @@
         React, HTML5, CSS3, Javascript, Git & jQuery.
       </p>
     </div>
-    <div class="where mt-4 text-gray-200 p-8 leading-8">
+    <div class="where mt-4 p-8 leading-8">
       <h2 class="text-xl text-blue-500 font-semibold">Where I want to go</h2>
       <p>
         I see myself doing this passionately, continually improving and learning
@@ -45,7 +45,7 @@
         learn and grow and provide value.
       </p>
     </div>
-    <div class="where mt-4 text-gray-200 p-8 leading-8">
+    <div class="where mt-4 p-8 leading-8">
       <h2 class="text-xl text-blue-500 font-semibold">Technologies</h2>
       <p>
         HTML, CSS, Javascript, Vue, React, Vuex, Nuxt, Git, Bootstrap, Vuetify,
@@ -60,13 +60,13 @@
         <a
           href="https://github.com/rogerio-romao/rogerio"
           target="_blank"
-          class="text-gray-500 text-small hover:text-blue-800"
+          class="text-small"
         >
           https://github.com/rogerio-romao/rogerio
         </a>
       </p>
     </div>
-    <div class="where mt-4 text-gray-200 p-8 leading-8">
+    <div class="where mt-4 p-8 leading-8">
       <h2 class="text-xl text-blue-500 font-semibold">Contact Me</h2>
       <p>
         If your company is looking for someone passionate, talented, creative,
@@ -75,7 +75,7 @@
         hearing from you!
       </p>
     </div>
-    <div class="where mt-4 text-gray-200 p-8 leading-8">
+    <div class="where mt-4 p-8 leading-8">
       <h2 class="text-xl text-blue-500 font-semibold">Courses</h2>
       <p>
         Other than the courses listed below, i also regularly spend time
@@ -102,11 +102,19 @@ export default {
 </script>
 
 <style scoped>
+.about-me {
+  background-color: var(--main-bg);
+  color: var(--main-text);
+}
 ul {
   margin-top: 1em;
   margin-left: 0.5em;
 }
+a {
+  color: var(--links);
+}
 a:hover {
   text-decoration: underline;
+  color: var(--links-hover);
 }
 </style>

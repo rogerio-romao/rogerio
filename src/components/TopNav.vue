@@ -1,12 +1,34 @@
 <template>
   <div>
-    <h1 class="text-4xl text-right text-gray-300 mb-2">
+    <div>
+      <img
+        v-if="theme === 'dark'"
+        class="theme-icon"
+        width="24"
+        height="24"
+        src="../assets/light.svg"
+        alt="light mode"
+        title="Switch to light theme"
+        @click="changeTheme"
+      />
+      <img
+        v-else
+        class="theme-icon"
+        width="24"
+        height="24"
+        src="../assets/dark.svg"
+        alt="dark mode"
+        title="Switch to dark theme"
+        @click="changeTheme"
+      />
+    </div>
+    <h1 class="text-4xl text-right mb-2">
       &lt; Rogerio's Portfolio / CV &gt;
     </h1>
-    <div class="mb-2 text-gray-300 font-semibold">
+    <div class="mb-2 font-semibold">
       <router-link to="/">
         <a
-          class="mr-4 nav-links pt-2 text-lg hover:text-red-800"
+          class="mr-4 nav-links pt-2 text-lg"
           href="/featured"
           :class="{ active: featured }"
           >Featured Projects</a
@@ -14,7 +36,7 @@
       </router-link>
       <router-link to="/projects">
         <a
-          class="mr-4 nav-links pt-2 text-gray-300 text-lg  hover:text-red-800"
+          class="mr-4 nav-links pt-2 text-lg"
           href="/"
           :class="{ active: portfolio }"
           >Portfolio</a
@@ -22,7 +44,7 @@
       </router-link>
       <router-link to="/about">
         <a
-          class="mr-4 nav-links pt-2 text-gray-300  text-lg hover:text-red-800"
+          class="mr-4 nav-links bg-b pt-2 text-lg"
           href="/about"
           :class="{ active: about }"
           >About Me</a
@@ -54,6 +76,39 @@ export default {
       type: Boolean,
       default: false
     }
+  },
+  data() {
+    return {
+      theme: "dark"
+    };
+  },
+  methods: {
+    changeTheme() {
+      if (this.theme === "dark") {
+        this.theme = "light";
+        document.documentElement.style.setProperty("--main-bg", "#bbb");
+        document.documentElement.style.setProperty("--secondary-bg", "#fff");
+        document.documentElement.style.setProperty("--text-shadow", "none");
+        document.documentElement.style.setProperty("--font-color", "#aaa");
+        document.documentElement.style.setProperty("--main-text", "#fff");
+        document.documentElement.style.setProperty("--links-hover", "#3182ce");
+        document.documentElement.style.setProperty("--links", "#2c5282");
+        document.documentElement.style.setProperty("--font-title", "#9b2c2c");
+      } else {
+        this.theme = "dark";
+        document.documentElement.style.setProperty("--main-bg", "#1a202c");
+        document.documentElement.style.setProperty("--secondary-bg", "#000000");
+        document.documentElement.style.setProperty(
+          "--text-shadow",
+          "3px 3px 3px rgba(0, 0, 0, 0.65), -3px -3px 3px rgba(0, 0, 0, 0.65)"
+        );
+        document.documentElement.style.setProperty("--font-color", "#e2e8f0");
+        document.documentElement.style.setProperty("--main-text", "#edf2f7");
+        document.documentElement.style.setProperty("--links-hover", "#2c5282");
+        document.documentElement.style.setProperty("--links", "#a0aec0");
+        document.documentElement.style.setProperty("--font-title", "#e2e8f0");
+      }
+    }
   }
 };
 </script>
@@ -63,14 +118,16 @@ export default {
 h1 {
   font-family: "Oswald", sans-serif !important;
   letter-spacing: 1px;
-  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.65),
-    -3px -3px 3px rgba(0, 0, 0, 0.65);
+  text-shadow: var(--text-shadow);
+  color: var(--font-title);
 }
 .nav-links {
   transition: all ease-in-out 0.15s;
+  color: var(--font-color);
 }
 .nav-links:hover {
   border-top: 1px solid#3067c5;
+  color: var(--font-hover);
   text-decoration: none;
 }
 .active {
@@ -78,5 +135,13 @@ h1 {
 }
 a:hover {
   text-decoration: none;
+}
+.theme-icon {
+  opacity: 0.66;
+  cursor: pointer;
+  transition: all 0.25s;
+}
+.theme-icon:hover {
+  opacity: 1;
 }
 </style>

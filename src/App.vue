@@ -7,11 +7,24 @@
 </template>
 
 <style>
+:root {
+  --main-bg: #1a202c;
+  --secondary-bg: #000000;
+  --font-color: #e2e8f0;
+  --font-title: #e2e8f0;
+  --font-hover: #9b2c2c;
+  --main-text: #edf2f7;
+  --links: #a0aec0;
+  --links-hover: #2c5282;
+  --text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.65),
+    -3px -3px 3px rgba(0, 0, 0, 0.65);
+}
+
 body {
   font-family: "Open Sans Condensed", sans-serif;
   font-weight: 100;
   font-size: 1em;
-  background-color: #000;
+  background-color: var(--secondary-bg);
   box-sizing: border-box;
 }
 .fade-enter-active,

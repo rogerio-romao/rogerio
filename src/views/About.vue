@@ -1,7 +1,7 @@
 <template>
-  <div class="about bg-gray-900">
+  <div class="about">
     <TopNav about="true" />
-    <div class="border border-red-600 bg-black p-4">
+    <div class="border border-red-600 theme-bg p-4">
       <AboutMe />
     </div>
     <Footer />
@@ -26,5 +26,10 @@ export default {
 .about {
   margin: 0;
   padding: 1.5em;
+  background-color: var(--secondary-bg);
+}
+
+.theme-bg {
+  background-color: var(--main-bg);
 }
 </style>
