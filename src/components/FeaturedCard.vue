@@ -14,7 +14,7 @@
           alt=""
         />
       </div>
-      <div class="bg-gray-100 titles">
+      <div class="bg-gray-100 titles border-t border-black">
         <div class="text-center text-2xl font-black text-indigo-800 mt-1">
           <h3>{{ feature.name }}</h3>
         </div>
