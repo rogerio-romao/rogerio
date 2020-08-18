@@ -24,13 +24,11 @@
           >Source Code</a
         >
       </div>
-      <transition name="fade">
-        <img
-          :key="imagesFiltered"
-          :src="imagesFiltered"
-          alt="screenshot of the project"
-        />
-      </transition>
+      <img
+        :key="imagesFiltered"
+        :src="imagesFiltered"
+        alt="screenshot of the project"
+      />
     </div>
     <div
       class="flex justify-center items-center text-blue-800 hover:text-green-600"
@@ -97,6 +95,7 @@ export default {
   border-radius: 8px;
   background-color: rgba(255, 255, 255, 0.5);
   transition: all 0.15s;
+  color: #111;
 }
 .buttons a:hover {
   border: 1px solid #111;

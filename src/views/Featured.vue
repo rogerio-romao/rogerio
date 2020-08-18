@@ -6,7 +6,8 @@
       </h1>
       <p class="text-center text-gray-600 mb-2">
         A selection of some of my best projects. See the portfolio page for a
-        bigger collection of works.
+        bigger collection of works, and the about page to learn more about me
+        and contact details.
       </p>
       <hr class="separator" />
       <FeaturedCard />

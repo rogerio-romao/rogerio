@@ -249,6 +249,26 @@ export default new Vuex.Store({
         ],
         longDesc:
           "This website uses Vue as the framework with heavy use of Vuex for the state (separate modules for each component), with bespoke components for every section of the app and clear separation of concerns between data and presentation, where Tailwind is used for most CSS. Deployed on Netlify via Github integration."
+      },
+      {
+        id: 24,
+        name: "The Catstagram",
+        type: "Full-Stack",
+        shortDesc: "A mockup of an Instagram like app",
+        technologies: [
+          "Vue",
+          "Nuxt",
+          "Vuetify",
+          "Axios",
+          "APIs",
+          "Git",
+          "Netlify",
+          "Javascript",
+          "CSS3",
+          "HTML5"
+        ],
+        longDesc:
+          "This was done with Vue as the framework with Nuxt bootstrapping and Vuetify for the presentation. Uses async API calls via Axios."
       }
     ]
   },

@@ -23,6 +23,16 @@ const featured = {
       },
       {
         id: 3,
+        name: "The Catstagram",
+        image: require("../assets/catstagram.png"),
+        shortDesc: "A mockup of an Instagram like app.",
+        longDesc:
+          "This was done with Vue as the framework with Nuxt bootstrapping and Vuetify for the presentation. Uses async API calls via Axios.",
+        source: "https://github.com/rogerio-romao/purple-test",
+        live: "https://app.netlify.com/sites/nifty-ptolemy-7b0487"
+      },
+      {
+        id: 4,
         name: "Music Player",
         image: require("../assets/music-player.png"),
         shortDesc: "A javascript music player. Simple but beautiful and solid.",
@@ -32,7 +42,7 @@ const featured = {
         live: "https://codepen.io/rogerio-romao/full/vYNvBzd"
       },
       {
-        id: 4,
+        id: 5,
         name: "The Randomizer",
         image: require("../assets/randomizer.png"),
         shortDesc:
@@ -43,7 +53,7 @@ const featured = {
         live: "https://codepen.io/rogerio-romao/full/Baoqvmm"
       },
       {
-        id: 5,
+        id: 6,
         name: "Converse",
         image: require("../assets/converse.png"),
         shortDesc: "A responsive units conversion app.",
@@ -53,7 +63,7 @@ const featured = {
         live: "https://codepen.io/rogerio-romao/full/RwPaaRR"
       },
       {
-        id: 6,
+        id: 7,
         name: "Guess The Number",
         image: require("../assets/guess-number.png"),
         shortDesc: "Guess the number game.",
@@ -63,7 +73,7 @@ const featured = {
         live: "https://codepen.io/rogerio-romao/full/XWbQbbN"
       },
       {
-        id: 7,
+        id: 8,
         name: "Password Generator",
         image: require("../assets/password-gen.png"),
         shortDesc: "Create random secure pesswords.",
@@ -73,7 +83,7 @@ const featured = {
         live: "https://codepen.io/rogerio-romao/full/poyoWKw"
       },
       {
-        id: 8,
+        id: 9,
         name: "YelpCamp",
         image: require("../assets/yelpcamp.png"),
         shortDesc: "A Yelp like website from camping grounds.",
@@ -83,7 +93,7 @@ const featured = {
         live: "https://dry-escarpment-99868.herokuapp.com/"
       },
       {
-        id: 9,
+        id: 10,
         name: "The Collatz Sequence",
         image: require("../assets/collatz.png"),
         shortDesc: "A visualizer tool for the famous math sequence.",
@@ -93,7 +103,7 @@ const featured = {
         live: "https://codepen.io/rogerio-romao/full/WNQxaWq"
       },
       {
-        id: 10,
+        id: 11,
         name: "Avatars",
         image: require("../assets/avatars.png"),
         shortDesc: "A profile image / avatar custom display study.",
@@ -103,7 +113,7 @@ const featured = {
         live: "https://codepen.io/rogerio-romao/full/zYvzmRp"
       },
       {
-        id: 11,
+        id: 12,
         name: "Game of Life",
         image: require("../assets/gol.png"),
         shortDesc: "My version of the classic Conway's Game of Life.",
@@ -113,7 +123,7 @@ const featured = {
         live: "https://codepen.io/rogerio-romao/full/VwvbdZE"
       },
       {
-        id: 12,
+        id: 13,
         name: "Todo List",
         image: require("../assets/todov3.png"),
         shortDesc: "A todo list App made with JQuery.",
@@ -123,7 +133,7 @@ const featured = {
         live: "https://codepen.io/rogerio-romao/full/KKpzXeG"
       },
       {
-        id: 13,
+        id: 14,
         name: "JavaScript Calculator",
         image: require("../assets/javascript-calc.png"),
         shortDesc: "A complete vanilla Javascript calculator.",
