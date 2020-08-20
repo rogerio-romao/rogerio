@@ -6,6 +6,7 @@ Vue.use(Vuex);
 import courses from "./courses";
 import images from "./images";
 import featured from "./featured";
+import details from "./details";
 
 export default new Vuex.Store({
   state: {
@@ -17,7 +18,8 @@ export default new Vuex.Store({
         shortDesc: "A responsive units conversion app.",
         technologies: ["Javascript", "JQuery", "CSS3", "HTML5"],
         longDesc:
-          "Unit Conversion Program, does distances, weights and temperatures. Sleek flat style design and attention to user experience were my focus, as well as functional and well structured and documented code. Built using JQuery."
+          "Unit Conversion Program, does distances, weights and temperatures. Sleek flat style design and attention to user experience were my focus, as well as functional and well structured and documented code. Built using JQuery.",
+        details: true
       },
       {
         id: 2,
@@ -274,5 +276,5 @@ export default new Vuex.Store({
   },
   mutations: {},
   actions: {},
-  modules: { courses, images, featured }
+  modules: { courses, images, featured, details }
 });

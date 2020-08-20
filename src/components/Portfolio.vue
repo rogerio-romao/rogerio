@@ -37,9 +37,26 @@
         <h3 class="text-md font-semibold uppercase text-center">
           Project Description
         </h3>
-        <p class="mt-2">
+        <p class="mt-3">
           {{ projLongDesc }}
         </p>
+      </div>
+      <div v-if="showDetails" class="details mt-5 border-t">
+        <h3 class="text-md font-semibold uppercase text-center mt-5">
+          Project Details
+        </h3>
+        <p class="mt-3">
+          {{ projDetails.head }}
+        </p>
+        <div class="detail-images mt-5 rounded-md">
+          <img
+            class="rounded-md border-gray-400 border-2 shadow-lg"
+            v-for="image in projDetails.images"
+            :key="image"
+            :src="image"
+            alt="details from this project"
+          />
+        </div>
       </div>
     </div>
   </div>
@@ -75,6 +92,15 @@ export default {
     },
     projLongDesc() {
       return this.$store.state.projects[this.currentProject].longDesc;
+    },
+    showDetails() {
+      return this.$store.state.projects[this.currentProject].details;
+    },
+    projDetails() {
+      return this.$store.state.details.find(
+        detail =>
+          detail.id === this.$store.state.projects[this.currentProject].id
+      );
     }
   }
 };
@@ -90,5 +116,12 @@ export default {
 }
 .no-select {
   user-select: none;
+}
+.detail-images {
+  width: 100%;
+  display: grid;
+  gap: 15px;
+  grid-template-columns: repeat(auto-fill, 200px);
+  justify-content: space-around;
 }
 </style>
