@@ -28,7 +28,8 @@ export default new Vuex.Store({
         shortDesc: "A todo list App made with JQuery.",
         technologies: ["Javascript", "JQuery", "CSS3", "HTML5"],
         longDesc:
-          "This project uses Sass for the presentation side of things, which i worked a lot on and am pretty happy with. I use variables to make it easier, and implemented a theming functionality. Learnt how to include a drag and drop functionality to the interface as well, after researching settle on JQuery for that. App is responsive using media queries."
+          "This project uses Sass for the presentation side of things, which i worked a lot on and am pretty happy with. I use variables to make it easier, and implemented a theming functionality. Learnt how to include a drag and drop functionality to the interface as well, after researching settle on JQuery for that. App is responsive using media queries.",
+        details: true
       },
       {
         id: 3,

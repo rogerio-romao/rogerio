@@ -51,7 +51,7 @@
         <div class="detail-images mt-5 rounded-md">
           <img
             class="rounded-md border-gray-400 border-2 shadow-lg"
-            v-for="image in projDetails.images"
+            v-for="image in projDetails.images1"
             :key="image"
             :src="image"
             alt="details from this project"
