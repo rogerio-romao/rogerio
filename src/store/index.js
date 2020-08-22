@@ -36,9 +36,9 @@ export default new Vuex.Store({
         name: "Javascript Calculator",
         type: "Front-End",
         shortDesc: "A complete vanilla Javascript calculator.",
-        technologies: ["Javascript", "CSS3", "HTML5"],
+        technologies: ["Javascript", "CSS3", "HTML5", "jQuery"],
         longDesc:
-          "Javascript calculator coded from scratch using functional programming processes. It is working but i'm still trying to improve a couple aspects with the order of operations and dealing with max input size and decimal points."
+          "Javascript calculator coded from scratch using functional programming processes. Makes use of jQuery for and css variables."
       },
       {
         id: 4,
