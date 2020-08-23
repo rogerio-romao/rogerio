@@ -20,6 +20,18 @@ const details = {
         require("../assets/todov3-details2.png"),
         require("../assets/todov3-details3.png")
       ]
+    },
+    {
+      id: 5,
+      head:
+        "This was a huge full stack project, the final project of Colt Steele's online Bootcamp. It has a backend based on Express and MongoDB with Mongoose. There is authorization with Passport, and several API based services such as Cloudinary for uploading the images and Google Maps to show the location of the camps. Lots of npm packages used to build the app such as Moments.js for date / times and Bootstrap was used to help create the frontend. Used the AWS Cloud9 IDE for this one.",
+      images1: [
+        require("../assets/yelpcamp-details1.png"),
+        require("../assets/yelpcamp-details2.png"),
+        require("../assets/yelpcamp-details3.png"),
+        require("../assets/yelpcamp-details4.png"),
+        require("../assets/yelpcamp-details5.png")
+      ]
     }
   ]
 };

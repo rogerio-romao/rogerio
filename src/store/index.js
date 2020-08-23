@@ -57,7 +57,8 @@ export default new Vuex.Store({
         shortDesc: "A Yelp like website from camping grounds.",
         technologies: ["NodeJS", "Express", "MongoDb", "EJS", "CSS3", "HTML5"],
         longDesc:
-          "This is a full fledged full-stack project that as the assignment from Colt Steele's WebDev Bootcamp. It's got API's, geocoding, restful routes, mvc architecture, templating, the works."
+          "This is a full fledged full-stack project that as the assignment from Colt Steele's WebDev Bootcamp. It's got API's, geocoding, restful routes, mvc architecture, templating, the works.",
+        details: true
       },
       {
         id: 6,
