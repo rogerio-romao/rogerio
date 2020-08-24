@@ -83,7 +83,8 @@
         done nearly all of their certifications. I also enjoy practicing by
         doing coding challenges / exercises in websites such as Codesignal
         (163125 points), Codewars(ranked 4kyu, 1293 points) and Edabit (8340
-        xp).
+        xp). Scored 93% on Hired.com's coding interview tests. Currently taking
+        Harvard University's Computer Science course CS50 online.
       </p>
       <div>
         <Courses />
