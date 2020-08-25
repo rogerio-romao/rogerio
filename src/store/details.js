@@ -32,6 +32,15 @@ const details = {
         require("../assets/yelpcamp-details4.png"),
         require("../assets/yelpcamp-details5.png")
       ]
+    },
+    {
+      id: 10,
+      head:
+        "This was coded for the FreeCodeCamp front end certification challenges. We are given some user stories and have to build the app to pass a test suite that meets all those stories. I coded it in plain vanilla JS, the biggest challenge was to keep two separate timers with different intervals syncronised and cycling through seamlessly, and in the end i was pretty satisfied with how it turned out.",
+      images1: [
+        require("../assets/pomodoro-details1.png"),
+        require("../assets/pomodoro-details2.png")
+      ]
     }
   ]
 };

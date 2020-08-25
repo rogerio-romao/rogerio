@@ -67,7 +67,7 @@ export default new Vuex.Store({
         shortDesc: "A retro-style fun little arcade/puzzle game.",
         technologies: ["Contruct3", "Netlify", "Deployment"],
         longDesc:
-          "Using the Construct3 game engine, it's a fun little puzzle game with a few kinks i still need to iron out."
+          "Using the Construct3 game engine, it's a fun little puzzle game, first experiment doing a game following some tutorials, not something i'm probably gonna pursue and there's some bugs but it was fun to make."
       },
       {
         id: 7,
@@ -75,7 +75,8 @@ export default new Vuex.Store({
         type: "Game",
         shortDesc: "A retro-style arcade space shooting game",
         technologies: ["Contruct3", "Netlify", "Deployment"],
-        longDesc: "Game made using the Construct 3 game engine."
+        longDesc:
+          "Game made using the Construct 3 game engine. This was the second experiment of creating a game and it works pretty well altough it is very simple."
       },
       {
         id: 8,
@@ -84,23 +85,24 @@ export default new Vuex.Store({
         shortDesc: "A play on the classic game",
         technologies: ["Javascript", "CSS3", "HTML5"],
         longDesc:
-          "I set out to program my version of this popular game, making it look as good as possible."
+          "Someone was playing this on a movie I was watching, and I set out to try to program this game, as fast as possible as a challenge, this was roughly 2hrs work."
       },
       {
         id: 9,
         name: "Nuxt mini-website",
         type: "Full-Stack",
-        shortDesc: "Example Nuxt/Vue mini application",
+        shortDesc: "Example Nuxt/Vue mini blog",
         technologies: [
           "Javascript",
           "CSS3",
           "HTML5",
           "Vue",
           "Nuxt",
+          "Heroku",
           "Deployment"
         ],
         longDesc:
-          "A simple nuxt / vue website as a proof of concept course project. Uses the auto-routing features of nuxt, components, computed properties and methods from Vue."
+          "A simple nuxt / vue website / blog as a proof of concept course project from VueSchool. Uses the auto-routing features of nuxt, components, computed properties and methods from Vue. Deployed to Heroku."
       },
       {
         id: 10,
@@ -109,7 +111,8 @@ export default new Vuex.Store({
         shortDesc: "Pomodoro Session Clock",
         technologies: ["Javascript", "CSS3", "HTML5"],
         longDesc:
-          "A timer app with session and break intervals, dealing with the complexities of time and interval management in coding."
+          "A timer app with session and break intervals, dealing with the complexities of time and interval management in coding. There is a session timer and a break timer and the cycle through continuously, with independent intervals, and with a beep everytime a timer runs out. The interface colors switch as well between session and break.",
+        details: true
       },
       {
         id: 11,
