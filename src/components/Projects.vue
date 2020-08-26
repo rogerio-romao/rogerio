@@ -76,6 +76,9 @@ export default {
       }
     });
   },
+  destroyed() {
+    window.removeEventListener("keyup");
+  },
   data() {
     return {
       isHidden: false,

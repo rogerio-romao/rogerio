@@ -50,7 +50,6 @@ const details = {
         require("../assets/guess-number-details1.png"),
         require("../assets/guess-number-details2.png"),
         require("../assets/guess-number-details3.png"),
-        require("../assets/guess-number-details4.png"),
         require("../assets/guess-number-details4.png")
       ]
     }
