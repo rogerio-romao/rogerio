@@ -1,12 +1,20 @@
 <template>
   <div class="w-full h-full p-8 m-2 grid grid-cols-main grid-rows-main">
     <div class="col-span-3 text-center mb-2 text-blue-800 hover:text-green-600">
-      <i class="fas fa-arrow-up " @click="getNextImage"></i>
+      <i
+        class="fas fa-arrow-up"
+        title="Click or use arrow keys"
+        @click="getNextImage"
+      ></i>
     </div>
     <div
       class="flex justify-center items-center text-blue-800 hover:text-green-600"
     >
-      <i class="fas fa-arrow-left " @click="getPreviousImage"></i>
+      <i
+        class="fas fa-arrow-left"
+        title="Click or use arrow keys"
+        @click="getPreviousImage"
+      ></i>
     </div>
     <div
       class="p-2 mx-auto main justify-center items-center border-gray-500 border-4 relative main-image overflow-hidden"
@@ -33,10 +41,18 @@
     <div
       class="flex justify-center items-center text-blue-800 hover:text-green-600"
     >
-      <i class="fas fa-arrow-right " @click="getNextImage"></i>
+      <i
+        class="fas fa-arrow-right"
+        title="Click or use arrow keys"
+        @click="getNextImage"
+      ></i>
     </div>
     <div class="col-span-3 text-center mt-2 text-blue-800 hover:text-green-600">
-      <i class="fas fa-arrow-down " @click="getPreviousImage"></i>
+      <i
+        class="fas fa-arrow-down"
+        title="Click or use arrow keys"
+        @click="getPreviousImage"
+      ></i>
     </div>
   </div>
 </template>
@@ -44,6 +60,22 @@
 <script>
 export default {
   name: "Projects",
+  mounted() {
+    window.addEventListener("keyup", e => {
+      switch (e.keyCode) {
+        case 37:
+        case 40:
+          this.getPreviousImage();
+          break;
+        case 38:
+        case 39:
+          this.getNextImage();
+          break;
+        default:
+          break;
+      }
+    });
+  },
   data() {
     return {
       isHidden: false,

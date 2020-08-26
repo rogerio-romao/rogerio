@@ -41,6 +41,18 @@ const details = {
         require("../assets/pomodoro-details1.png"),
         require("../assets/pomodoro-details2.png")
       ]
+    },
+    {
+      id: 11,
+      head:
+        "I paid a lot of attention to the interface on this one, really like the color scheme and the flat style design. The app responds very well at any screen size. There is a cool visualizer that shows your guesses and if you are high or low or correct, with a nice animation on the squares. The inputs are validated to correct type and range. The max number of guesses is calculated dynamically based on the user set max value, which also adjust the size of the squares on the visualizer.",
+      images1: [
+        require("../assets/guess-number-details1.png"),
+        require("../assets/guess-number-details2.png"),
+        require("../assets/guess-number-details3.png"),
+        require("../assets/guess-number-details4.png"),
+        require("../assets/guess-number-details4.png")
+      ]
     }
   ]
 };
