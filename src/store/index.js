@@ -121,7 +121,8 @@ export default new Vuex.Store({
         shortDesc: "Guess the number game.",
         technologies: ["Javascript", "CSS3", "HTML5"],
         longDesc:
-          "My take on the common programming challenge of Guess the Number game. I tried to push this simple problem into as much of a polished app as possible with attention to all details, a nice visualizer pattern for the guesses, automatic adjustment of the maximum guesses determined by the max number chosen by the user and a nice clean interface."
+          "My take on the common programming challenge of Guess the Number game. I tried to push this simple problem into as much of a polished app as possible with attention to all details, a nice visualizer pattern for the guesses, automatic adjustment of the maximum guesses determined by the max number chosen by the user and a nice clean interface.",
+        details: true
       },
       {
         id: 12,
