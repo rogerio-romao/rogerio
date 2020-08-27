@@ -184,7 +184,7 @@ export default new Vuex.Store({
         shortDesc: "Game of Tic-Tac-Toe in React with time-travel feature",
         technologies: ["React", "Deployment", "Javascript", "CSS3"],
         longDesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!"
+          "This is a very simple game of tic tac toe done mainly to explore React and it's capabilities to time travel the state."
       },
       {
         id: 18,
