@@ -157,7 +157,7 @@ export default new Vuex.Store({
           "HTML5"
         ],
         longDesc:
-          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam solutansuscipit ad tempora quod beatae, dolorum ratione vitae. Illo iste sapiente recusandae cum voluptas illum doloribus inventore omnis architecto quidem!"
+          "This app was built with React and was my first attempt at working with GraphQL which is great for dealing with API calls, in this case building some cards out of the Pokemon API."
       },
       {
         id: 15,
