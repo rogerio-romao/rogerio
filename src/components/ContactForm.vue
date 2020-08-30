@@ -97,6 +97,7 @@
 </template>
 
 <script>
+import emailjs from "emailjs-com";
 export default {
   name: "ContactForm",
   data() {
@@ -110,7 +111,22 @@ export default {
   },
   methods: {
     submitForm() {
-      console.log("submitted");
+      const templateParams = {
+        name: this.name,
+        email: this.email,
+        subject: this.subject,
+        message: this.message
+      };
+      emailjs
+        .send("gmail", "contact", templateParams, process.env.VUE_APP_EMAIL_ID)
+        .then(
+          function(response) {
+            console.log("SUCCESS!", response.status, response.text);
+          },
+          function(error) {
+            console.log("FAILED...", error);
+          }
+        );
       this.submitted = true;
       this.name = "";
       this.email = "";
