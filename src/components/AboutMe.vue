@@ -70,10 +70,11 @@
       <h2 class="text-xl text-blue-500 font-semibold">Contact Me</h2>
       <p>
         If your company is looking for someone passionate, talented, creative,
-        responsible and motivated... You can reach out to me through the email
-        djgroovy@gmail.com or my mobile +44 0742 702 4976. Looking forward to
-        hearing from you!
+        responsible and motivated... You can reach out through the form below or
+        if you prefer, my mobile +44 0742 702 4976. Looking forward to hearing
+        from you!
       </p>
+      <ContactForm />
     </div>
     <div class="where mt-4 p-8 leading-8">
       <h2 class="text-xl text-blue-500 font-semibold">Courses</h2>
@@ -95,9 +96,12 @@
 
 <script>
 import Courses from "./Courses";
+import ContactForm from "./ContactForm";
+
 export default {
   components: {
-    Courses
+    Courses,
+    ContactForm
   }
 };
 </script>

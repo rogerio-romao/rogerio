@@ -11,7 +11,7 @@
       <div class="w-full flex mt-3 items-center border-b pb-2 flex-wrap">
         <h3 class="text-md font-semibold uppercase">Technologies used:</h3>
         <span
-          class="ml-3 bg-red-800 no-select hover:bg-blue-600 text-white px-2 rounded-full"
+          class="ml-3 bg-red-800 no-select hover:bg-blue-600 text-white px-2 rounded-full text-xs sm:text-sm md:text-base"
           v-for="technology in this.$store.state.projects[this.currentProject]
             .technologies"
           :key="technology.name"

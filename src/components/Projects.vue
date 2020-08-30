@@ -8,7 +8,7 @@
       ></i>
     </div>
     <div
-      class="flex justify-center items-center text-blue-800 hover:text-green-600"
+      class="flex left mr-1 justify-center items-center text-blue-800 hover:text-green-600"
     >
       <i
         class="fas fa-arrow-left"
@@ -39,7 +39,7 @@
       />
     </div>
     <div
-      class="flex justify-center items-center text-blue-800 hover:text-green-600"
+      class="flex right ml-1 justify-center items-center text-blue-800 hover:text-green-600"
     >
       <i
         class="fas fa-arrow-right"
@@ -75,9 +75,6 @@ export default {
           break;
       }
     });
-  },
-  destroyed() {
-    window.removeEventListener("keyup");
   },
   data() {
     return {
@@ -137,6 +134,13 @@ export default {
 }
 .main-image {
   max-width: 800px;
-  max-height: 500px;
+  max-height: 516px;
+}
+
+@media (max-width: 600px) {
+  .left,
+  .right {
+    display: none;
+  }
 }
 </style>
