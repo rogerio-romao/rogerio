@@ -52,6 +52,15 @@ const details = {
         require("../assets/guess-number-details3.png"),
         require("../assets/guess-number-details4.png")
       ]
+    },
+    {
+      id: 15,
+      head:
+        "An article about the mathematical Collatz Sequence caught my attention and i thought it would be interesting and a fun challenge to create a visualizer for it. The user selects the starting number and then a graph animates the progression of the sequence. There is a lot of clever calculations going on in the background. The whole sequence is pre-rendered in memory to access certain variables, and the animation scales in both time and vertical scale depending on the input and output, with graphics laid out on top of the graph at the end with certain key statistic values.",
+      images1: [
+        require("../assets/collatz-details1.png"),
+        require("../assets/collatz-details2.png")
+      ]
     }
   ]
 };
