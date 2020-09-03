@@ -32,11 +32,7 @@
           >Source Code</a
         >
       </div>
-      <img
-        :key="imagesFiltered"
-        :src="imagesFiltered"
-        alt="screenshot of the project"
-      />
+      <img :src="imagesFiltered" alt="screenshot of the project" />
     </div>
     <div
       class="flex right ml-1 justify-center items-center text-blue-800 hover:text-green-600"
