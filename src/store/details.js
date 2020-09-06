@@ -61,6 +61,46 @@ const details = {
         require("../assets/collatz-details1.png"),
         require("../assets/collatz-details2.png")
       ]
+    },
+    {
+      id: 18,
+      head:
+        "This is a large project (5k+ lines of code). It started out from an idea of recreating the old music player Winamp's visualiser, that showed some generative art while you listened to your songs. I started small with just the generative art part, researching and playing with techniques i could use in JS with the canvas element, and came up with a few algorithms. Then i devised a way to connect all the algorithms together in one shell, transition between them, and make them evolve. After that i started working on a music player and then added that to the shell, keeping it small and simple but stable, as the focus is on the art. All the while i kept having more ideas for algorithms, and it now has 50 of them, each doing a different thing. After that, i researched Electron to convert this browser based thing into a desktop app, and it works now in Mac or Win pc's, with further testing still to be done for mobile platforms. I intend to publish it as a paid app. It has got several Codepen Pick of the Day awards, one for the main app itself, and a few on individual algorithms!",
+      images1: [
+        require("../assets/spiral-details1.png"),
+        require("../assets/spiral-details2.png"),
+        require("../assets/spiral-details3.png"),
+        require("../assets/spiral-details4.png"),
+        require("../assets/spiral-details5.png")
+      ],
+      body:
+        "Being such a big code base, i have worked on making the code as clear, documented, functional and practical as possible. Each algorithm is it's own class, and there is only one instance variable being used for all of them, since no two algorithms run at the same time. Common functions and helper methods than many of the classes may use have all been extracted to their own functions so they can be easily maintained and reused. The music player is decoupled from the generative art part and one can run independent of the other. The music player looks purposely very simple but has all the necessary features for listening to music while using the app. The interface is minimal, as suitable for this kind of program, but there is a help screen, a dashboard messages system, and hiding / showing the music player as well as many key controls to change the behaviour of the generative art.",
+      images2: [
+        require("../assets/spiral-details6.png"),
+        require("../assets/spiral-details7.png"),
+        require("../assets/spiral-details8.png"),
+        require("../assets/spiral-details9.png"),
+        require("../assets/spiral-details10.png"),
+        require("../assets/spiral-details11.png"),
+        require("../assets/spiral-details12.png"),
+        require("../assets/spiral-details13.png"),
+        require("../assets/spiral-details14.png"),
+        require("../assets/spiral-details15.png")
+      ],
+      footer:
+        "Other notable features include not repeating algorithms, auto adjusting to screen size and fullscreen mode, manual or automatic changing of algorithms (with duration controls), music playlist auto-scrolling on track changes, several transition modes triggered at random on algorithm changes, progress bar on the music player with skipping and Ion Icons for the buttons. There is a stunning variety of visuals and you can spend hours without seeing the same thing twice, as there are millions of variations.",
+      images3: [
+        require("../assets/spiral-details16.png"),
+        require("../assets/spiral-details17.png"),
+        require("../assets/spiral-details18.png"),
+        require("../assets/spiral-details19.png"),
+        require("../assets/spiral-details20.png"),
+        require("../assets/spiral-details21.png"),
+        require("../assets/spiral-details22.png"),
+        require("../assets/spiral-details23.png"),
+        require("../assets/spiral-details24.png"),
+        require("../assets/spiral-details25.png")
+      ]
     }
   ]
 };

@@ -75,7 +75,7 @@ export default {
   data() {
     return {
       isHidden: false,
-      currentImage: 0
+      currentImage: 17
     };
   },
   watch: {

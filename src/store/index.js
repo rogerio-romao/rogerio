@@ -194,7 +194,8 @@ export default new Vuex.Store({
         shortDesc: "A JS music player / visualiser / generative art",
         technologies: ["Canvas", "Animation", "Javascript", "CSS3", "HTML5"],
         longDesc:
-          "Very proud of this one, programmed from scratch, pushing the envelope with animation and canvas, custom functions including a stagger using requestanimationframe, and a custom music player. Winner of a Codepen Pick! Also works as a standalone desktop app, planning to have this for sale in App Store."
+          "Very proud of this one, programmed from scratch, pushing the envelope with animation and canvas, custom functions including a stagger using requestanimationframe, and a custom music player. Winner of a Codepen Pick! Also works as a standalone desktop app, planning to have this for sale in App Store.",
+        details: true
       },
       {
         id: 19,

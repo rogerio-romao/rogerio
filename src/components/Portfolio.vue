@@ -57,6 +57,30 @@
             alt="details from this project"
           />
         </div>
+        <div v-if="projDetails.body" class="mt-5">
+          <p>{{ projDetails.body }}</p>
+          <div class="detail-images mt-5 rounded-md">
+            <img
+              class="rounded-md border-gray-400 border-2 shadow-lg"
+              v-for="image in projDetails.images2"
+              :key="image"
+              :src="image"
+              alt="details from this project"
+            />
+          </div>
+        </div>
+        <div v-if="projDetails.footer" class="mt-5">
+          <p>{{ projDetails.footer }}</p>
+          <div class="detail-images mt-5 rounded-md">
+            <img
+              class="rounded-md border-gray-400 border-2 shadow-lg"
+              v-for="image in projDetails.images3"
+              :key="image"
+              :src="image"
+              alt="details from this project"
+            />
+          </div>
+        </div>
       </div>
     </div>
   </div>
@@ -77,7 +101,7 @@ export default {
   },
   data: function() {
     return {
-      currentProject: 0
+      currentProject: 17
     };
   },
   computed: {
