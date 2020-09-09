@@ -121,12 +121,14 @@ export default {
 .buttons a {
   padding: 3px 8px;
   border-radius: 8px;
-  background-color: rgba(255, 255, 255, 0.5);
+  border: 1px solid transparent;
+  background-color: rgba(255, 255, 255, 0.65);
   transition: all 0.15s;
   color: #111;
 }
 .buttons a:hover {
   border: 1px solid #111;
+  text-decoration: none;
 }
 .main-image {
   max-width: 800px;

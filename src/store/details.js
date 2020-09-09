@@ -101,6 +101,17 @@ const details = {
         require("../assets/spiral-details24.png"),
         require("../assets/spiral-details25.png")
       ]
+    },
+    {
+      id: 20,
+      head:
+        "In programming or just in certain life situations, I often find myself in need of a random number so, as programmers do, i decided to build a program to do that for me. I also wanted to explore the Google Material Design trend for front-end apps, and since i was using Vue for this, i went with Vuetify. It's a great component library and it looks great, plus it has great documentation. Also doing custom validation on the inputs. I got carried away and ended up creating randomizers for letters, music keys (i do some music production as a hobby, too!), colors - very handy sometimes for web design - and explored a couple api's as well, one that gives you a random country (next holiday destination, anyone?), which is GraphQL based, and the other, REST based api gives you a Chuck Norris joke - they are kinda weak to be honest.",
+      images1: [
+        require("../assets/randomizer-details1.png"),
+        require("../assets/randomizer-details2.png"),
+        require("../assets/randomizer-details3.png"),
+        require("../assets/randomizer-details4.png")
+      ]
     }
   ]
 };

@@ -221,7 +221,8 @@ export default new Vuex.Store({
           "HTML5"
         ],
         longDesc:
-          "This is an app that has several categories like countries, colors, number, music keys etc, and the app will get a random value from them. App built in VueJS with Vuetify for the interface, and using a couple of API's for some of the categories."
+          "This is an app that has several categories like countries, colors, number, music keys etc, and the app will get a random value from them. App built in VueJS with Vuetify for the interface, and using a couple of API's for some of the categories.",
+        details: true
       },
       {
         id: 21,
