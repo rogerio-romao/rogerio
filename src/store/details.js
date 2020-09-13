@@ -112,6 +112,17 @@ const details = {
         require("../assets/randomizer-details3.png"),
         require("../assets/randomizer-details4.png")
       ]
+    },
+    {
+      id: 21,
+      head:
+        "This is a nice music player with pleasing aesthetics, that uses the File API to grab music files from your system and put them in a playlist. The playlist section dimensions itself to the tracks up to a maximum size, and then scrolls after that. On track changes, it auto scrolls to put the currently playing track in focus. There is also a minimized mode and it is responsive. The button actions all have checks and safeguards to make sure everything works properly and the interface is synced with the state. The code for this music player was then adapted to be included in my other project The Spiral that you can also see on my portfolio.",
+      images1: [
+        require("../assets/music-player-details1.png"),
+        require("../assets/music-player-details2.png"),
+        require("../assets/music-player-details3.png"),
+        require("../assets/music-player-details4.png")
+      ]
     }
   ]
 };

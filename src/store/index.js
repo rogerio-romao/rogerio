@@ -231,7 +231,8 @@ export default new Vuex.Store({
         shortDesc: "A javascript music player. Simple but beautiful and solid.",
         technologies: ["Javascript", "CSS3", "HTML5"],
         longDesc:
-          "I wanted to program something similar to Winamp in Javascript and learn how to handle audio on the web. I am very pleased with the look and functionality i managed to include, and have some ideas to expand it in the future."
+          "I wanted to program something similar to Winamp in Javascript and learn how to handle audio on the web. I am very pleased with the look and functionality i managed to include, and have some ideas to expand it in the future.",
+        details: true
       },
       {
         id: 22,
