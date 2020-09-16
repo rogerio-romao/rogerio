@@ -123,6 +123,16 @@ const details = {
         require("../assets/music-player-details3.png"),
         require("../assets/music-player-details4.png")
       ]
+    },
+    {
+      id: 22,
+      head:
+        "These days, whenever I need an app to do something, I just go ahead and build it myself. Wanting to change some of my passwords to something more secure, i built this using Vue / Vuetify in a couple of hours. I really like Vuetify's components easy configurability via props, cutting down a lot on the amount of css you need. You can select the number of characters, and wether to use numbers and special symbols, as required per each password. Once it is generated, you have a handy button to copy it straight to the computer's clipboard for pasting. Don't forget to hit save password on your browser as these will be hard to remember! Or you can just generate another one.",
+      images1: [
+        require("../assets/password-gen-details1.png"),
+        require("../assets/password-gen-details2.png"),
+        require("../assets/password-gen-details3.png")
+      ]
     }
   ]
 };

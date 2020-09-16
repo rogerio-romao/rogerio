@@ -148,4 +148,11 @@ export default {
   grid-template-columns: repeat(auto-fill, 200px);
   justify-content: space-around;
 }
+.detail-images img {
+  transition: transform 0.25s cubic-bezier(0.785, 0.135, 0.15, 0.86);
+}
+
+.detail-images img:hover {
+  transform: scale(1.5);
+}
 </style>

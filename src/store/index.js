@@ -241,7 +241,8 @@ export default new Vuex.Store({
         shortDesc: "An app to create random secure pesswords.",
         technologies: ["Vue", "Vuetify", "Javascript", "CSS3", "HTML5"],
         longDesc:
-          "Constructed using Vue and Vuetify. Select the length of the password you want to generate and if you want numbers and/or special characters included. You also get a handy button to copy the password to clipboard."
+          "Constructed using Vue and Vuetify. Select the length of the password you want to generate and if you want numbers and/or special characters included. You also get a handy button to copy the password to clipboard.",
+        details: true
       },
       {
         id: 23,
