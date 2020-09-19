@@ -133,6 +133,23 @@ const details = {
         require("../assets/password-gen-details2.png"),
         require("../assets/password-gen-details3.png")
       ]
+    },
+    {
+      id: 23,
+      head:
+        "This online portfolio / cv is built using Vue, Vuex and Tailwind, and is deployed on Netlify with a connection to the Github repo, that automatically updates the production version when i push a commit. My intention was to build a nice looking portfolio to showcase my personal projects, built using best practices, easy to update and maintain. So this SPA has 3 simple views with very little code, and inside the views everything is modularized in components that each do one thing and the data is all coming from Vuex. There is a common header and footer to all the pages, and then Vue Router changes the main block on page navigation. There is dynamic asset loading happening when the user changes the selected project on the portfolio page, and a custom contact form that emails the user and myself on send. Featured projects cards component was built leveraging Tailwind for ease of adding new projects. The courses portion of the About page is also a component that generates the markup just by adding the data in the Vuex module.",
+      images1: [
+        require("../assets/portfolio-details1.png"),
+        require("../assets/portfolio-details2.png"),
+        require("../assets/portfolio-details3.png")
+      ],
+      body:
+        "On top of the base Tailwind css classes, i have added custom css wherever needed, and am using Vue transitions and transition groups in several places to create subtle animations. In the components, I am using most of the usual Vue options API, such as computed properties, methods, props, watchers and event emitters when i need to communicate changes up and down the app hierarchy. Another nice addition is a light/dark mode which i did using css variables. In Vuex, the state is modularized, so every component that needs state gets it's own Vuex module, which the main store then imports and distributes, making it very easy to update and maintain data.",
+      images2: [
+        require("../assets/portfolio-details4.png"),
+        require("../assets/portfolio-details5.png"),
+        require("../assets/portfolio-details6.png")
+      ]
     }
   ]
 };
