@@ -29,7 +29,7 @@ const featured = {
         longDesc:
           "This was done with Vue as the framework with Nuxt bootstrapping and Vuetify for the presentation. Uses async API calls via Axios.",
         source: "https://github.com/rogerio-romao/purple-test",
-        live: "https://app.netlify.com/sites/nifty-ptolemy-7b0487"
+        live: "https://nifty-ptolemy-7b0487.netlify.app/"
       },
       {
         id: 4,

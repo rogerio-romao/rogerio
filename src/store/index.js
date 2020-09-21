@@ -282,7 +282,8 @@ export default new Vuex.Store({
           "HTML5"
         ],
         longDesc:
-          "This was done with Vue as the framework with Nuxt bootstrapping and Vuetify for the presentation. Uses async API calls via Axios."
+          "This was done with Vue as the framework with Nuxt bootstrapping and Vuetify for the presentation. Uses async API calls via Axios.",
+        details: true
       }
     ]
   },

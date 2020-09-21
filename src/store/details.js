@@ -150,6 +150,18 @@ const details = {
         require("../assets/portfolio-details5.png"),
         require("../assets/portfolio-details6.png")
       ]
+    },
+    {
+      id: 24,
+      head:
+        "This is an example of working with: asyncronous API calls, in this case getting data for the cards with an API key and Axios, and filtering over the deeply nested result to get only the pertinent information, and then build an interface that is modern and responsive, once again using Vuetify's Material design components. It also shows dealing with authorization and form validation, using Vuelidate in this case. This is meant as just an example of how I would do that, as the app still works without actual authentication, as there is no server side code attached. The whole app was bootstrapped using Nuxt.",
+      images1: [
+        require("../assets/catstagram-details1.png"),
+        require("../assets/catstagram-details2.png"),
+        require("../assets/catstagram-details3.png"),
+        require("../assets/catstagram-details4.png"),
+        require("../assets/catstagram-details5.png")
+      ]
     }
   ]
 };
