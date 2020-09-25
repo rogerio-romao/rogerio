@@ -284,6 +284,24 @@ export default new Vuex.Store({
         longDesc:
           "This was done with Vue as the framework with Nuxt bootstrapping and Vuetify for the presentation. Uses async API calls via Axios.",
         details: true
+      },
+      {
+        id: 25,
+        name: "Music Database",
+        type: "Front-End",
+        shortDesc: "A music database to catalogue your tracks.",
+        technologies: [
+          "Vue",
+          "Nuxt",
+          "Vuetify",
+          "Git",
+          "Netlify",
+          "Javascript",
+          "CSS3",
+          "HTML5"
+        ],
+        longDesc:
+          "Having been a DJ, this is something I wanted to create to help me catalogue my collection. It is done using Vue's Vuex store, with the interface using the familiar Goggle Material Design specs in dark mode, courtesy of Vuetify. App build using Nuxt framework. You can add tracks, edit them and delete them, with fields for the most common properties."
       }
     ]
   },

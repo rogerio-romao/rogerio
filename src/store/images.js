@@ -144,6 +144,12 @@ const images = {
         url: "catstagram.png",
         source: "https://github.com/rogerio-romao/purple-test",
         live: "https://app.netlify.com/sites/nifty-ptolemy-7b0487"
+      },
+      {
+        id: 25,
+        url: "music-database.png",
+        source: "https://github.com/rogerio-romao/music-database",
+        live: "https://gracious-albattani-2e9b26.netlify.app/"
       }
     ]
   })
