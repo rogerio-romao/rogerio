@@ -23,6 +23,16 @@ const featured = {
       },
       {
         id: 3,
+        name: "Coffee Shop",
+        image: require("../assets/coffee-shop.png"),
+        shortDesc: "A shop where you can buy coffee products",
+        longDesc:
+          "This is an e-commerce website based on Gatsby and React, with a GraphQL backend, that uses the Contentful API for the content management and FormSpree for the contact form. It has continuous integration when deploying to Github via Netlify and also a webhook setup where if the user changes only the Contentful data and not the code itself, a build is triggered on Netlify. The cart is an implementation of SnipCart based on their API and Gatsby plugin.",
+        source: "https://github.com/rogerio-romao/gatsby-coffee-project",
+        live: "https://elated-wing-b66940.netlify.app/"
+      },
+      {
+        id: 4,
         name: "The Catstagram",
         image: require("../assets/catstagram.png"),
         shortDesc: "A mockup of an Instagram like app.",
@@ -32,7 +42,7 @@ const featured = {
         live: "https://nifty-ptolemy-7b0487.netlify.app/"
       },
       {
-        id: 4,
+        id: 5,
         name: "Music Player",
         image: require("../assets/music-player.png"),
         shortDesc: "A javascript music player. Simple but beautiful and solid.",
@@ -42,7 +52,7 @@ const featured = {
         live: "https://codepen.io/rogerio-romao/full/vYNvBzd"
       },
       {
-        id: 5,
+        id: 6,
         name: "The Randomizer",
         image: require("../assets/randomizer.png"),
         shortDesc:
@@ -53,7 +63,7 @@ const featured = {
         live: "https://codepen.io/rogerio-romao/full/Baoqvmm"
       },
       {
-        id: 6,
+        id: 7,
         name: "Converse",
         image: require("../assets/converse.png"),
         shortDesc: "A responsive units conversion app.",
@@ -63,7 +73,7 @@ const featured = {
         live: "https://codepen.io/rogerio-romao/full/RwPaaRR"
       },
       {
-        id: 7,
+        id: 8,
         name: "Guess The Number",
         image: require("../assets/guess-number.png"),
         shortDesc: "Guess the number game.",
@@ -73,7 +83,7 @@ const featured = {
         live: "https://codepen.io/rogerio-romao/full/XWbQbbN"
       },
       {
-        id: 8,
+        id: 9,
         name: "Password Generator",
         image: require("../assets/password-gen.png"),
         shortDesc: "Create random secure pesswords.",
@@ -83,7 +93,7 @@ const featured = {
         live: "https://codepen.io/rogerio-romao/full/poyoWKw"
       },
       {
-        id: 9,
+        id: 10,
         name: "YelpCamp",
         image: require("../assets/yelpcamp.png"),
         shortDesc: "A Yelp like website from camping grounds.",
@@ -93,7 +103,7 @@ const featured = {
         live: "https://dry-escarpment-99868.herokuapp.com/"
       },
       {
-        id: 10,
+        id: 11,
         name: "The Collatz Sequence",
         image: require("../assets/collatz.png"),
         shortDesc: "A visualizer tool for the famous math sequence.",
@@ -103,7 +113,7 @@ const featured = {
         live: "https://codepen.io/rogerio-romao/full/WNQxaWq"
       },
       {
-        id: 11,
+        id: 12,
         name: "Avatars",
         image: require("../assets/avatars.png"),
         shortDesc: "A profile image / avatar custom display study.",
@@ -113,7 +123,7 @@ const featured = {
         live: "https://codepen.io/rogerio-romao/full/zYvzmRp"
       },
       {
-        id: 12,
+        id: 13,
         name: "Game of Life",
         image: require("../assets/gol.png"),
         shortDesc: "My version of the classic Conway's Game of Life.",
@@ -121,26 +131,6 @@ const featured = {
           "This was an entry for a Game of Life challenge in Codepen. Programmed a version of the classic game of life, with a feature to draw your own patterns, and learned a lot while doing so!",
         source: "https://codepen.io/rogerio-romao/pen/VwvbdZE",
         live: "https://codepen.io/rogerio-romao/full/VwvbdZE"
-      },
-      {
-        id: 13,
-        name: "Todo List",
-        image: require("../assets/todov3.png"),
-        shortDesc: "A todo list App made with JQuery.",
-        longDesc:
-          "This project uses Sass for the presentation side of things, which i worked a lot on and am pretty happy with. I use variables to make it easier, and implemented a theming functionality. Learnt how to include a drag and drop functionality to the interface as well, after researching settle on JQuery for that. App is responsive using media queries.",
-        source: "https://codepen.io/rogerio-romao/pen/KKpzXeG",
-        live: "https://codepen.io/rogerio-romao/full/KKpzXeG"
-      },
-      {
-        id: 14,
-        name: "JavaScript Calculator",
-        image: require("../assets/javascript-calc.png"),
-        shortDesc: "A complete vanilla Javascript calculator.",
-        longDesc:
-          "Javascript calculator coded from scratch using functional programming processes. It is working but i'm still trying to improve a couple aspects with the order of operations and dealing with max input size and decimal points.",
-        source: "https://codepen.io/rogerio-romao/pen/mdJWEMJ",
-        live: "https://codepen.io/rogerio-romao/full/mdJWEMJ"
       }
     ]
   })

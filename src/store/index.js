@@ -302,6 +302,26 @@ export default new Vuex.Store({
         ],
         longDesc:
           "Having been a DJ, this is something I wanted to create to help me catalogue my collection. It is done using Vue's Vuex store, with the interface using the familiar Goggle Material Design specs in dark mode, courtesy of Vuetify. App build using Nuxt framework. You can add tracks, edit them and delete them, with fields for the most common properties."
+      },
+      {
+        id: 26,
+        name: "Coffe Shop",
+        type: "Full-Stack",
+        shortDesc: "A shop where you can buy coffee products.",
+        technologies: [
+          "Gatsby",
+          "React",
+          "Contentful",
+          "GraphQL",
+          "SnipCart",
+          "Git",
+          "Netlify",
+          "Javascript",
+          "CSS3",
+          "HTML5"
+        ],
+        longDesc:
+          "This is an e-commerce website based on Gatsby and React, with a GraphQL backend, that uses the Contentful API for the content management and FormSpree for the contact form. It has continuous integration when deploying to Github via Netlify and also a webhook setup where if the user changes only the Contentful data and not the code itself, a build is triggered on Netlify. The cart is an implementation of SnipCart based on their API and Gatsby plugin."
       }
     ]
   },
