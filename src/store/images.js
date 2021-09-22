@@ -150,6 +150,12 @@ const images = {
         url: "music-database.png",
         source: "https://github.com/rogerio-romao/music-database",
         live: "https://gracious-albattani-2e9b26.netlify.app/"
+      },
+      {
+        id: 25,
+        url: "coffee-shop.png",
+        source: "https://github.com/rogerio-romao/gatsby-coffee-project",
+        live: "https://elated-wing-b66940.netlify.app/"
       }
     ]
   })
