@@ -164,7 +164,7 @@ const details = {
       ]
     },
     {
-      id: 25,
+      id: 27,
       head:
         "This app showcases some of today's current trends in development, including React Hooks, both built-in and custom ones, and leveraging the power of Firebase for simplifying your backend and make it simultaneously more powerful. The app sends messages in realtime to all connected users of a chat room via Realtime Database. Users authenticate via Firebase too, where 2 methods are configured, via Google or Facebook. Firebase Functions being used for sending notifications to users, and Storage for file upload, which can be sent via the chat rooms. The hosting was also done via Firebase using their CLI. React Router is being used for navigation. Hooks being used include useRef, useState, useEffect, useParams, custom ones to deal with more specific things (check source code), and useCallback in conjuction with memo to optimize components wherever possible.",
       images1: [
