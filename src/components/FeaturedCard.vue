@@ -9,7 +9,7 @@
         <img :src="feature.image" alt="" />
         <img
           class="award"
-          v-if="feature.id === 1"
+          v-if="feature.id === 2"
           src="../assets/codepen-pick.png"
           alt=""
         />
@@ -54,9 +54,9 @@
 export default {
   data() {
     return {
-      features: this.$store.state.featured.featured
+      features: this.$store.state.featured.featured,
     };
-  }
+  },
 };
 </script>
 
