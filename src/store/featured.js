@@ -7,7 +7,7 @@ const featured = {
         image: require("../assets/chat.png"),
         shortDesc: "A realtime chat application a la Whatsapp.",
         longDesc:
-          "This is a React application that uses Firebase for the backend. I am using Realtime Database, Authentication via Google and Facebook, Storage, Hosting and Functions. The app is using the latest React syntax, with Hooks, including several custom hooks, for things like api calls, media queries and modal windows. Also uses the Notification api to send messages to users and RSuite UI component library.",
+          "This is a React application that uses Firebase for the backend. I am using Realtime Database, Authentication, Storage, Hosting and Functions. The app is using the latest React syntax, with Hooks, including custom hooks, for things like api calls, media queries and modal windows. Uses the Notification api to send messages to users and RSuite UI library.",
         source: "https://github.com/rogerio-romao/react-chat-app",
         live: "https://react-chat-app-fca7d.web.app/"
       },
@@ -37,7 +37,7 @@ const featured = {
         image: require("../assets/coffee-shop.png"),
         shortDesc: "A shop where you can buy coffee products",
         longDesc:
-          "This is an e-commerce website based on Gatsby and React, with a GraphQL backend, that uses the Contentful API for the content management and FormSpree for the contact form. It has continuous integration when deploying to Github via Netlify and also a webhook setup where if the user changes only the Contentful data and not the code itself, a build is triggered on Netlify. The cart is an implementation of SnipCart based on their API and Gatsby plugin.",
+          "This is an e-commerce website made on Gatsby and React, with a GraphQL backend, that uses the Contentful API for the content management. It has continuous integration when deploying to Github via Netlify and also a webhook setup where if the user changes only the Contentful data and not the code itself, a build is triggered on Netlify. The cart is an implementation of SnipCart.",
         source: "https://github.com/rogerio-romao/gatsby-coffee-project",
         live: "https://elated-wing-b66940.netlify.app/"
       },
