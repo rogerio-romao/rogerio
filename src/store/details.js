@@ -162,6 +162,26 @@ const details = {
         require("../assets/catstagram-details4.png"),
         require("../assets/catstagram-details5.png")
       ]
+    },
+    {
+      id: 25,
+      head:
+        "This app showcases some of today's current trends in development, including React Hooks, both built-in and custom ones, and leveraging the power of Firebase for simplifying your backend and make it simultaneously more powerful. The app sends messages in realtime to all connected users of a chat room via Realtime Database. Users authenticate via Firebase too, where 2 methods are configured, via Google or Facebook. Firebase Functions being used for sending notifications to users, and Storage for file upload, which can be sent via the chat rooms. The hosting was also done via Firebase using their CLI. React Router is being used for navigation. Hooks being used include useRef, useState, useEffect, useParams, custom ones to deal with more specific things (check source code), and useCallback in conjuction with memo to optimize components wherever possible.",
+      images1: [
+        require("../assets/chat-details1.png"),
+        require("../assets/chat-details2.png"),
+        require("../assets/chat-details3.png"),
+        require("../assets/chat-details4.png"),
+        require("../assets/chat-details5.png")
+      ],
+      body:
+        "There are a variety of modal windows for various features such as creting rooms and sending notifications. The user can change username and upload avatar picture, create rooms and adjust permissions to other users of the room such as make them admins. They can also delete their messages or like messages. Users will be asked by the browser if they want to allow notifications, which can be broadcast by a room admin to all its users. In chat files can be sent and uploaded / downloaded. Users can also record audio messages instead of text (browser will also ask for permission). The UI is super clean and uses a library i'd never used before called RSuite, specific for React, but definitely will be using again in the future! It is also responsive and looks good on any size screen.",
+      images2: [
+        require("../assets/chat-details6.png"),
+        require("../assets/chat-details7.png"),
+        require("../assets/chat-details8.png"),
+        require("../assets/chat-details9.png")
+      ]
     }
   ]
 };

@@ -3,6 +3,16 @@ const featured = {
     featured: [
       {
         id: 1,
+        name: "React Realtime Chat App",
+        image: require("../assets/chat.png"),
+        shortDesc: "A realtime chat application a la Whatsapp.",
+        longDesc:
+          "This is a React application that uses Firebase for the backend. I am using Realtime Database, Authentication via Google and Facebook, Storage, Hosting and Functions. The app is using the latest React syntax, with Hooks, including several custom hooks, for things like api calls, media queries and modal windows. Also uses the Notification api to send messages to users and RSuite UI component library.",
+        source: "https://github.com/rogerio-romao/react-chat-app",
+        live: "https://react-chat-app-fca7d.web.app/"
+      },
+      {
+        id: 2,
         name: "The Spiral",
         image: require("../assets/spiral.png"),
         shortDesc: "A JS music player / visualiser / generative art.",
@@ -12,7 +22,7 @@ const featured = {
         live: "https://codepen.io/rogerio-romao/full/mdevOwm"
       },
       {
-        id: 2,
+        id: 3,
         name: "Online Portfolio/CV",
         image: require("../assets/portfolio.png"),
         shortDesc: "My online portfolio / CV website",
@@ -22,7 +32,7 @@ const featured = {
         live: "#"
       },
       {
-        id: 3,
+        id: 4,
         name: "Coffee Shop",
         image: require("../assets/coffee-shop.png"),
         shortDesc: "A shop where you can buy coffee products",
@@ -32,7 +42,7 @@ const featured = {
         live: "https://elated-wing-b66940.netlify.app/"
       },
       {
-        id: 4,
+        id: 5,
         name: "The Catstagram",
         image: require("../assets/catstagram.png"),
         shortDesc: "A mockup of an Instagram like app.",
@@ -42,7 +52,7 @@ const featured = {
         live: "https://nifty-ptolemy-7b0487.netlify.app/"
       },
       {
-        id: 5,
+        id: 6,
         name: "Music Player",
         image: require("../assets/music-player.png"),
         shortDesc: "A javascript music player. Simple but beautiful and solid.",
@@ -52,7 +62,7 @@ const featured = {
         live: "https://codepen.io/rogerio-romao/full/vYNvBzd"
       },
       {
-        id: 6,
+        id: 7,
         name: "The Randomizer",
         image: require("../assets/randomizer.png"),
         shortDesc:
@@ -63,7 +73,7 @@ const featured = {
         live: "https://codepen.io/rogerio-romao/full/Baoqvmm"
       },
       {
-        id: 7,
+        id: 8,
         name: "Converse",
         image: require("../assets/converse.png"),
         shortDesc: "A responsive units conversion app.",
@@ -73,7 +83,7 @@ const featured = {
         live: "https://codepen.io/rogerio-romao/full/RwPaaRR"
       },
       {
-        id: 8,
+        id: 9,
         name: "Guess The Number",
         image: require("../assets/guess-number.png"),
         shortDesc: "Guess the number game.",
@@ -83,7 +93,7 @@ const featured = {
         live: "https://codepen.io/rogerio-romao/full/XWbQbbN"
       },
       {
-        id: 9,
+        id: 10,
         name: "Password Generator",
         image: require("../assets/password-gen.png"),
         shortDesc: "Create random secure pesswords.",
@@ -93,7 +103,7 @@ const featured = {
         live: "https://codepen.io/rogerio-romao/full/poyoWKw"
       },
       {
-        id: 10,
+        id: 11,
         name: "YelpCamp",
         image: require("../assets/yelpcamp.png"),
         shortDesc: "A Yelp like website from camping grounds.",
@@ -103,7 +113,7 @@ const featured = {
         live: "https://dry-escarpment-99868.herokuapp.com/"
       },
       {
-        id: 11,
+        id: 12,
         name: "The Collatz Sequence",
         image: require("../assets/collatz.png"),
         shortDesc: "A visualizer tool for the famous math sequence.",
@@ -113,7 +123,7 @@ const featured = {
         live: "https://codepen.io/rogerio-romao/full/WNQxaWq"
       },
       {
-        id: 12,
+        id: 13,
         name: "Avatars",
         image: require("../assets/avatars.png"),
         shortDesc: "A profile image / avatar custom display study.",
@@ -123,7 +133,7 @@ const featured = {
         live: "https://codepen.io/rogerio-romao/full/zYvzmRp"
       },
       {
-        id: 13,
+        id: 14,
         name: "Game of Life",
         image: require("../assets/gol.png"),
         shortDesc: "My version of the classic Conway's Game of Life.",

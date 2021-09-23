@@ -152,10 +152,16 @@ const images = {
         live: "https://gracious-albattani-2e9b26.netlify.app/"
       },
       {
-        id: 25,
+        id: 26,
         url: "coffee-shop.png",
         source: "https://github.com/rogerio-romao/gatsby-coffee-project",
         live: "https://elated-wing-b66940.netlify.app/"
+      },
+      {
+        id: 27,
+        url: "chat.png",
+        source: "https://github.com/rogerio-romao/react-chat-app",
+        live: "https://react-chat-app-fca7d.web.app/"
       }
     ]
   })

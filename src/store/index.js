@@ -322,6 +322,25 @@ export default new Vuex.Store({
         ],
         longDesc:
           "This is an e-commerce website based on Gatsby and React, with a GraphQL backend, that uses the Contentful API for the content management and FormSpree for the contact form. It has continuous integration when deploying to Github via Netlify and also a webhook setup where if the user changes only the Contentful data and not the code itself, a build is triggered on Netlify. The cart is an implementation of SnipCart based on their API and Gatsby plugin."
+      },
+      {
+        id: 27,
+        name: "React Realtime Chat App",
+        type: "Full-Stack",
+        shortDesc: "A realtime chat application a la Whatsapp.",
+        technologies: [
+          "React",
+          "Firebase",
+          "Hosting",
+          "Realtime Database",
+          "Git",
+          "Cloud Functions",
+          "Javascript",
+          "CSS3",
+          "HTML5"
+        ],
+        longDesc:
+          "This is a React application that uses Firebase for the backend. I am using Realtime Database, Authentication via Google and Facebook, Storage, Hosting and Functions. The app is using the latest React syntax, with Hooks, including several custom hooks, for things like api calls, media queries and modal windows. Also uses the Notification api to send messages to users and RSuite UI component library."
       }
     ]
   },
