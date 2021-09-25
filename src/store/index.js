@@ -342,6 +342,23 @@ export default new Vuex.Store({
         longDesc:
           "This is a React application that uses Firebase for the backend. I am using Realtime Database, Authentication via Google and Facebook, Storage, Hosting and Functions. The app is using the latest React syntax, with Hooks, including several custom hooks, for things like api calls, media queries and modal windows. Also uses the Notification api to send messages to users and RSuite UI component library.",
         details: true
+      },
+      {
+        id: 28,
+        name: "Netflix Clone",
+        type: "Full-Stack",
+        shortDesc: "Netflix clone using TMDB API with movie trailer previews.",
+        technologies: [
+          "React",
+          "Firebase",
+          "Hosting",
+          "API",
+          "Javascript",
+          "CSS3",
+          "HTML5"
+        ],
+        longDesc:
+          "This is a React application that is hosted on Firebase. The front-end is done using Hooks and functional components. The data is coming from the TMDB API, and each title can be clicked on to start and stop a movie preview. This is done using a couple of npm packages."
       }
     ]
   },

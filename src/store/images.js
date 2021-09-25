@@ -162,6 +162,12 @@ const images = {
         url: "chat.png",
         source: "https://github.com/rogerio-romao/react-chat-app",
         live: "https://react-chat-app-fca7d.web.app/"
+      },
+      {
+        id: 28,
+        url: "netflix-clone.png",
+        source: "https://github.com/rogerio-romao/netflix-clone-react",
+        live: "https://netflix-clone-f2569.web.app/"
       }
     ]
   })

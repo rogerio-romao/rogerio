@@ -141,6 +141,16 @@ const featured = {
           "This was an entry for a Game of Life challenge in Codepen. Programmed a version of the classic game of life, with a feature to draw your own patterns, and learned a lot while doing so!",
         source: "https://codepen.io/rogerio-romao/pen/VwvbdZE",
         live: "https://codepen.io/rogerio-romao/full/VwvbdZE"
+      },
+      {
+        id: 15,
+        name: "Netflix Clone",
+        image: require("../assets/netflix-clone.png"),
+        shortDesc: "Netflix clone using TMDB API with movie trailer previews.",
+        longDesc:
+          "This is a React application that is hosted on Firebase, done using Hooks and functional components. The data is coming from the TMDB API, and each title can be clicked to watch a movie preview.",
+        source: "https://github.com/rogerio-romao/netflix-clone-react",
+        live: "https://netflix-clone-f2569.web.app/"
       }
     ]
   })
