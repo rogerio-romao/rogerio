@@ -151,6 +151,16 @@ const featured = {
           "This is a React application that is hosted on Firebase, done using Hooks and functional components. The data is coming from the TMDB API, and each title can be clicked to watch a movie preview.",
         source: "https://github.com/rogerio-romao/netflix-clone-react",
         live: "https://netflix-clone-f2569.web.app/"
+      },
+      {
+        id: 16,
+        name: "Idle DJ Game",
+        image: require("../assets/idle-dj.png"),
+        shortDesc: "Idle / clicker game made with Vue and Vuex.",
+        longDesc:
+          "Still a work in progress, the idea here, was to experiment using Vuex to the full capacity. There is a tremendous amount of state and inter-dependencies, extensive use of modules, actions and mutations.",
+        source: "https://github.com/rogerio-romao/idle_dj",
+        live: "https://silly-lamport-fbfed0.netlify.app/"
       }
     ]
   })

@@ -1,7 +1,18 @@
 <template>
   <div class="cards flex flex-wrap justify-center">
     <div
-      class="card border rounded-lg shadow-md hover:shadow-xl bg-gray-200 hover:bg-white m-3 overflow-hidden relative"
+      class="
+        card
+        border
+        rounded-lg
+        shadow-md
+        hover:shadow-xl
+        bg-gray-200
+        hover:bg-white
+        m-3
+        overflow-hidden
+        relative
+      "
       v-for="feature in features"
       :key="feature.id"
     >
@@ -29,17 +40,38 @@
         </p>
       </div>
       <div
-        class="flex justify-around absolute w-full bottom-0 pb-1 border-t border-indigo-400 bg-gray-500"
+        class="
+          flex
+          justify-around
+          absolute
+          w-full
+          bottom-0
+          pb-1
+          border-t border-indigo-400
+          bg-gray-500
+        "
       >
         <button
-          class="text-indigo-800 text-sm py-1 hover:text-gray-800 hover:bg-blue-400 w-full"
+          class="
+            text-indigo-800 text-sm
+            py-1
+            hover:text-gray-800
+            hover:bg-blue-400
+            w-full
+          "
         >
           <a class="text-indigo-800" :href="feature.source" target="_blank"
             >Source</a
           >
         </button>
         <button
-          class="text-indigo-800 text-sm py-1 hover:text-gray-800 hover:bg-blue-400 w-full"
+          class="
+            text-indigo-800 text-sm
+            py-1
+            hover:text-gray-800
+            hover:bg-blue-400
+            w-full
+          "
         >
           <a class="text-indigo-800" :href="feature.live" target="_blank"
             >Live</a
@@ -54,9 +86,9 @@
 export default {
   data() {
     return {
-      features: this.$store.state.featured.featured,
+      features: this.$store.state.featured.featured
     };
-  },
+  }
 };
 </script>
 

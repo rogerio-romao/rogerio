@@ -182,6 +182,25 @@ const details = {
         require("../assets/chat-details8.png"),
         require("../assets/chat-details9.png")
       ]
+    },
+    {
+      id: 29,
+      head:
+        "I wanted to do something that was simultaneously fun and related to my interests, but also a big challenge. Conceptualizing an architecture that would allow for very complex and inter-dependent state interactions, keeping all the state and UI in sync. I chose Vue and Vuex, a combination i quite like, with the approach to use all of Vuex's capabilities, namely using a module architecture to simplify the state management. There is a large amount of actions and mutations, with a lot of computed properties, watchers and components, with comunication between these being done with props passed down and emitters sending data back up to the parent.",
+      images1: [
+        require("../assets/idle-dj-details1.png"),
+        require("../assets/idle-dj-details2.png"),
+        require("../assets/idle-dj-details3.png"),
+        require("../assets/idle-dj-details4.png")
+      ],
+      body:
+        "Styling has been done using Sass with the .sass syntax, taking advantage of the variables, nesting and clean looking syntax, and the layout uses a mixture of CSS Grid and Flex, with responsive media queries to adjust to different sizes. Created a custom icons component for the multiple icons on the UI. There is only a single page view consisting of multi nested components. The complexity is in all the interactions, since almost all modules interact with each other, with a lot of data flows and state changes constantly happening. This is still a work in progress, I intend to refactor and optimize heavily after all the features are fully coded.",
+      images2: [
+        require("../assets/idle-dj-details5.png"),
+        require("../assets/idle-dj-details6.png"),
+        require("../assets/idle-dj-details7.png"),
+        require("../assets/idle-dj-details8.png")
+      ]
     }
   ]
 };

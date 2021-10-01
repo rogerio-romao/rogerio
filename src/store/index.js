@@ -359,6 +359,16 @@ export default new Vuex.Store({
         ],
         longDesc:
           "This is a React application that is hosted on Firebase. The front-end is done using Hooks and functional components. The data is coming from the TMDB API, and each title can be clicked on to start and stop a movie preview. This is done using a couple of npm packages."
+      },
+      {
+        id: 29,
+        name: "Idle DJ Game - Vue.js",
+        type: "Front-End",
+        shortDesc: "Idle / clicker game made with Vue and Vuex.",
+        technologies: ["Vue", "Vuex", "Netlify", "Javascript", "CSS3", "HTML5"],
+        longDesc:
+          "Still a work in progress, the idea here, more than making something fun to play or with fancy graphics (maybe in the future), was to experiment and learn using Vuex to the full capacity, since there is a tremendous amount of state and inter-dependencies between all the parts of the game. So there is extensive use of modules and a big number of actions and mutations, such as you would have on a real world project.",
+        details: true
       }
     ]
   },

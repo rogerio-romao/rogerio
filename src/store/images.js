@@ -168,6 +168,12 @@ const images = {
         url: "netflix-clone.png",
         source: "https://github.com/rogerio-romao/netflix-clone-react",
         live: "https://netflix-clone-f2569.web.app/"
+      },
+      {
+        id: 29,
+        url: "idle-dj.png",
+        source: "https://github.com/rogerio-romao/idle_dj",
+        live: "https://silly-lamport-fbfed0.netlify.app/"
       }
     ]
   })
