@@ -24,18 +24,6 @@ const details = {
     {
       id: 5,
       head:
-        "This was a huge full stack project, the final project of Colt Steele's online Bootcamp. It has a backend based on Express and MongoDB with Mongoose. There is authorization with Passport, and several API based services such as Cloudinary for uploading the images and Google Maps to show the location of the camps. Lots of npm packages used to build the app such as Moments.js for date / times and Bootstrap was used to help create the frontend. Used the AWS Cloud9 IDE for this one.",
-      images1: [
-        require("../assets/yelpcamp-details1.png"),
-        require("../assets/yelpcamp-details2.png"),
-        require("../assets/yelpcamp-details3.png"),
-        require("../assets/yelpcamp-details4.png"),
-        require("../assets/yelpcamp-details5.png")
-      ]
-    },
-    {
-      id: 10,
-      head:
         "This was coded for the FreeCodeCamp front end certification challenges. We are given some user stories and have to build the app to pass a test suite that meets all those stories. I coded it in plain vanilla JS, the biggest challenge was to keep two separate timers with different intervals syncronised and cycling through seamlessly, and in the end i was pretty satisfied with how it turned out.",
       images1: [
         require("../assets/pomodoro-details1.png"),
@@ -43,7 +31,7 @@ const details = {
       ]
     },
     {
-      id: 11,
+      id: 6,
       head:
         "I paid a lot of attention to the interface on this one, really like the color scheme and the flat style design. The app responds very well at any screen size. There is a cool visualizer that shows your guesses and if you are high or low or correct, with a nice animation on the squares. The inputs are validated to correct type and range. The max number of guesses is calculated dynamically based on the user set max value, which also adjust the size of the squares on the visualizer.",
       images1: [
@@ -54,7 +42,7 @@ const details = {
       ]
     },
     {
-      id: 15,
+      id: 7,
       head:
         "An article about the mathematical Collatz Sequence caught my attention and i thought it would be interesting and a fun challenge to create a visualizer for it. The user selects the starting number and then a graph animates the progression of the sequence. There is a lot of clever calculations going on in the background. The whole sequence is pre-rendered in memory to access certain variables, and the animation scales in both time and vertical scale depending on the input and output, with graphics laid out on top of the graph at the end with certain key statistic values.",
       images1: [
@@ -63,7 +51,7 @@ const details = {
       ]
     },
     {
-      id: 18,
+      id: 8,
       head:
         "This is a large project (5k+ lines of code). It started out from an idea of recreating the old music player Winamp's visualiser, that showed some generative art while you listened to your songs. I started small with just the generative art part, researching and playing with techniques i could use in JS with the canvas element, and came up with a few algorithms. Then i devised a way to connect all the algorithms together in one shell, transition between them, and make them evolve. After that i started working on a music player and then added that to the shell, keeping it small and simple but stable, as the focus is on the art. All the while i kept having more ideas for algorithms, and it now has 50 of them, each doing a different thing. After that, i researched Electron to convert this browser based thing into a desktop app, and it works now in Mac or Win pc's, with further testing still to be done for mobile platforms. I intend to publish it as a paid app. It has got several Codepen Pick of the Day awards, one for the main app itself, and a few on individual algorithms!",
       images1: [
@@ -103,7 +91,7 @@ const details = {
       ]
     },
     {
-      id: 20,
+      id: 10,
       head:
         "In programming or just in certain life situations, I often find myself in need of a random number so, as programmers do, i decided to build a program to do that for me. I also wanted to explore the Google Material Design trend for front-end apps, and since i was using Vue for this, i went with Vuetify. It's a great component library and it looks great, plus it has great documentation. Also doing custom validation on the inputs. I got carried away and ended up creating randomizers for letters, music keys (i do some music production as a hobby, too!), colors - very handy sometimes for web design - and explored a couple api's as well, one that gives you a random country (next holiday destination, anyone?), which is GraphQL based, and the other, REST based api gives you a Chuck Norris joke - they are kinda weak to be honest.",
       images1: [
@@ -114,7 +102,7 @@ const details = {
       ]
     },
     {
-      id: 21,
+      id: 11,
       head:
         "This is a nice music player with pleasing aesthetics, that uses the File API to grab music files from your system and put them in a playlist. The playlist section dimensions itself to the tracks up to a maximum size, and then scrolls after that. On track changes, it auto scrolls to put the currently playing track in focus. There is also a minimized mode and it is responsive. The button actions all have checks and safeguards to make sure everything works properly and the interface is synced with the state. The code for this music player was then adapted to be included in my other project The Spiral that you can also see on my portfolio.",
       images1: [
@@ -125,7 +113,7 @@ const details = {
       ]
     },
     {
-      id: 22,
+      id: 12,
       head:
         "These days, whenever I need an app to do something, I just go ahead and build it myself. Wanting to change some of my passwords to something more secure, i built this using Vue / Vuetify in a couple of hours. I really like Vuetify's components easy configurability via props, cutting down a lot on the amount of css you need. You can select the number of characters, and wether to use numbers and special symbols, as required per each password. Once it is generated, you have a handy button to copy it straight to the computer's clipboard for pasting. Don't forget to hit save password on your browser as these will be hard to remember! Or you can just generate another one.",
       images1: [
@@ -135,7 +123,7 @@ const details = {
       ]
     },
     {
-      id: 23,
+      id: 13,
       head:
         "This online portfolio / cv is built using Vue, Vuex and Tailwind, and is deployed on Netlify with a connection to the Github repo, that automatically updates the production version when i push a commit. My intention was to build a nice looking portfolio to showcase my personal projects, built using best practices, easy to update and maintain. So this SPA has 3 simple views with very little code, and inside the views everything is modularized in components that each do one thing and the data is all coming from Vuex. There is a common header and footer to all the pages, and then Vue Router changes the main block on page navigation. There is dynamic asset loading happening when the user changes the selected project on the portfolio page, and a custom contact form that emails the user and myself on send. Featured projects cards component was built leveraging Tailwind for ease of adding new projects. The courses portion of the About page is also a component that generates the markup just by adding the data in the Vuex module.",
       images1: [
@@ -152,7 +140,7 @@ const details = {
       ]
     },
     {
-      id: 24,
+      id: 14,
       head:
         "This is an example of working with: asyncronous API calls, in this case getting data for the cards with an API key and Axios, and filtering over the deeply nested result to get only the pertinent information, and then build an interface that is modern and responsive, once again using Vuetify's Material design components. It also shows dealing with authorization and form validation, using Vuelidate in this case. This is meant as just an example of how I would do that, as the app still works without actual authentication, as there is no server side code attached. The whole app was bootstrapped using Nuxt.",
       images1: [
@@ -164,7 +152,7 @@ const details = {
       ]
     },
     {
-      id: 27,
+      id: 17,
       head:
         "This app showcases some of today's current trends in development, including React Hooks, both built-in and custom ones, and leveraging the power of Firebase for simplifying your backend and make it simultaneously more powerful. The app sends messages in realtime to all connected users of a chat room via Realtime Database. Users authenticate via Firebase too, where 2 methods are configured, via Google or Facebook. Firebase Functions being used for sending notifications to users, and Storage for file upload, which can be sent via the chat rooms. The hosting was also done via Firebase using their CLI. React Router is being used for navigation. Hooks being used include useRef, useState, useEffect, useParams, custom ones to deal with more specific things (check source code), and useCallback in conjuction with memo to optimize components wherever possible.",
       images1: [
@@ -184,7 +172,7 @@ const details = {
       ]
     },
     {
-      id: 29,
+      id: 19,
       head:
         "I wanted to do something that was simultaneously fun and related to my interests, but also a big challenge. Conceptualizing an architecture that would allow for very complex and inter-dependent state interactions, keeping all the state and UI in sync. I chose Vue and Vuex, a combination i quite like, with the approach to use all of Vuex's capabilities, namely using a module architecture to simplify the state management. There is a large amount of actions and mutations, with a lot of computed properties, watchers and components, with comunication between these being done with props passed down and emitters sending data back up to the parent.",
       images1: [
