@@ -1,5 +1,10 @@
 <template>
-  <div class="nav px-4">
+  <div class="px-4 nav">
+    <div class="announcement">
+      <a href="https://portfolio-v2-puce-theta.vercel.app/"
+        >This is my old portfolio. Please visit my new one here: Portfolio V2</a
+      >
+    </div>
     <div>
       <img
         v-if="theme === 'dark'"
@@ -22,14 +27,14 @@
         @click="changeTheme"
       />
     </div>
-    <h1 class="text-4xl text-right mb-2 hvr-wobble-skew">
+    <h1 class="mb-2 text-4xl text-right hvr-wobble-skew">
       &lt; Rogerio's Portfolio / CV &gt;
     </h1>
     <div class="mb-2 font-semibold">
       <router-link to="/">
         <a
           @click="page = 'featured'"
-          class="mr-4 nav-links pt-2 text-lg"
+          class="pt-2 mr-4 text-lg nav-links"
           href="/featured"
           :class="{ active: page === 'featured' }"
           >Featured Projects</a
@@ -38,7 +43,7 @@
       <router-link to="/projects">
         <a
           @click="page = 'portfolio'"
-          class="mr-4 nav-links pt-2 text-lg"
+          class="pt-2 mr-4 text-lg nav-links"
           href="/"
           :class="{ active: page === 'portfolio' }"
           >Portfolio</a
@@ -47,7 +52,7 @@
       <router-link to="/about">
         <a
           @click="page = 'about'"
-          class="mr-4 nav-links bg-b pt-2 text-lg"
+          class="pt-2 mr-4 text-lg nav-links bg-b"
           href="/about"
           :class="{ active: page === 'about' }"
           >About Me</a
@@ -105,6 +110,18 @@ h1 {
   font-family: "Oswald", sans-serif !important;
   letter-spacing: 1px;
   color: var(--font-title);
+}
+.announcement {
+  background: var(--font-title);
+  text-align: center;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.announcement a {
+  color: var(--secondary-bg);
+}
+.announcement a:hover {
+  color: var(--links-hover);
 }
 .nav {
   margin: 0.5em 0.5em 0 0.5em;
