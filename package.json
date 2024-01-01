@@ -15,7 +15,7 @@
     "@fortawesome/free-solid-svg-icons": "^5.13.0",
     "@fortawesome/vue-fontawesome": "^0.1.9",
     "autoprefixer": "^9.7.4",
-    "core-js": "^3.6.4",
+    "core-js": "^3.35.0",
     "emailjs-com": "^3.2.0",
     "postcss-cli": "^7.1.0",
     "tailwindcss": "^3.2.6",
