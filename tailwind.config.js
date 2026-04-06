@@ -4,7 +4,7 @@ module.exports = {
       sans: ["Open Sans", "Helvetica", "Arial", "sans-serif"]
     },
     inset: {
-      "0": 0,
+      0: 0,
       auto: "auto",
       "1/2": "50%"
     },
@@ -17,6 +17,7 @@ module.exports = {
       }
     }
   },
+  content: ["./src/**/*.html", "./src/**/*.vue", "./src/**/*.jsx"],
   variants: {},
   plugins: []
 };
